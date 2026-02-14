@@ -1,0 +1,2 @@
+# Laura Martínez Carrasco
+Profesora Titular en la Universidad Miguel Hernández en el Área de Economía, Sociología y Política Agraria. Secretaria del Departamento Economía Agroambiental,Ing. Cartográfica y Expresión Gráfica en la Ingeniería. Directora de Grupo de Investigación: Economía, Política y Desarrollo Agroambiental y del Medio Rural.

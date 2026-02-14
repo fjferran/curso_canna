@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "noEmit": true,
+        "strict": false
+    },
+    "include": [
+        "debug_mesa_redonda.ts",
+        "lib/calendar_debug.ts"
+    ]
+}

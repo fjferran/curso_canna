@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  cannabis-platform:
+    container_name: cannabis-platform
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY=${NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}
+      - NEXT_PUBLIC_GOOGLE_CALENDAR_ID=${NEXT_PUBLIC_GOOGLE_CALENDAR_ID}
+      # Add other environment variables here if needed
+      # Volumes are optional if you need persistence, but usually Next.js is stateless logic
+      # volumes:
+      #   - ./public/uploads:/app/public/uploads

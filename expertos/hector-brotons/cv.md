@@ -1,0 +1,11 @@
+# Héctor Brotons
+Licenciado en Derecho por la Universidad de Alicante y abogado en ejercicio del Ilustre Colegio de Abogados de Alicante desde el 2.003. Cursó la Escuela de Práctica Jurídica también en el ICALI en el año 2.004. Actualmente es el director del Estudio Jurídico BROTSANBERT. Especialista en derecho penal y derecho laboral.
+
+Especialista en derecho penal y derecho laboral, concretamente en procedimientos de salud pública, siniestralidad laboral, reclamación de daños, asesor de empresas del sector del cannabis y reformas de políticas sobre cannabis. Experto en la defensa de auto cultivadores y de asociaciones de organización del auto consumo o clubes sociales de cannabis. También es asesor jurídico de la ConFAC (Confederación de Federaciones de Asociaciones Cannabicas), portavoz del Observatorio Europeo del Consumo y Cultivo de Cannabis (OECCC), miembro del Forum Cannàbic Valencià y de la Asociación FesHobe.
+
+Ha participado en la redacción de cuatro libros: Recursos al Tribunal Constitucional de los Clubes Sociales de Cannabis. Ed. Regulación Responsable, 2016; Las Sendas de la Regulación del cannabis en España. Ed. Bellaterra, 2016; y en el libro Investigación sobre cannabis, ¿Que dicen los estudios científicos?. Ed. Concello de Catoira. El último libro en el que ha colaborado, es con el OECCC: Auto cultivo y uso de cannabis en España, Ed. Letrame, 2019. También escribe artículos periódicos en las principales publicaciones estatales del sector del cannabis e imparte conferencias en multitud de foros nacionales e internacionales.
+
+Ha realizado trabajos de asesoramiento técnico en la obtención de licencias de cultivo, investigación genética y producción de cánnabis medicinal. Y asesora a instituciones y partidos políticos en el diseño de políticas públicas y redacciones de leyes relativas al cánnabis. Así mismo asesora a medios de comunicación.
+
+El pasado mes de marzo de 2.019 participó en la última edición de la CND (Comisión de estupefacientes de la ONU) celebrada el Viena, como representante de la ConFAC, que a su vez es representante de la sociedad civil y en donde se prepara y negocia las líneas de actuación política sobre drogas para los próximos años.
+
