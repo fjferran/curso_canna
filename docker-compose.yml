@@ -17,6 +17,8 @@ services:
       - AUTH_GOOGLE_SECRET=${AUTH_GOOGLE_SECRET}
       - ADMIN_USERS=${ADMIN_USERS}
       - ALLOWED_USERS=${ALLOWED_USERS}
+      - AUTH_URL=${AUTH_URL}
+      - AUTH_TRUST_HOST=${AUTH_TRUST_HOST}
       # Add other environment variables here if needed
       # Volumes are optional if you need persistence, but usually Next.js is stateless logic
       # volumes:
