@@ -55,16 +55,20 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             return true;
         },
     },
+},
+    debug: true, // Enable debug logs in container
+    trustHost: true, // Trust the host header (crucial for proxy/docker)
     useSecureCookies: false, // FORCE INSECURE FOR HTTP VPS
     cookies: {
-        sessionToken: {
-            name: `next-auth.session-token`,
-            options: {
-                httpOnly: true,
-                sameSite: 'lax',
-                path: '/',
-                secure: false
-            }
+    sessionToken: {
+        name: `custom-canna-session`, // New name to force fresh cookie
+        options: {
+            httpOnly: true,
+            sameSite: 'lax',
+            path: '/',
+            secure: false,
+            domain: '.cursoindustriayagronomiacannaua.com' // Explicit domain (with dot for subdomains support)
         }
     }
+}
 })
