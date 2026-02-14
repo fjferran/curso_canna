@@ -16,7 +16,14 @@ export default async function RoleGuard({ children, adminOnly = false, fallback 
 
     const session = await auth()
 
-    if (!session?.user) return <>{fallback}</>
+    if (!session?.user) {
+        return (
+            <div className="text-[10px] text-amber-500 border border-amber-200 bg-amber-50 p-1 rounded max-w-[200px]">
+                DEBUG: No session.<br />
+                Please login.
+            </div>
+        )
+    }
 
     // @ts-ignore // Role is injected in auth.ts but types not yet extended
     const role = session.user.role
