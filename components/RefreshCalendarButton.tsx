@@ -33,8 +33,7 @@ export default function RefreshCalendarButton() {
             size="sm"
             onClick={handleRefresh}
             disabled={status === "loading"}
-            className={`h-8 px-2 text-slate-400 hover:text-emerald-600 hover:bg-emerald-50 transition-all ${status === "loading" ? "animate-spin text-emerald-500" :
-                    status === "success" ? "text-emerald-500" : ""
+            className={`h-8 px-2 text-white bg-red-500 hover:bg-red-600 border border-red-700 ${status === "loading" ? "animate-spin" : ""
                 }`}
             title="Refrescar Calendario"
         >
