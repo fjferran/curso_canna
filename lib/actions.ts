@@ -73,6 +73,7 @@ export async function syncArtifacts(subjectId?: string) {
     try {
         console.log("Starting manual artifact sync...");
         // Revalidate calendar tags as well
+        // @ts-ignore
         revalidateTag('calendar');
 
         // Run the master script that calls sync and download
