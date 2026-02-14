@@ -22,7 +22,13 @@ export default async function RoleGuard({ children, adminOnly = false, fallback 
     const role = session.user.role
 
     if (adminOnly && role !== 'admin') {
-        return <>{fallback}</>
+        return (
+            <div className="text-[10px] text-red-500 border border-red-200 bg-red-50 p-1 rounded max-w-[200px]">
+                DEBUG: Denied.<br />
+                Email: {session.user.email}<br />
+                Role: {role || 'none'}
+            </div>
+        )
     }
 
     return <div suppressHydrationWarning>{children}</div>
