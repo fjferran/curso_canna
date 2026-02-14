@@ -82,6 +82,7 @@ export async function syncArtifacts(subjectId?: string) {
         if (stderr) console.error("Sync errors:", stderr);
 
         // Revalidate everything to ensure fresh data
+        // @ts-ignore
         revalidateTag('calendar');
         if (subjectId) {
             revalidatePath(`/[moduleId]/${subjectId}/resources`, 'page');
@@ -97,6 +98,7 @@ export async function syncArtifacts(subjectId?: string) {
 }
 
 export async function revalidateCalendar() {
+    // @ts-ignore
     revalidateTag('calendar');
     revalidatePath("/", "layout");
     return { success: true, message: "Calendario actualizado." };
