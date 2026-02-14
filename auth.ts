@@ -34,7 +34,9 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
                 if (process.env.NODE_ENV === 'development') {
                     user.role = 'admin';
                 } else {
-                    user.role = ADMIN_EMAILS.includes(email) ? 'admin' : 'student';
+                    const isAdmin = ADMIN_EMAILS.includes(email);
+                    console.log(`[AUTH] Session for ${email}. Is Admin? ${isAdmin}. Admin List: ${JSON.stringify(ADMIN_EMAILS)}`);
+                    user.role = isAdmin ? 'admin' : 'student';
                 }
             }
             return session;
