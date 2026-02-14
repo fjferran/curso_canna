@@ -19,6 +19,9 @@ export function Header() {
                         <Link href="/gm20" className="text-emerald-100 hover:text-white px-3 py-2 rounded-md text-base font-medium transition-colors">
                             Módulo Tecnológico
                         </Link>
+                        <Link href="/api/auth/signin" className="bg-white text-emerald-900 hover:bg-emerald-100 px-4 py-2 rounded-md text-base font-bold transition-colors ml-4 shadow-sm border border-transparent hover:shadow-md">
+                            Iniciar Sesión
+                        </Link>
                     </nav>
                 </div>
             </div>
