@@ -7,7 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-    # Ports removed, handled by Caddy
+    ports:
+      - "127.0.0.1:4002:3000" # Expose only locally, Nginx will proxy to this
     environment:
       - NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY=${NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}
       - NEXT_PUBLIC_GOOGLE_CALENDAR_ID=${NEXT_PUBLIC_GOOGLE_CALENDAR_ID}
@@ -18,21 +19,3 @@ services:
       - ALLOWED_USERS=${ALLOWED_USERS}
       - AUTH_URL=${AUTH_URL}
       - AUTH_TRUST_HOST=${AUTH_TRUST_HOST}
-
-  caddy:
-    image: caddy:2.7-alpine
-    container_name: caddy-service
-    restart: always
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - caddy_data:/data
-      - caddy_config:/config
-    depends_on:
-      - cannabis-platform
-
-volumes:
-  caddy_data:
-  caddy_config:
