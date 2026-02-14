@@ -10,11 +10,11 @@ async function debugMesaRedonda() {
         const events = await getCalendarEvents();
         console.log(`Fetched ${events.length} events.`);
 
-        const mesaRedonda = events.find(e => e.title.includes("Mesa redonda") && e.title.includes("prueba"));
+        const mesaRedonda = events.find((e: any) => e.title.includes("Mesa redonda") && e.title.includes("prueba"));
 
         if (!mesaRedonda) {
             console.error("Could not find event with title containing 'Mesa redonda' and 'prueba'");
-            console.log("Available titles:", events.slice(0, 10).map(e => e.title));
+            console.log("Available titles:", events.slice(0, 10).map((e: any) => e.title));
             return;
         }
 
