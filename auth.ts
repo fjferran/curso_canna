@@ -55,4 +55,16 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             return true;
         },
     },
+    useSecureCookies: false, // FORCE INSECURE FOR HTTP VPS
+    cookies: {
+        sessionToken: {
+            name: `next-auth.session-token`,
+            options: {
+                httpOnly: true,
+                sameSite: 'lax',
+                path: '/',
+                secure: false
+            }
+        }
+    }
 })
