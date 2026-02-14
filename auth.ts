@@ -12,8 +12,6 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     providers: [Google],
     callbacks: {
         async signIn({ user }) {
-            console.log(">>>>>>>> [DEBUG] SIGN IN CALLBACK TRIGGERED <<<<<<<<<");
-            console.log("User Email:", user.email);
             if (!user.email) return false;
 
             const email = user.email.toLowerCase();
