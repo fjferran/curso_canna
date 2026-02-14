@@ -66,8 +66,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
                 httpOnly: true,
                 sameSite: 'lax',
                 path: '/',
-                secure: false,
-                domain: '.cursoindustriayagronomiacannaua.com' // Explicit domain (with dot for subdomains support)
+                secure: false
+                // domain removed to allow default host matching
             }
         }
     }
