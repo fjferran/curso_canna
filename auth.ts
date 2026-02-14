@@ -12,6 +12,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     providers: [Google],
     callbacks: {
         async signIn({ user }) {
+            console.log(">>>>>>>> [DEBUG] SIGN IN CALLBACK TRIGGERED <<<<<<<<<");
+            console.log("User Email:", user.email);
             if (!user.email) return false;
 
             const email = user.email.toLowerCase();
@@ -59,16 +61,4 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     debug: true, // Enable debug logs in container
     trustHost: true, // Trust the host header (crucial for proxy/docker)
     useSecureCookies: false, // FORCE INSECURE FOR HTTP VPS
-    cookies: {
-        sessionToken: {
-            name: `custom-canna-session`, // New name to force fresh cookie
-            options: {
-                httpOnly: true,
-                sameSite: 'lax',
-                path: '/',
-                secure: false
-                // domain removed to allow default host matching
-            }
-        }
-    }
 })
