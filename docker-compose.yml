@@ -7,8 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-    ports:
-      - "4002:3000"
+    # Ports removed, handled by Caddy
     environment:
       - NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY=${NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}
       - NEXT_PUBLIC_GOOGLE_CALENDAR_ID=${NEXT_PUBLIC_GOOGLE_CALENDAR_ID}
@@ -19,7 +18,21 @@ services:
       - ALLOWED_USERS=${ALLOWED_USERS}
       - AUTH_URL=${AUTH_URL}
       - AUTH_TRUST_HOST=${AUTH_TRUST_HOST}
-      # Add other environment variables here if needed
-      # Volumes are optional if you need persistence, but usually Next.js is stateless logic
-      # volumes:
-      #   - ./public/uploads:/app/public/uploads
+
+  caddy:
+    image: caddy:2.7-alpine
+    container_name: caddy-service
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - cannabis-platform
+
+volumes:
+  caddy_data:
+  caddy_config:

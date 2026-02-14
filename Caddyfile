@@ -1,0 +1,3 @@
+cursoindustriayagronomiacannaua.com {
+    reverse_proxy cannabis-platform:3000
+}

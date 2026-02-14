@@ -58,5 +58,4 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
 
     debug: true, // Enable debug logs in container
     trustHost: true, // Trust the host header (crucial for proxy/docker)
-    useSecureCookies: false, // FORCE INSECURE FOR HTTP VPS
 })
