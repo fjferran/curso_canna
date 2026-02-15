@@ -2,8 +2,14 @@
 import json
 import os
 import sys
-from notebooklm_mcp.api_client import NotebookLMClient
-from notebooklm_mcp.auth import load_cached_tokens
+
+try:
+    from notebooklm_mcp.api_client import NotebookLMClient
+    from notebooklm_mcp.auth import load_cached_tokens
+except ImportError:
+    print("Warning: Collaborative notebooklm-mcp library not found or incompatible (expected on VPS).")
+    print("Skipping notebook sync step. Proceeding to asset download using existing artifacts.json.")
+    sys.exit(0)
 
 ARTIFACTS_FILE = "lib/artifacts.json"
 

@@ -2,21 +2,28 @@ import json
 import os
 import sys
 import httpx
-from notebooklm_mcp.auth import load_cached_tokens
 
 ARTIFACTS_FILE = "lib/artifacts.json"
 PUBLIC_DIR = "public/downloads"
 
 def download_assets():
-    cached = load_cached_tokens()
-    if not cached:
-        print("Error: No cached tokens found. Run 'notebooklm-mcp-auth' first.")
+    # Try to load cookie from environment variable (VPS method)
+    cookie_str = os.environ.get("NOTEBOOKLM_COOKIE")
+    
+    # Fallback to local auth if env var is missing (Development method)
+    if not cookie_str:
+        try:
+            from notebooklm_mcp.auth import load_cached_tokens
+            cached = load_cached_tokens()
+            if cached and cached.cookies:
+                cookie_str = "; ".join(f"{k}={v}" for k, v in cached.cookies.items())
+        except ImportError:
+            print("Warning: collaborative notebooklm-mcp library not found. Set NOTEBOOKLM_COOKIE env var.")
+            pass
+
+    if not cookie_str:
+        print("Error: No authentication found. Set NOTEBOOKLM_COOKIE environment variable.")
         sys.exit(1)
-    
-    cookies = cached.cookies
-    
-    # Build cookie string (same as NotebookLMClient)
-    cookie_str = "; ".join(f"{k}={v}" for k, v in cookies.items())
     
     # Headers exactly matching NotebookLMClient
     headers = {
@@ -26,9 +33,6 @@ def download_assets():
         "X-Same-Domain": "1",
         "Cookie": cookie_str
     }
-
-    if cached.csrf_token:
-        headers["X-Wiz-Csrf-Token"] = cached.csrf_token
     
     # Rename to http_client to avoid confusion
     http_client = httpx.Client(headers=headers, follow_redirects=True, timeout=60.0)
