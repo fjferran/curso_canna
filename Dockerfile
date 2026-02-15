@@ -31,6 +31,9 @@ ENV NODE_ENV production
 # Install Python 3 (required for fetch_media.py)
 RUN apk add --no-cache python3 py3-pip
 
+# Install Python dependencies
+RUN pip3 install notebooklm-mcp requests httpx --break-system-packages
+
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
