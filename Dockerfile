@@ -28,6 +28,9 @@ ENV NODE_ENV production
 # Uncomment the following line in case you want to disable telemetry during runtime.
 # ENV NEXT_TELEMETRY_DISABLED 1
 
+# Install Python 3 (required for fetch_media.py)
+RUN apk add --no-cache python3 py3-pip
+
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
@@ -41,6 +44,12 @@ RUN chown nextjs:nodejs .next
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+# Copy Python scripts required for syncing content
+COPY --chown=nextjs:nodejs fetch_media.py ./
+COPY --chown=nextjs:nodejs scripts ./scripts
+# Ensure scripts are executable
+RUN chmod +x fetch_media.py
 
 USER nextjs
 
