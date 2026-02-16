@@ -1,39 +1,15 @@
 
 import NextAuth from "next-auth"
 import Google from "next-auth/providers/google"
-import Credentials from "next-auth/providers/credentials"
 
 // List of allowed emails (Students & Admins)
 const ALLOWED_EMAILS = (process.env.ALLOWED_USERS || "").split(",").map(e => e.trim().toLowerCase());
 const ADMIN_EMAILS = (process.env.ADMIN_USERS || "").split(",").map(e => e.trim().toLowerCase());
-const SHARED_CODE = process.env.STUDENT_ACCESS_CODE || "cannaua2026";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
-    providers: [
-        Google,
-        Credentials({
-            name: "Código de Acceso",
-            credentials: {
-                code: { label: "Código de Alumno", type: "password", placeholder: "Introduce el código del curso" }
-            },
-            async authorize(credentials) {
-                if (credentials?.code === SHARED_CODE) {
-                    return {
-                        id: "shared-student",
-                        name: "Alumno del Curso",
-                        email: "alumno@curso.com",
-                        role: "student"
-                    }
-                }
-                return null
-            }
-        })
-    ],
+    providers: [Google],
     callbacks: {
-        async signIn({ user, account }) {
-            // Credentials login (shared code) is always allowed if authorize passed
-            if (account?.provider === "credentials") return true;
-
+        async signIn({ user }) {
             if (!user.email) return false;
 
             const email = user.email.toLowerCase();
@@ -46,19 +22,11 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
 
             return true;
         },
-        async session({ session, token, user: sessionUser }) {
-            const user = session.user as any;
-
-            // Handle Credentials user (id is set in authorize)
-            if (token?.sub === "shared-student") {
-                user.role = 'student';
-                user.name = "Alumno del Curso";
-                user.email = "alumno@curso.com";
-                return session;
-            }
-
+        async session({ session, token }) {
             if (session.user && session.user.email) {
                 const email = session.user.email.toLowerCase();
+                // Inject role into session
+                const user = session.user as any;
                 if (process.env.NODE_ENV === 'development') {
                     user.role = 'admin';
                 } else {
