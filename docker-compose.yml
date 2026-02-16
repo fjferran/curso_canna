@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   cannabis-platform:
     container_name: cannabis-platform
@@ -19,3 +17,4 @@ services:
       - ALLOWED_USERS=${ALLOWED_USERS}
       - AUTH_URL=${AUTH_URL}
       - AUTH_TRUST_HOST=${AUTH_TRUST_HOST}
+      - NOTEBOOKLM_COOKIE=${NOTEBOOKLM_COOKIE}
