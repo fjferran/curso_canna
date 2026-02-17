@@ -40,10 +40,17 @@ export interface SubjectArtifacts {
 
 export async function getSubjectArtifacts(subjectId: string): Promise<SubjectArtifacts | null> {
     try {
+        console.log(`[Debug] Reading artifacts for subject: ${subjectId}`);
         const data = await fs.readFile(ARTIFACTS_FILE, "utf-8");
         const artifactsStore = JSON.parse(data);
-        return artifactsStore[subjectId] || null;
+        const artifact = artifactsStore[subjectId];
+        console.log(`[Debug] Artifact found for ${subjectId}:`, artifact ? "YES" : "NO");
+        if (!artifact) {
+            console.log(`[Debug] Available keys:`, Object.keys(artifactsStore).join(", "));
+        }
+        return artifact || null;
     } catch (error) {
+        console.error(`[Debug] Error reading artifacts file at ${ARTIFACTS_FILE}:`, error);
         return null;
     }
 }
