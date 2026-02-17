@@ -4,6 +4,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - ./lib/artifacts.json:/app/lib/artifacts.json
+      - ./scripts:/app/scripts
+      - ./fetch_media.py:/app/fetch_media.py
+      - ./public/downloads:/app/public/downloads
+      - ./cookie.txt:/app/cookie.txt
     restart: always
     ports:
       - "127.0.0.1:4002:3000" # Expose only locally, Nginx will proxy to this
