@@ -5,9 +5,14 @@ import type { NextRequest } from "next/server"
 
 export default auth((req) => {
     const isLoggedIn = !!req.auth
-    const isOnDashboard = req.nextUrl.pathname.startsWith('/dashboard') || req.nextUrl.pathname.startsWith('/gm21')
+    const { pathname } = req.nextUrl
 
-    if (isOnDashboard) {
+    // Protect dashboard and specific course paths
+    const isProtected = pathname.startsWith('/dashboard') ||
+        pathname.startsWith('/gm21') ||
+        pathname.startsWith('/gm20')
+
+    if (isProtected) {
         if (isLoggedIn) return NextResponse.next()
         return NextResponse.redirect(new URL('/api/auth/signin', req.nextUrl))
     }
