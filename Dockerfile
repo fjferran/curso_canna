@@ -32,13 +32,17 @@ ENV NODE_ENV production
 RUN apk add --no-cache python3 py3-pip
 
 # Install Python dependencies
-RUN pip3 install notebooklm-mcp requests httpx --break-system-packages
+RUN pip3 install requests httpx --break-system-packages
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
 # Ensure app directory permissions
 RUN chown -R nextjs:nodejs /app
+
+# Ensure public/downloads exists with correct permissions
+RUN mkdir -p /app/public/downloads
+RUN chown -R nextjs:nodejs /app/public/downloads
 
 COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 

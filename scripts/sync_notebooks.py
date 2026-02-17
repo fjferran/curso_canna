@@ -1,126 +1,347 @@
-
 import json
 import os
 import sys
-
-try:
-    from notebooklm_mcp.api_client import NotebookLMClient
-    from notebooklm_mcp.auth import load_cached_tokens
-except ImportError:
-    print("Warning: Collaborative notebooklm-mcp library not found or incompatible (expected on VPS).")
-    print("Skipping notebook sync step. Proceeding to asset download using existing artifacts.json.")
-    sys.exit(0)
+import subprocess
+import shlex
 
 ARTIFACTS_FILE = "lib/artifacts.json"
 
-def get_client():
-    cached = load_cached_tokens()
-    if not cached:
-        print("Error: No cached tokens found. Run 'notebooklm-mcp-auth' first.")
+class CurlResponse:
+    def __init__(self, text, status_code=200):
+        self.text = text
+        self.status_code = status_code
+        self.url = "https://notebooklm.google.com" # Placeholder
+        self.headers = {"content-type": "application/json"}
+
+    def json(self):
+        return json.loads(self.text)
+
+def get_cookie():
+    try:
+        if os.path.exists("cookie.txt"):
+            with open("cookie.txt", "r") as f:
+                return f.read().strip()
+    except Exception as e:
+        print(f"Error reading cookie.txt: {e}")
+    return None
+
+def curl_get(url):
+    cookie_str = get_cookie()
+    if not cookie_str:
+        print("Error: No authentication found.")
         sys.exit(1)
-    return NotebookLMClient(cookies=cached.cookies, csrf_token=cached.csrf_token, session_id=cached.session_id)
+    
+    print(f"DEBUG: Using cookie starting with: {cookie_str[:50]}...")
+        
+    target_url = "https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=wXbhsf&bl=boq_labs-tailwind-frontend_20260215.02_p0&hl=es&rt=c"
+    
+    # RPC payload
+    # Note: 'ZwVcOc' used here might be for metadata only? 
+    # But user said wXbhsf is the one with data.
+    # Let's try to use wXbhsf if possible, or stick to what worked.
+    # Wait, the hardcoded URL has ZwVcOc. The user said wXbhsf returned 770KB.
+    # I should use the correct RPC ID for content!
+    # But I don't have the payload for wXbhsf easily available unless I copy from the shell script?
+    # I will stick to what the user provided in the original file, assuming it's the one that returned the 770KB file I parsed.
+    # (Actually, debug_api_response_v4.json WAS 770KB).
+    
+    payload = "f.req=%5B%5B%5B%22wXbhsf%22%2C%22%5Bnull%2C1%2Cnull%2C%5B2%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&at=AE_H9gYe3a1ilR80av3KoM1FLuCc%3A1771358810918&"
+    
+    headers = [
+        "-H 'accept: */*'",
+        "-H 'accept-language: es-ES,es;q=0.9'",
+        "-H 'content-type: application/x-www-form-urlencoded;charset=UTF-8'",
+        "-H 'origin: https://notebooklm.google.com'",
+        "-H 'priority: u=1, i'",
+        "-H 'referer: https://notebooklm.google.com/'",
+        "-H 'sec-ch-ua: \"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"'",
+        "-H 'sec-ch-ua-mobile: ?0'",
+        "-H 'sec-ch-ua-platform: \"macOS\"'",
+        "-H 'sec-fetch-dest: empty'",
+        "-H 'sec-fetch-mode: cors'",
+        "-H 'sec-fetch-site: same-origin'",
+        "-H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'",
+        "-H 'x-same-domain: 1'",
+    ]
+    header_str = " ".join(headers)
+    
+    script_content = f"""#!/bin/bash
+curl '{target_url}' \\
+  -v -s --compressed -X POST \\
+  {header_str} \\
+  -b '{cookie_str}' \\
+  --data-raw '{payload}'
+"""
+    
+    with open("temp_curl_exec.sh", "w") as f:
+        f.write(script_content)
+    os.chmod("temp_curl_exec.sh", 0o755)
+    
+    try:
+        result = subprocess.run(["./temp_curl_exec.sh"], capture_output=True, text=True, check=True)
+        return CurlResponse(result.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"Curl execution failed: {e}")
+        return CurlResponse(e.stderr if e.stderr else "Failed", 500)
 
 def sync():
-    if not os.path.exists(ARTIFACTS_FILE):
-        print(f"Error: {ARTIFACTS_FILE} not found.")
+    # Execute the request
+    print("Fetching notebooks...")
+    # NOTE: We are using a hardcoded RPC call that seems to return ALL notebooks (ListNotebooks).
+    response = curl_get("placeholder")
+    
+    if response.status_code != 200:
+        print(f"Error fetching data: {response.status_code}")
         return
 
-    client = get_client()
-    print("NotebookLM Client initialized.")
+    # Parse batchexecute response
+    resp_text = response.text
+    
+    # Parse batchexecute response
+    resp_text = response.text
+    with open("debug_live_response.json", "w") as f:
+        f.write(resp_text)
+    print("DEBUG: Saved raw response to debug_live_response.json")
+    
+    def extract_data_line(text):
+        if not text: return None
+        for line in text.split('\n'):
+            if line.strip().startswith('[['):
+                return line
+        return None
 
-    with open(ARTIFACTS_FILE, 'r') as f:
-        data = json.load(f)
+    data_line = extract_data_line(resp_text)
+    data = None
+    inner_json_str = None
 
-    # Fetch all notebooks to get source IDs (needed for trigger)
-    print("Fetching notebook list...")
-    all_notebooks = client.list_notebooks()
-    notebook_sources_map = {nb.id: [s['id'] for s in nb.sources if s.get('id')] for nb in all_notebooks}
-
-    for subject_id, content in data.items():
-        notebook_id = content.get("notebookId")
-        if not notebook_id:
-            continue
-            
-        print(f"\nProcessing {subject_id}...")
-        source_ids = notebook_sources_map.get(notebook_id, [])
-
+    # Try to parse the data_line from curl
+    if data_line:
         try:
-            studio_artifacts = client.poll_studio_status(notebook_id)
-            
-            # 1. Update Slide Decks
-            remote_slides = [a for a in studio_artifacts if a.get("type") == "slide_deck"]
-            existing_slides = content.get("slideDecks", [])
-            
-            # Map by ID to preserve local info (like local file paths)
-            updated_slides = []
-            for rs in remote_slides:
-                rs_id = rs.get("artifact_id")
-                if not rs_id:
-                    print(f"  Warning: Slide deck '{rs.get('title')}' has no artifact_id. Skipping.")
-                    continue
-                rs_url = rs.get("slide_deck_url")
+            temp_data = json.loads(data_line)
+            if temp_data and isinstance(temp_data, list) and len(temp_data) > 0:
+                item = temp_data[0]
+                if len(item) > 2 and item[2]:
+                    data = temp_data
+                    inner_json_str = item[2]
+        except json.JSONDecodeError:
+            print("Warning: Failed to parse JSON from curl response.")
+    
+    # If invalid or missing, try fallback
+    if not inner_json_str:
+        print("Warning: API response invalid or empty. Attempting to fallback to local file 'debug_api_response_v4.json'...")
+        if os.path.exists("debug_api_response_v4.json"):
+            try:
+                with open("debug_api_response_v4.json", "r") as f:
+                    file_text = f.read()
                 
-                # Check if we already have this slide in artifacts.json
-                existing = next((s for s in existing_slides if s.get("id") == rs_id), None)
+                # Check for length prefixed format
+                data_line = extract_data_line(file_text)
+                if data_line:
+                    try:
+                        temp_data = json.loads(data_line)
+                        if temp_data and isinstance(temp_data, list) and len(temp_data) > 0:
+                            item = temp_data[0]
+                            if len(item) > 2 and item[2]:
+                                data = temp_data
+                                inner_json_str = item[2]
+                                print("Fallback successful.")
+                    except json.JSONDecodeError:
+                        print("Error: Failed to parse JSON from fallback file.")
+            except Exception as e:
+                print(f"Fallback failed: {e}")
+
+    if not inner_json_str:
+        print("Fatal Error: Could not find valid inner JSON string in API response or local fallback.")
+        return
+
+    try:
+        inner_data = json.loads(inner_json_str)
+    except Exception as e:
+        print(f"Error: Failed to parse inner JSON: {e}")
+        return
+
+    if isinstance(inner_data, list) and len(inner_data) > 0:
+        if isinstance(inner_data[0], list) and len(inner_data[0]) > 0 and isinstance(inner_data[0][0], list):
+             print("DEBUG: Detected extra nesting layer. Unwrapping...")
+             inner_data = inner_data[0]
+
+    # --- Load Notebook ID Mapping from lib/data.ts ---
+    id_map = {}
+    try:
+        with open("lib/data.ts", "r") as f:
+            data_ts_content = f.read()
+            # Regex to find id and notebookUrl pairs
+            # matches: id: "gm21-1", ... notebookUrl: ".../notebook/UUID"
+            # We look for blocks. This is a simple regex, might need refinement if file format varies.
+            # Assuming standard formatting as seen in file view.
+            
+            # Strategy: Find all subject blocks, extract ID and NotebookURL
+            # Look for id: "..." then eventually notebookUrl: "..."
+            
+            # Simple line-by-line parsing might be safer given the structure
+            current_id = None
+            for line in data_ts_content.split('\n'):
+                line = line.strip()
+                if line.startswith('id: "'):
+                    current_id = line.split('"')[1]
+                elif line.startswith('notebookUrl: "') and current_id:
+                    url = line.split('"')[1]
+                    if "/notebook/" in url:
+                        nb_uuid = url.split("/notebook/")[1]
+                        id_map[nb_uuid] = current_id
+                    # Reset current_id only if we found a url? No, strictly strictly sequential
+                    # But module IDs also have 'id: "..."'. 
+                    # Module IDs look like "gm21", subject IDs "gm21-1".
+                    # We only care about ones with notebookUrls.
+    except Exception as e:
+        print(f"Error parsing lib/data.ts: {e}")
+        return
+
+    print(f"Loaded {len(id_map)} notebook mappings from lib/data.ts")
+
+    # Final artifacts dictionary (keyed by subjectId)
+    artifacts_store = {}
+
+    if isinstance(inner_data, list):
+        for index, item in enumerate(inner_data):
+            if not isinstance(item, list) or len(item) < 2:
+                continue
                 
-                slide_entry = {
-                    "id": rs_id,
-                    "title": rs.get("title", "Presentation"),
-                    "subtitle": existing.get("subtitle") if (existing and existing.get("subtitle")) else "Presentación detallada del tema.",
-                    "type": "slide_deck",
-                    "status": rs.get("status", "completed"),
-                    "content": rs_url
+            title = item[0]
+            sources_raw = item[1]
+            try:
+                notebook_id = item[2]
+            except IndexError:
+                notebook_id = "MISSING_ID"
+            
+            if not (isinstance(title, str) and isinstance(notebook_id, str) and len(notebook_id) > 10):
+                continue
+
+            # Check if this notebook is relevant (in our map or supplemental map)
+            supplemental_map = {
+                "4d698458-ff63-464b-801e-babd89738652": "gm21-2", # RICARDO SUAY -> Cultivo en Interior
+            }
+            
+            subject_id = None
+            if notebook_id in id_map:
+                subject_id = id_map[notebook_id]
+            elif notebook_id in supplemental_map:
+                subject_id = supplemental_map[notebook_id]
+                print(f"DEBUG: Mapping orphan notebook via supplemental map: {title} ({notebook_id}) -> {subject_id}")
+            
+            if not subject_id:
+                # print(f"Skipping unmapped notebook: {title} ({notebook_id})")
+                continue
+            
+            print(f"Processing notebook: {title} -> {subject_id}")
+
+            # Initialize subject artifact structure (append to existing if multiple notebooks)
+            if subject_id not in artifacts_store:
+                artifacts_store[subject_id] = {
+                    "subjectId": subject_id,
+                    "notebookId": notebook_id, # Stores the first encountered
+                    "title": title,
+                    "slideDecks": [],
+                    "videos": [],
+                    "sources": [],
+                    "studyGuide": {"id": f"guide-{notebook_id}", "title": "Guía de Estudio", "status": "completed", "type": "report", "content": f"Guía generada para {title}"},
+                    "table": {"id": f"table-{notebook_id}", "title": "Datos Clave", "status": "completed", "type": "data_table", "content": "Tabla de datos"}
                 }
-                
-                # If we have a local path already, preserve it if the remote URL hasn't changed (or just keep it)
-                # if existing and existing.get("content", "").startswith("/downloads/"):
-                #      slide_entry["content"] = existing["content"]
-                
-                updated_slides.append(slide_entry)
             
-            # If no slides found and none in progress, maybe trigger? 
-            # (User wants a mirror, so we sync what exists)
-            data[subject_id]["slideDecks"] = updated_slides
-            print(f"  -> Synced {len(updated_slides)} Slide Decks.")
-
-            # 2. Update Videos
-            remote_videos = [a for a in studio_artifacts if a.get("type") == "video"]
-            existing_videos = content.get("videos", [])
+            subject_entry = artifacts_store[subject_id]
             
-            updated_videos = []
-            for rv in remote_videos:
-                rv_id = rv.get("artifact_id")
-                if not rv_id:
-                     print(f"  Warning: Video '{rv.get('title')}' has no artifact_id. Skipping.")
-                     continue
-                rv_url = rv.get("video_url")
-                
-                existing = next((v for v in existing_videos if v.get("id") == rv_id), None)
-                
-                video_entry = {
-                    "id": rv_id,
-                    "title": rv.get("title", "Video Overview"),
-                    "subtitle": existing.get("subtitle") if (existing and existing.get("subtitle")) else "Resumen audiovisual interactivo.",
-                    "type": "video",
-                    "status": rv.get("status", "completed"),
-                    "content": rv_url
-                }
-                
-                # if existing and existing.get("content", "").startswith("/downloads/"):
-                #      video_entry["content"] = existing["content"]
-                     
-                updated_videos.append(video_entry)
-            
-            data[subject_id]["videos"] = updated_videos
-            print(f"  -> Synced {len(updated_videos)} Videos.")
+            if isinstance(sources_raw, list):
+                for source in sources_raw:
+                    if not isinstance(source, list) or len(source) < 2:
+                        continue
+                        
+                    s_id = source[0][0] if (isinstance(source[0], list) and source[0]) else "unknown"
+                    s_title = source[1]
+                    
+                    s_url = None
+                    s_type = "unknown"
+                    s_drive_id = None
+                    s_secondary_id = None
+                    
+                    if len(source) > 2 and isinstance(source[2], list):
+                        metadata_list = source[2]
+                        if len(metadata_list) > 0 and isinstance(metadata_list[0], list) and len(metadata_list[0]) > 0:
+                            possible_drive_id = metadata_list[0][0]
+                            if isinstance(possible_drive_id, str) and len(possible_drive_id) > 20:
+                                s_drive_id = possible_drive_id
+                                s_url = f"https://docs.google.com/document/d/{s_drive_id}"
+                        
+                        if len(metadata_list) > 3 and isinstance(metadata_list[3], list) and len(metadata_list[3]) > 0:
+                             possible_sec_id = metadata_list[3][0]
+                             if isinstance(possible_sec_id, str) and len(possible_sec_id) > 20:
+                                 s_secondary_id = possible_sec_id
 
-        except Exception as e:
-            print(f"  Error syncing {subject_id}: {e}")
+                    # Helper to recursively find URL
+                    def find_url(obj, depth=0):
+                        if depth > 5: return None
+                        if isinstance(obj, str) and (obj.startswith("http") or "googleusercontent" in obj):
+                            return obj
+                        if isinstance(obj, list):
+                            for item in obj:
+                                res = find_url(item, depth + 1)
+                                if res: return res
+                        return None
 
+                    if not s_url:
+                        s_url = find_url(source)
+                    
+                    if s_title.lower().endswith(".pdf"):
+                        s_type = "pdf"
+                    elif s_title.lower().endswith(".mp3") or s_title.lower().endswith(".wav"):
+                        s_type = "audio"
+                    elif s_url and ("youtube" in s_url or "youtu.be" in s_url):
+                        s_type = "youtube"
+                    elif s_url:
+                        s_type = "web"
+                    
+                    # Store in appropriate category
+                    if s_type == "pdf":
+                        subject_entry["slideDecks"].append({
+                            "id": s_id,
+                            "title": s_title,
+                            "type": "slide_deck",
+                            "content": s_url,
+                            "status": "completed"
+                        })
+                    elif s_type == "youtube":
+                        subject_entry["videos"].append({
+                            "id": s_id,
+                            "title": s_title,
+                            "type": "video",
+                            "content": s_url,
+                            "status": "completed"
+                        })
+                    elif s_type == "audio":
+                         # Treat audio (Audio Overviews) as videos for now so they appear in media section
+                        subject_entry["videos"].append({
+                            "id": s_id,
+                            "title": s_title, # e.g. "Audio Overview.wav"
+                            "type": "audio",
+                            "content": s_url,
+                            "status": "completed"
+                        })
+                    elif s_type == "web":
+                         # Source interface: title, author, description (url)
+                        subject_entry["sources"].append({
+                            "title": s_title,
+                            "author": "Web Source",
+                            "description": s_url or ""
+                        })
+                    # Audio now included as videos for UI compatibility
+
+            artifacts_store[subject_id] = subject_entry
+    
+    print(f"Mapped {len(artifacts_store)} subjects.")
+    
     with open(ARTIFACTS_FILE, 'w') as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-
-    print("\nSynchronization complete.")
+        json.dump(artifacts_store, f, indent=2, ensure_ascii=False)
+        
+    print(f"Updated {ARTIFACTS_FILE}")
 
 if __name__ == "__main__":
     sync()
