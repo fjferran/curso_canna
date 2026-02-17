@@ -134,7 +134,8 @@ def download_assets():
                     print(f"  Skipping download for YouTube video (keeping link): {video.get('title')}")
                     continue
 
-                if url and ("google.com" in url or "googleusercontent.com" in url):
+                # Allow direct MP4 downloads from other domains if needed
+                if url and (url.lower().endswith(".mp4") or "google.com" in url or "googleusercontent.com" in url):
                     item_id = video.get("id")
                     if not item_id:
                         continue

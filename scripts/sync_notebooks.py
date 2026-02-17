@@ -294,14 +294,17 @@ def sync():
                     if not s_url:
                         s_url = find_url(source)
                     
-                    if s_title.lower().endswith(".pdf"):
-                        s_type = "pdf"
-                    elif s_title.lower().endswith(".mp3") or s_title.lower().endswith(".wav"):
-                        s_type = "audio"
-                    elif s_url and ("youtube" in s_url or "youtu.be" in s_url):
-                        s_type = "youtube"
-                    elif s_url:
-                        s_type = "web"
+                    if s_type == "unknown":
+                        if s_title.lower().endswith(".pdf") or "(pdf)" in s_title.lower() or "[pdf]" in s_title.lower():
+                            s_type = "pdf"
+                        elif s_title.lower().endswith(".mp3") or s_title.lower().endswith(".wav"):
+                            s_type = "audio"
+                        elif s_url and ("youtube" in s_url or "youtu.be" in s_url):
+                            s_type = "youtube"
+                        elif s_url and (s_url.lower().endswith(".mp4") or s_title.lower().endswith(".mp4")):
+                            s_type = "video_file"
+                        elif s_url:
+                            s_type = "web"
                     
                     # Store in appropriate category
                     if s_type == "pdf":
@@ -326,6 +329,14 @@ def sync():
                             "id": s_id,
                             "title": s_title, # e.g. "Audio Overview.wav"
                             "type": "audio",
+                            "content": s_url,
+                            "status": "completed"
+                        })
+                    elif s_type == "video_file":
+                        subject_entry["videos"].append({
+                            "id": s_id,
+                            "title": s_title,
+                            "type": "video",
                             "content": s_url,
                             "status": "completed"
                         })
