@@ -86,6 +86,11 @@ def download_assets():
             for i, slide in enumerate(content["slideDecks"]):
                 url = slide.get("content")
                 if url:
+                    # Skip if already downloaded
+                    if url.startswith("/downloads/"):
+                        # print(f"  Skipping local file: {url}")
+                        continue
+
                     # Allow any PDF or Google Doc
                     if not (url.lower().endswith(".pdf") or "google.com" in url or "googleusercontent.com" in url):
                          # If it's not a PDF and not google, maybe skip? 
@@ -136,6 +141,11 @@ def download_assets():
 
                 # Allow direct MP4 downloads from other domains if needed
                 if url and (url.lower().endswith(".mp4") or "google.com" in url or "googleusercontent.com" in url):
+                    # Skip if already downloaded
+                    if url.startswith("/downloads/"):
+                        # print(f"  Skipping local video: {url}")
+                        continue
+
                     item_id = video.get("id")
                     if not item_id:
                         continue
