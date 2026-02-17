@@ -65,7 +65,7 @@ def curl_get(url):
     ]
     header_str = " ".join(headers)
     
-    script_content = f"""#!/bin/bash
+    script_content = f"""#!/bin/sh
 curl '{target_url}' \\
   -v -s --compressed -X POST \\
   {header_str} \\

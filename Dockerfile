@@ -29,7 +29,7 @@ ENV NODE_ENV production
 # ENV NEXT_TELEMETRY_DISABLED 1
 
 # Install Python 3 (required for fetch_media.py)
-RUN apk add --no-cache python3 py3-pip
+RUN apk add --no-cache python3 py3-pip curl git
 
 # Install Python dependencies
 RUN pip3 install requests httpx --break-system-packages
