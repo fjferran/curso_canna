@@ -33,19 +33,10 @@ def curl_get(url):
     
     print(f"DEBUG: Using cookie starting with: {cookie_str[:50]}...")
         
-    target_url = "https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=wXbhsf&bl=boq_labs-tailwind-frontend_20260215.02_p0&hl=es&rt=c"
+    target_url = "https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=wXbhsf&source-path=%2Fnotebook%2F10b81259-110c-4609-a04d-8ea6ce9af080&bl=boq_labs-tailwind-frontend_20260216.02_p0&f.sid=-1088580930230069560&hl=es&_reqid=100669&rt=c"
     
-    # RPC payload
-    # Note: 'ZwVcOc' used here might be for metadata only? 
-    # But user said wXbhsf is the one with data.
-    # Let's try to use wXbhsf if possible, or stick to what worked.
-    # Wait, the hardcoded URL has ZwVcOc. The user said wXbhsf returned 770KB.
-    # I should use the correct RPC ID for content!
-    # But I don't have the payload for wXbhsf easily available unless I copy from the shell script?
-    # I will stick to what the user provided in the original file, assuming it's the one that returned the 770KB file I parsed.
-    # (Actually, debug_api_response_v4.json WAS 770KB).
-    
-    payload = "f.req=%5B%5B%5B%22wXbhsf%22%2C%22%5Bnull%2C1%2Cnull%2C%5B2%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&at=AE_H9gYe3a1ilR80av3KoM1FLuCc%3A1771358810918&"
+    # RPC payload updated with new 'at' token
+    payload = "f.req=%5B%5B%5B%22wXbhsf%22%2C%22%5Bnull%2C1%2Cnull%2C%5B2%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&at=AE_H9gbxBFeYHljRK5cdQp2TI5P5%3A1771369868711&"
     
     headers = [
         "-H 'accept: */*'",
@@ -55,12 +46,25 @@ def curl_get(url):
         "-H 'priority: u=1, i'",
         "-H 'referer: https://notebooklm.google.com/'",
         "-H 'sec-ch-ua: \"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"'",
+        "-H 'sec-ch-ua-arch: \"arm\"'",
+        "-H 'sec-ch-ua-bitness: \"64\"'",
+        "-H 'sec-ch-ua-form-factors: \"Desktop\"'",
+        "-H 'sec-ch-ua-full-version: \"143.0.7499.193\"'",
+        "-H 'sec-ch-ua-full-version-list: \"Google Chrome\";v=\"143.0.7499.193\", \"Chromium\";v=\"143.0.7499.193\", \"Not A(Brand\";v=\"24.0.0.0\"'",
         "-H 'sec-ch-ua-mobile: ?0'",
+        "-H 'sec-ch-ua-model: \"\"'",
         "-H 'sec-ch-ua-platform: \"macOS\"'",
+        "-H 'sec-ch-ua-platform-version: \"15.7.1\"'",
+        "-H 'sec-ch-ua-wow64: ?0'",
         "-H 'sec-fetch-dest: empty'",
         "-H 'sec-fetch-mode: cors'",
         "-H 'sec-fetch-site: same-origin'",
         "-H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'",
+        "-H 'x-browser-channel: stable'",
+        "-H 'x-browser-copyright: Copyright 2026 Google LLC. All Rights reserved.'",
+        "-H 'x-browser-validation: AUXUCdutEJ+6gl6bYtz7E2kgIT4='",
+        "-H 'x-browser-year: 2026'",
+        "-H 'x-client-data: CIq2yQEIprbJAQipncoBCJz8ygEIlqHLAQiGoM0BCJaMzwEIjaDPAQi1os8BCNSjzwEIk6TPAQiapc8BCOilzwEY7IXPARiyhs8BGMKhzwE='",
         "-H 'x-same-domain: 1'",
     ]
     header_str = " ".join(headers)
