@@ -295,9 +295,18 @@ def sync():
                         s_url = find_url(source)
                     
                     if s_type == "unknown":
-                        if s_title.lower().endswith(".pdf") or "(pdf)" in s_title.lower() or "[pdf]" in s_title.lower():
-                            s_type = "pdf"
-                        elif s_title.lower().endswith(".mp3") or s_title.lower().endswith(".wav"):
+                        is_pdf = s_title.lower().endswith(".pdf") or "(pdf)" in s_title.lower() or "[pdf]" in s_title.lower()
+                        s_low = s_title.lower()
+                        
+                        if is_pdf:
+                            # Strict filtering for Slide Decks
+                            keywords = ["presentación", "tema", "módulo", "clase", "diapositivas", "slides", "ppt"]
+                            # Also include specific known valid ones like "GM21-1" or "GM20-..."
+                            if any(k in s_low for k in keywords) or "gm" in s_low or "fundamentos" in s_low:
+                                s_type = "pdf"
+                            else:
+                                s_type = "web" # Treat as generic source
+                        elif s_low.endswith(".mp3") or s_low.endswith(".wav"):
                             s_type = "audio"
                         elif s_url and ("youtube" in s_url or "youtu.be" in s_url):
                             s_type = "youtube"
