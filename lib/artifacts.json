@@ -7,6 +7,7 @@
       {
         "id": "pdf-biosistemas-001",
         "title": "Cannabis Ingeniería de Biosistemas.pdf",
+        "subtitle": "Fundamentos de ingeniería aplicados al diseño y gestión de sistemas de cultivo de cannabis.",
         "type": "slide_deck",
         "content": "/downloads/gm21-2/Cannabis_Ingenieria_de_Biosistemas.pdf",
         "status": "completed"
@@ -291,6 +292,7 @@
       {
         "id": "pdf-bioeconomy-001",
         "title": "Global Cannabis Bioeconomy Strategy.pdf",
+        "subtitle": "Estrategia global de bioeconomía del cannabis: cadena de valor, mercados internacionales y oportunidades de negocio.",
         "type": "slide_deck",
         "content": "/downloads/gm21-1/Global_Cannabis_Bioeconomy_Strategy.pdf",
         "status": "completed"
@@ -298,6 +300,7 @@
       {
         "id": "pdf-standardization-002",
         "title": "CANNABIS INDUSTRY STANDARDIZATION 2026.pdf",
+        "subtitle": "Estándares técnicos y protocolos de calidad de la industria del cannabis para 2026.",
         "type": "slide_deck",
         "content": "/downloads/gm21-1/CANNABIS_INDUSTRY_STANDARDIZATION_2026.pdf",
         "status": "completed"
@@ -305,6 +308,7 @@
       {
         "id": "pdf-realignment-003",
         "title": "Cannabis Global Industry Realignment.pdf",
+        "subtitle": "Análisis del reposicionamiento competitivo y tendencias del mercado mundial del cannabis.",
         "type": "slide_deck",
         "content": "/downloads/gm21-1/Cannabis_Global_Industry_Realignment.pdf",
         "status": "completed"
