@@ -134,7 +134,7 @@ def download_assets():
                                 for chunk in r.iter_bytes(chunk_size=8192):
                                     f.write(chunk)
                         
-                        public_path = f"/downloads/{subject_id}/{filename}"
+                        public_path = f"/api/downloads/{subject_id}/{filename}"
                         data[subject_id]["slideDecks"][i]["content"] = public_path
                         print(f"    -> Saved to {public_path}")
                     except Exception as e:
@@ -190,7 +190,7 @@ def download_assets():
                                 for chunk in r.iter_bytes(chunk_size=8192):
                                     f.write(chunk)
                         
-                        public_path = f"/downloads/{subject_id}/{filename}"
+                        public_path = f"/api/downloads/{subject_id}/{filename}"
                         data[subject_id]["videos"][i]["content"] = public_path
                         print(f"    -> Saved to {public_path}")
                     except Exception as e:
