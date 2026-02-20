@@ -345,6 +345,14 @@
                 "type": "slide_deck",
                 "content": "/downloads/gm21-1/Cannabis_Global_Industry_Realignment.pdf",
                 "status": "completed"
+            },
+            {
+                "id": "pdf-ipm-004",
+                "title": "Technical Cannabis IPM.pdf",
+                "subtitle": "Gestión integrada de plagas (IPM) en cultivos de cannabis en entornos controlados.",
+                "type": "slide_deck",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ1ZGMyMDAzMy1iYTNjLTQ3MDQtODE0YS1jZjJkN2ZlN2ZmODcSCxIHEMyFveieBhgB&filename=Technical_Cannabis_IPM.pdf&opi=96797242",
+                "status": "completed"
             }
         ],
         "videos": [
