@@ -1,25 +1,49 @@
 {
   "gm21-2": {
     "subjectId": "gm21-2",
-    "notebookId": "4d698458-ff63-464b-801e-babd89738652",
-    "title": "RICARDO SUAY",
+    "notebookId": "87f0e5e2-c0cf-4897-8975-8e1f866b9324",
+    "title": "Cultivo en Interior",
     "slideDecks": [
       {
         "id": "pdf-biosistemas-001",
         "title": "Cannabis Ingeniería de Biosistemas.pdf",
-        "subtitle": "Fundamentos de ingeniería aplicados al diseño y gestión de sistemas de cultivo de cannabis.",
+        "subtitle": "Fundamentos de ingeniería de biosistemas aplicados al cultivo en interior de cannabis.",
         "type": "slide_deck",
         "content": "/downloads/gm21-2/Cannabis_Ingenieria_de_Biosistemas.pdf",
+        "status": "completed"
+      },
+      {
+        "id": "pdf-ipm-002",
+        "title": "Technical Cannabis IPM.pdf",
+        "subtitle": "Gestión integrada de plagas (IPM) en cultivos de cannabis en entornos controlados.",
+        "type": "slide_deck",
+        "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ1ZGMyMDAzMy1iYTNjLTQ3MDQtODE0YS1jZjJkN2ZlN2ZmODcSCxIHEMyFveieBhgB&filename=Technical_Cannabis_IPM.pdf&opi=96797242",
+        "status": "completed"
+      },
+      {
+        "id": "pdf-biosystems-eng-003",
+        "title": "Cannabis Biosystems Engineering.pdf",
+        "subtitle": "Ingeniería de biosistemas para el diseño y optimización de instalaciones de cultivo interior.",
+        "type": "slide_deck",
+        "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiRmNGU0ZWUxMi0xMmQ2LTQxMzgtYjVlMy1jNTM3NmFmOGMwNTgSCxIHEMyFveieBhgB&filename=Cannabis_Biosystems_Engineering.pdf&opi=96797242",
         "status": "completed"
       }
     ],
     "videos": [
       {
-        "id": "video-gm21-2-principios-diseno",
-        "title": "Principios Diseño Invernaderos",
-        "subtitle": "Video generado por IA sobre los principios del diseño de invernaderos profesionales para cannabis.",
+        "id": "video-gm21-2-ecosistema-controlado",
+        "title": "Cultivo Interior: Ecosistema Controlado",
+        "subtitle": "Análisis del cultivo de cannabis en interiores como ecosistema controlado: parámetros clave y tecnología.",
         "type": "video",
-        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyyx_Q8GZbmMsMz1jidEsdU2-vPeqRdMmgWHDKBN9UB8fFGGe_j13rPo_v4g_H7jEGeHIArJH_oEnQKsrikq0x9SYRSDaJkwwvcNTlyKkrwP5r2FdIJLqYKBlZOnxrWpA0UE_9wNOWi6E-uSieXQ036O2v2Ig=m22-dv",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAy1782OCgCbYR7dH70oO8h_DGS1TUpDGmvO7cCWufCc0jKUrztGIcHMQsVV2vCfdramLoa186wcnd26ZajQVyg6N4Zpl1psLELbgbC-18FmMKq7emC-dZyDP5exSV0rtHFQdfH8VgMRiKPLYYP64UMh7vTBKDo=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm21-2-cultivo-moderno",
+        "title": "Cultivo Moderno de Cannabis",
+        "subtitle": "Tecnologías y metodologías del cultivo moderno de cannabis en producción controlada.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAwD_ShhRJgB5StwOm4-3M6CD9Q9kdHw98_dY_sOrXo1Cr-iY6MgHIF1BljiSBOfobokQjxvnstiYLYoqtfiVxl5It8jOldKS1Nf1ggu95EyBt9k5aFBKJhvK6hKRgTkpZemIAHmoM7lPC3KefMZ69eYyVWyluY=m22-dv",
         "status": "completed"
       }
     ],
