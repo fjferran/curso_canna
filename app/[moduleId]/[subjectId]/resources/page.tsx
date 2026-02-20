@@ -161,7 +161,7 @@ export default async function ResourcesPage({ params }: PageProps) {
                                 </section>
                             )}
 
-                            {/* 3. Vídeos */}
+                            {/* 3. Vídeos (ocultos temporalmente)
                             {artifacts.videos && artifacts.videos.length > 0 && (
                                 <section id="videos">
                                     <div className="flex items-center mb-8">
@@ -206,6 +206,7 @@ export default async function ResourcesPage({ params }: PageProps) {
                                     </div>
                                 </section>
                             )}
+                            */}
 
                             {/* 4. Guías y Materiales */}
                             {(artifacts.studyGuide || artifacts.table) && (
