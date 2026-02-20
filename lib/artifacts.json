@@ -790,7 +790,24 @@
     "notebookId": "9f6ca868-aeb4-4784-a2c4-1e451a370bb9",
     "title": "GM20 - Análisis de Oportunidades de Mercado",
     "slideDecks": [],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm20-2-futuro-cannabis",
+        "title": "El Futuro del Cannabis",
+        "subtitle": "Tendencias y oportunidades del mercado global del cannabis 2025-2030.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAzJE93pEEbEnZXmJYlMKHMZfWNw0OV3CSaPp7tyTcrh1xhMGqztdofe-nX1jbp_FhA8CzAZlZZeBkXQsfQ50kf4sW0qksaJhXU3BS0R7wil-Rp-N4Okpj5d18zJPm1eEUaT0vJLpDKX7NObkVRKgOgZKwh4F5E=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm20-2-paradoja-cannabis",
+        "title": "La paradoja del cannabis",
+        "subtitle": "Análisis de las contradicciones del mercado y la regulación del cannabis a nivel global.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAw6EBqWh7xPFemcKiR4QyWFojICSaFpWuBXtfi_X1XdXHWqiMrRidSS18qACjllQ6a364vOOM9YCpLPvTSdR7Zj6FNsz4IFaHXX1L-5fX1XK6q9gjHZTCWBPRy-UN2FNJochDwKHZxzQDz9JRy3D-bG0U0uQw=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "2025 Cannabis Industry Statistics & Market Insights - Paybotic Financial",
@@ -1096,7 +1113,24 @@
     "notebookId": "ca11fc7d-2bab-40a5-b1bc-2ed547e5ae0e",
     "title": "GM20 - Uso Medicinal del Cannabis",
     "slideDecks": [],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm20-5-cannabis-cuerpo",
+        "title": "El Cannabis y Tu Cuerpo",
+        "subtitle": "Cómo interactúa el cannabis con el sistema endocannabinoide y sus efectos terapéuticos.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAwEqJ4jpUU_lbWVN6JW7xdfY0E7Z8X95V-DKrDmenVkZCbStc_scNtGlSxV6wFqwQ0wdCa9rsIlwwhXBXGNJWLiHdHEMfmLRJMpwlIYj01SbsxxRH8sFMVN5nuL0gHbm0HrYWT2PXW0PuELfHyaRljAl8kh7dc=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm20-5-hype-ciencia",
+        "title": "Cannabis: Hype vs. Ciencia",
+        "subtitle": "Separando los mitos de la evidencia científica en el uso medicinal del cannabis.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAweTKL_4iai1rPntgHcUwzO9egayAKRZj6X9tRox8OZ56r_VitcfloPq1kxNZDOSgKQRsZzRqozRA7XJ79dJ-Cb710pKbDg2gGBEHQ0EF4uCXTzPfKEjl6zST-aaFbBFn6JGoFVB2CedXfi6HMOM4uVtWkBcRU=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "BEYOND THC AND CBD: THE IMPORTANCE OF TERPENES IN MEDICINAL CANNABIS",
@@ -1402,7 +1436,24 @@
     "notebookId": "09877603-88c3-4586-a89c-da80657795e6",
     "title": "GM20 - Negocio, Comercio y Distribución",
     "slideDecks": [],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm20-3-economia-cannabis",
+        "title": "La Economía del Cannabis",
+        "subtitle": "Fundamentos económicos, modelos de negocio y cadena de distribución en la industria del cannabis.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAxqJySaC0efx2iq_Xgmk-8ibAFIg_slWz-l_bIvjheHN670yN1oOtczJjBg4ixXZn3tuh5pbOEQNmza4lOxJgjjOT2C6DK8EjRzIec7gNW32TE0MtrZO_Gm8yLcdAEuueTYDZX8d3HzfrST6jfIX0r0LtIeZA=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm20-3-anatomia-cannabis",
+        "title": "La anatomía del cannabis",
+        "subtitle": "Estructura botánica y componentes activos del cannabis relevantes para el negocio y la distribución.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAwSrUB0393QuFFlGdoCnUwG4_f9MHL9gT5LaIptz1o1b79ibjwMQ5I32sH1o2RDfokV463DrewNX2Cl-GsqXMz-n-5tIQXuO0ZA_3xdKgbfR1WS7grfBpHlcOfb5toKhVo5xdGiYDmk6pNelq64NHapr9x2V0g=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "(PDF) Energy-intensive indoor cultivation drives the cannabis industry's expanding carbon footprint - ResearchGate",
@@ -1728,7 +1779,24 @@
     "notebookId": "725b8d51-1b7d-4691-9729-3507f25cce7f",
     "title": "GM20 - Normativa y Legislación en el Sector",
     "slideDecks": [],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm20-4-laberinto-legal",
+        "title": "El Laberinto Legal del Cannabis en España",
+        "subtitle": "Marco legal español y europeo del cannabis: retos regulatorios y oportunidades de cumplimiento.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyy5-0YgNV3YvpFxSpRvPzdcf7VakctQY4NaPQIfKUz8rBLzU2jB_20LZ5VrA4x_NCFP5CAh9gAaBFhbhusXrozXgvbUOipCScLIJD45SNOA0b45DBjM_6YUc63s4GraQZTcSh0wmmqoIFEpwaJiV8q_0vzaXk=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm20-4-paradoja-cannabis",
+        "title": "La paradoja del cannabis",
+        "subtitle": "Las contradicciones entre la normativa vigente y la realidad del sector del cannabis en España.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyrUbURUhdmyh3VLAzEgfKhHTnI5H9_2bRpnX6EoLJAlZbC8m62CZUSnXPpQPLsvf1R4128GHkJAflqxGmx827x77b5AW7SWMzOxh6oIbHGg_cQpI6WoAWTXaGS3yvyBMqtotBLchsbfai5kLymbxVDNvXQujA=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "Abogado Penalista en Alicante - Soler Martín Abogados",
@@ -2019,7 +2087,24 @@
     "notebookId": "3bb67a64-34c9-48c4-9b3c-4070bc00de5d",
     "title": "GM20 - Digitalización de Procesos y Agricultura de Precisión",
     "slideDecks": [],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm20-1-revolucion-tech",
+        "title": "Cannabis: La Revolución Tech",
+        "subtitle": "Transformación digital y tecnológica en el cultivo y gestión del cannabis: IA, IoT y agricultura de precisión.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyKYcg4QyjSkggM9fsCbZvEXwvMudzeJdXQqQ5dDe7wMc17WhY_lofFKIqnABjokad9sPsY-CaAb7KI_Bzf4fxCIkceTbJvTXBItb3MlBNLxjDse21v5rle1fg-rLgL99utoUELt0JjS8Vs_xC3MbzzJ26P18I=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm20-1-revolucion-ia",
+        "title": "Revolución IA en el Cannabis",
+        "subtitle": "Aplicaciones de inteligencia artificial para optimizar el cultivo, la calidad y la rentabilidad del cannabis.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAwIGAJVU9pXHNiOcqp0KX3WJ6vSSzzMtFtvNjBODrj6yln3UxdFQqnm8gBRsmlUI6Ip3Nsaog5d5cx4FALDcOaWSn2zhIdnKDdGgXBhb_2hZe_2jP7Hjfj3ljMp96JIETIQng1PkTD2Ea46q0r34m-PP5AFkHA=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "(PDF) Estimating plant height, nitrogen uptake and above-ground biomass using UAV multispectral imaging coupled with machine learning in industrial hemp (Cannabis sativa L.)",
@@ -2325,7 +2410,32 @@
     "notebookId": "25c3acaa-49f7-4271-9a0f-047ab6ad806e",
     "title": "GM21 - Aprovechamiento del cultivo",
     "slideDecks": [],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm21-4-tesoro-canamo",
+        "title": "El Tesoro del Cáñamo",
+        "subtitle": "El cáñamo como materia prima de valor: fibra, alimentación, biomasa y economía circular.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAzVmntLIdwIldHVsHLof052uV0fUVAcckZuGUMBvQ4LNzqsu8WxWvjnaQgYpmquuSOauSXEM78PlV94MIUKgbu4QbplayjCAADjJ0toF0eL92_KgyGV5ATJepuitebK5CHjSeykiXUQfeqU_hGWxmKx-TYiarM=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm21-4-superplanta",
+        "title": "El Cáñamo: La Super-Planta",
+        "subtitle": "Usos industriales del cáñamo: bioplásticos, construcción, textil y su impacto ambiental.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAzIDI2wfkqiKHWCQgWLYs40va8aKmjullfdr6iDuc-j_S1ZgaxkJnf7EkIzQ1rdNKfPnC-nErMYqimBQlQD_2ljGIzkZIf-wNEqHF-4j12SZ0qTZ-vxY32X_AvDjCezA3jeOd_Z7hRiPgNuPmP7XsGqzjuq-Q=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm21-4-plastico-canamo",
+        "title": "La revolución plástica del cáñamo",
+        "subtitle": "Cómo el cáñamo puede sustituir al plástico convencional y liderar la revolución de los bioplásticos.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAw4S0Y9p4wvl8gZjjMqhl8BqbwxtPAoZBK3XFqRU-dl02blTOFkce3NNfoS9RskmvI4u_CWU3Im9z7igm0x_LCasBuUMLPDX41iuoQtTBC7vc3ocg6nRQpmVB4E_Uz41WmiYBk8V9pZz8sMKqKvcxbs_2LY1bo=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "(PDF) Hemp Fibre Properties and Processing Target Textile: A Review",
@@ -2661,7 +2771,32 @@
     "notebookId": "730c1de6-5727-44b6-b111-5c3d1dca85fe",
     "title": "GM21 - Cultivo al Aire libre",
     "slideDecks": [],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm21-3-interior-exterior",
+        "title": "Cannabis: Interior vs. Exterior",
+        "subtitle": "Comparativa entre cultivo indoor y outdoor: ventajas, retos y criterios de elección.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAzKD9MtppkhVofkW5FniIjx3lwF86x7tAqogEK6VThBBhVtnFnOWJgGD0v0KwudQeOGlrpHIpJd2qRv87Cb_SsxD_WJU-ogp76qFakR5uu1JCPcaTQz7CgXX5uC59-4TcWprcApm2yw3jOcZQQas5JXItIxHoI=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm21-3-cultivo-regenerativo",
+        "title": "Cultivo Regenerativo: Cannabis",
+        "subtitle": "Técnicas de agricultura regenerativa aplicadas al cultivo exterior de cannabis: suelos vivos y sostenibilidad.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyoMZ-TdMqEnuJ0ZQa9PEEzC7uqx7IJS82eXrkCdab4xFxT9esf_nx0wHTNrAgOJ9Gg9z1fzMoSkD9xSkM98qAD8RQl2Tig6s-DBHtBYf4tJjKY2WMuZg0PVoz8V3n1NgQCJ7pY7G18fuEwfozvTq27riSeVxQ=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm21-3-milagro-marketing",
+        "title": "Cáñamo: ¿Milagro o Marketing?",
+        "subtitle": "Análisis crítico de las promesas del cáñamo industrial frente a la evidencia científica y económica real.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyjEJ8Ll6FwIfUbk78qVYIVMwh5BmVtRxfjPu7iPTXoxcN9-NIZ1-nE4QQWYluwIwCio8a-TdX4uqM5mvGYvTPykqsN51yP7t5QXKQ8ElXfI4Z_bcaxe6YvA85W4KKeL2z5BL2BTXTppWpTU3xsteDV_L4LmAE=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "Agronomic Considerations for Industrial Hemp Production | Oklahoma State University",
