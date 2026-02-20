@@ -203,6 +203,16 @@ def sync():
 
     print(f"Loaded {len(id_map)} notebook mappings from lib/data.ts")
 
+    # Load existing artifacts to preserve subtitles and local downloads
+    existing_artifacts = {}
+    if os.path.exists(ARTIFACTS_FILE):
+        try:
+            with open(ARTIFACTS_FILE, 'r') as f:
+                existing_artifacts = json.load(f)
+            print(f"Loaded existing artifacts to preserve subtitles/downloads.")
+        except Exception as e:
+            print(f"Warning: Could not load existing artifacts: {e}")
+
     # Final artifacts dictionary (keyed by subjectId)
     artifacts_store = {}
 
@@ -299,13 +309,24 @@ def sync():
                         s_low = s_title.lower()
                         
                         if is_pdf:
-                            # Strict filtering for Slide Decks
-                            keywords = ["presentación", "tema", "módulo", "clase", "diapositivas", "slides", "ppt"]
-                            # Also include specific known valid ones like "GM21-1" or "GM20-..."
-                            if any(k in s_low for k in keywords) or "gm" in s_low or "fundamentos" in s_low:
+                            # Classify as slide_deck if:
+                            # 1. Has course keywords (presentación, tema, módulo, etc.)
+                            # 2. Is a descriptive title (not a URL or ResearchGate link)
+                            # 3. Doesn't start with "http" or contain "researchgate"
+                            
+                            is_bibliography = (
+                                s_title.startswith("http") or 
+                                "researchgate" in s_low or
+                                s_title.startswith("(PDF)") or
+                                "doi.org" in s_low
+                            )
+                            
+                            if not is_bibliography:
+                                # It's a descriptive PDF title, treat as slide deck
                                 s_type = "pdf"
                             else:
-                                s_type = "web" # Treat as generic source
+                                # It's a bibliography reference
+                                s_type = "web"
                         elif s_low.endswith(".mp3") or s_low.endswith(".wav"):
                             s_type = "audio"
                         elif s_url and ("youtube" in s_url or "youtu.be" in s_url):
@@ -317,38 +338,43 @@ def sync():
                     
                     # Store in appropriate category
                     if s_type == "pdf":
-                        subject_entry["slideDecks"].append({
+                        # Preserve subtitle and local content from existing artifacts
+                        existing_subject = existing_artifacts.get(subject_id, {})
+                        existing_decks = {d.get("id"): d for d in existing_subject.get("slideDecks", [])}
+                        existing_deck = existing_decks.get(s_id, {})
+                        # Use local path if already downloaded, otherwise use s_url
+                        final_content = existing_deck.get("content", s_url)
+                        if final_content and not final_content.startswith("/downloads/"):
+                            final_content = s_url
+                        deck_entry = {
                             "id": s_id,
                             "title": s_title,
                             "type": "slide_deck",
-                            "content": s_url,
+                            "content": final_content,
                             "status": "completed"
-                        })
-                    elif s_type == "youtube":
-                        subject_entry["videos"].append({
+                        }
+                        if existing_deck.get("subtitle"):
+                            deck_entry["subtitle"] = existing_deck["subtitle"]
+                        subject_entry["slideDecks"].append(deck_entry)
+                    elif s_type in ("youtube", "audio", "video_file"):
+                        # Preserve subtitle and local content for videos too
+                        existing_subject = existing_artifacts.get(subject_id, {})
+                        existing_vids = {v.get("id"): v for v in existing_subject.get("videos", [])}
+                        existing_vid = existing_vids.get(s_id, {})
+                        final_content = existing_vid.get("content", s_url)
+                        if final_content and not final_content.startswith("/downloads/"):
+                            final_content = s_url
+                        vid_type = "video" if s_type in ("youtube", "video_file") else "audio"
+                        vid_entry = {
                             "id": s_id,
                             "title": s_title,
-                            "type": "video",
-                            "content": s_url,
+                            "type": vid_type,
+                            "content": final_content,
                             "status": "completed"
-                        })
-                    elif s_type == "audio":
-                         # Treat audio (Audio Overviews) as videos for now so they appear in media section
-                        subject_entry["videos"].append({
-                            "id": s_id,
-                            "title": s_title, # e.g. "Audio Overview.wav"
-                            "type": "audio",
-                            "content": s_url,
-                            "status": "completed"
-                        })
-                    elif s_type == "video_file":
-                        subject_entry["videos"].append({
-                            "id": s_id,
-                            "title": s_title,
-                            "type": "video",
-                            "content": s_url,
-                            "status": "completed"
-                        })
+                        }
+                        if existing_vid.get("subtitle"):
+                            vid_entry["subtitle"] = existing_vid["subtitle"]
+                        subject_entry["videos"].append(vid_entry)
                     elif s_type == "web":
                          # Source interface: title, author, description (url)
                         subject_entry["sources"].append({
