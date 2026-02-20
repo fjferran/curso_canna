@@ -13,7 +13,16 @@
         "status": "completed"
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm21-2-principios-diseno",
+        "title": "Principios Diseño Invernaderos",
+        "subtitle": "Video generado por IA sobre los principios del diseño de invernaderos profesionales para cannabis.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyyx_Q8GZbmMsMz1jidEsdU2-vPeqRdMmgWHDKBN9UB8fFGGe_j13rPo_v4g_H7jEGeHIArJH_oEnQKsrikq0x9SYRSDaJkwwvcNTlyKkrwP5r2FdIJLqYKBlZOnxrWpA0UE_9wNOWi6E-uSieXQ036O2v2Ig=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "(PDF) Moving Away from 12:12; the Effect of Different Photoperiods on Biomass Yield and Cannabinoids in Medicinal Cannabis",
@@ -314,7 +323,24 @@
         "status": "completed"
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "id": "video-gm21-1-industria-agronomia",
+        "title": "Cannabis: Industria y Agronomía",
+        "subtitle": "Visión general de la industria del cannabis y su agronomía generada por IA a partir de las fuentes del módulo.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAzDf2s_vm9qJawluPV-4Nj3jO65gqYuhnA5zsFBDnYzChXQdGOMh58QUByG3GnhndtDjmfQg-vJjqX0W_qKw_uPVpOI0f9YBhuImn9FrFZ0sjf5amEj4yXrjd-JsDf6eLqpmEUmpculxCBxavoYYnxON0w9bzg=m22-dv",
+        "status": "completed"
+      },
+      {
+        "id": "video-gm21-1-irlanda-clima",
+        "title": "La solución climática de 8000 M€ de Irlanda",
+        "subtitle": "Caso de éxito: la economía circular del cáñamo en Irlanda como estrategia de mitigación climática.",
+        "type": "video",
+        "content": "https://lh3.googleusercontent.com/notebooklm/ANHLwAyVJ62V-qP-0KhGC97ZviphWKGGLIZ_cVmadQTxYsngnYIorFMSMQ-Nax31w7kRNrFESPku4mOLalSYb0XlsWSWCm_-aiH0Ko3NOEZxmwaPJGb4CS_dMD6uMsgXlfNlKqlCJ0mmkNUJEumAWqFMtFrHkGbzRRA=m22-dv",
+        "status": "completed"
+      }
+    ],
     "sources": [
       {
         "title": "",
