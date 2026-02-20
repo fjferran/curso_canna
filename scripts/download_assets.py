@@ -2,26 +2,19 @@ import json
 import os
 import sys
 import httpx
-import tempfile
 
 ARTIFACTS_FILE = "lib/artifacts.json"
 PUBLIC_DIR = "public/downloads"
 
 def save_artifacts(data):
-    """Guarda artifacts.json de forma segura usando archivo temporal."""
+    """Guarda artifacts.json. Requiere chmod 666 en el VPS sobre lib/artifacts.json."""
     try:
-        # Escribir en temporal y hacer replace atómico
-        dir_name = os.path.dirname(os.path.abspath(ARTIFACTS_FILE))
-        with tempfile.NamedTemporaryFile('w', dir=dir_name, delete=False,
-                                         suffix='.tmp', encoding='utf-8') as tmp:
-            json.dump(data, tmp, indent=4, ensure_ascii=False)
-            tmp_path = tmp.name
-        os.replace(tmp_path, ARTIFACTS_FILE)
+        with open(ARTIFACTS_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
     except PermissionError:
         print(f"\n  [ERROR] Sin permisos para escribir en {ARTIFACTS_FILE}")
         print(f"  [FIX]   Ejecuta en el VPS:")
         print(f"          chmod 666 /var/www/cannabis-platform/lib/artifacts.json")
-        print(f"          docker exec cannabis-platform ls -la /app/lib/artifacts.json")
 
 def download_assets():
     
