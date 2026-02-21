@@ -2409,7 +2409,16 @@
         "subjectId": "gm21-4",
         "notebookId": "25c3acaa-49f7-4271-9a0f-047ab6ad806e",
         "title": "GM21 - Aprovechamiento del cultivo",
-        "slideDecks": [],
+        "slideDecks": [
+            {
+                "id": "0dc84c8e-4c1b-458e-93ba-015385079df6",
+                "title": "The Hemp Biorefinery",
+                "subtitle": "Presentación detallada sobre los conceptos del módulo.",
+                "type": "slide_deck",
+                "status": "completed",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ1NWRiMTMwNS04M2ZiLTQwNjgtOWIwYy0wNWVkZmU5YTJhOTMSCxIHEMyFveieBhgB&filename=The_Hemp_Biorefinery.pdf&opi=96797242"
+            }
+        ],
         "videos": [
             {
                 "id": "video-gm21-4-tesoro-canamo",
@@ -2770,7 +2779,16 @@
         "subjectId": "gm21-3",
         "notebookId": "730c1de6-5727-44b6-b111-5c3d1dca85fe",
         "title": "GM21 - Cultivo al Aire libre",
-        "slideDecks": [],
+        "slideDecks": [
+            {
+                "id": "7ab02d1c-bb4e-42be-bc98-794337d7b229",
+                "title": "Regenerative Cannabis Cultivation",
+                "subtitle": "Prácticas sostenibles y regeneración de suelos.",
+                "type": "slide_deck",
+                "status": "completed",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ4ZjMyNDk0MS0zZmQ0LTRkNDQtODkyNi1mNDI0MTY3YmU3NWISCxIHEMyFveieBhgB&filename=Regenerative_Cannabis_Cultivation.pdf&opi=96797242"
+            }
+        ],
         "videos": [
             {
                 "id": "video-gm21-3-interior-exterior",
