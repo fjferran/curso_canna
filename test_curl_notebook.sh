@@ -1,0 +1,30 @@
+curl 'https://notebooklm.google.com/u/0/notebook/9f6ca868-aeb4-4784-a2c4-1e451a370bb9' \
+  -v \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: es-ES,es;q=0.9' \
+  -H 'cache-control: max-age=0' \
+  -H 'priority: u=0, i' \
+  -H 'referer: https://notebooklm.google.com/' \
+  -H 'sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"' \
+  -H 'sec-ch-ua-arch: "arm"' \
+  -H 'sec-ch-ua-bitness: "64"' \
+  -H 'sec-ch-ua-form-factors: "Desktop"' \
+  -H 'sec-ch-ua-full-version: "143.0.7499.193"' \
+  -H 'sec-ch-ua-full-version-list: "Google Chrome";v="143.0.7499.193", "Chromium";v="143.0.7499.193", "Not A(Brand";v="24.0.0.0"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-model: ""' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-ch-ua-platform-version: "15.7.1"' \
+  -H 'sec-ch-ua-wow64: ?0' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36' \
+  -H 'x-browser-channel: stable' \
+  -H 'x-browser-copyright: Copyright 2026 Google LLC. All Rights reserved.' \
+  -H 'x-browser-validation: AUXUCdutEJ+6gl6bYtz7E2kgIT4=' \
+  -H 'x-browser-year: 2026' \
+  -H 'x-client-data: CIq2yQEIprbJAQipncoBCJz8ygEIlqHLAQiGoM0BCJaMzwEIjaDPAQi1os8BCNSjzwEIk6TPAQiapc8BCOilzwEY7IXPARiyhs8BGMKhzwE=' \
+  -b 'cookie.txt'

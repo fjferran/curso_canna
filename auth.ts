@@ -37,6 +37,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             return session;
         },
         authorized({ auth, request: { nextUrl } }) {
+            if (process.env.NODE_ENV === 'development') return true;
             const isLoggedIn = !!auth?.user;
             const { pathname } = nextUrl;
             const isOnDashboard = pathname.startsWith('/dashboard') ||

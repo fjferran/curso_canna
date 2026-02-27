@@ -75,7 +75,10 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-8 text-center text-sm">
-        <p>© 2026 Universidad de Alicante - Título de Experto Universitario</p>
+        <p className="mb-2">© {new Date().getFullYear()} Formación Industria y Agronomía Digital</p>
+        <Link href="/politica-privacidad" className="hover:text-emerald-400 transition-colors underline underline-offset-2">
+          Política de Privacidad y Cookies
+        </Link>
       </footer>
     </div>
   );

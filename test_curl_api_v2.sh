@@ -1,0 +1,32 @@
+#!/bin/bash
+curl 'https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=ZwVcOc&source-path=%2Fnotebook%2F4d698458-ff63-464b-801e-babd89738652&bl=boq_labs-tailwind-frontend_20260215.02_p0&f.sid=-2757075467632565717&hl=es&_reqid=67311&rt=c' \
+  -v \
+  -H 'accept: */*' \
+  -H 'accept-language: es-ES,es;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -b '_ga=GA1.1.274763647.1763303167; __Secure-BUCKET=CP8C; OSID=g.a0006AjMQtavptf50LognvucGmkdppkeMyUlZWJzoOd_-82R0VXPMwgnQzPeSELcQtm6gsipIAACgYKAdUSARYSFQHGX2MiZlW_cCJ_d94JAcFYg1G_jxoVAUF8yKob3mrHFi4AVEBXROKNdTST0076; __Secure-OSID=g.a0006AjMQtavptf50LognvucGmkdppkeMyUlZWJzoOd_-82R0VXPrYn04Z1e1LNhWIw65B-nxQACgYKAeQSARYSFQHGX2Mi3CcgiKXWzKBTHLrJfBuHjBoVAUF8yKpxpzqzeX1nLe-ZAMfuODbq0076; _gcl_au=1.1.419669574.1769262023; SID=g.a0006gjMQvet4fyUezAVpXsOUmS3mzCov7Ltw8yyrQXUVy7hNYyYRm-0FkeKZq6X1QqtyT3PBAACgYKAVgSARYSFQHGX2Mi2ue56IyX_hthLWVWwxVWORoVAUF8yKolNhdVkj1XZEeE213SEptI0076; __Secure-1PSID=g.a0006gjMQvet4fyUezAVpXsOUmS3mzCov7Ltw8yyrQXUVy7hNYyY7ztnispPXboGsd7HSGqm9gACgYKAVISARYSFQHGX2MiVFjHXMSF4K9RpDFtwL56KBoVAUF8yKqIP6aizi_jUCvG06wQcXKr0076; __Secure-3PSID=g.a0006gjMQvet4fyUezAVpXsOUmS3mzCov7Ltw8yyrQXUVy7hNYyYcaZ2AGv0FmxrF3i9m2IMHAACgYKARgSARYSFQHGX2MiDZilpxc9Q0ZZGG_5BiBP4xoVAUF8yKoWWZ0acYRUlD3pesohREs00076; HSID=A7qwlyHQv7NP0OE4-; SSID=A54aJBknqmN4VJCxN; APISID=D5hYG3-q_MHlEt4B/AlpwlW2iEINSuUhId; SAPISID=BeEu7oczVDdmKiT0/A4ZhGqyrlGLxsGGUu; __Secure-1PAPISID=BeEu7oczVDdmKiT0/A4ZhGqyrlGLxsGGUu; __Secure-3PAPISID=BeEu7oczVDdmKiT0/A4ZhGqyrlGLxsGGUu; SEARCH_SAMESITE=CgQIlaAB; AEC=AaJma5s5hvwAhCAyZ7AEgvenf6O3iRuHzRKqbfxQ9jQhWobhZw318bpUQiM; __Secure-ENID=31.SE=pkiJ_OtVmRPnVEMagdkuPmIvzcfE14LEjKoiiuiBYsRSb9udqta7KxC4qYgE8z7M1Q0eeFFWGbkD3VeMV-beCdmfwQZlVgEbSttZZCQVswo8e3sDy5zzWSH0isWCgqlhbwYj35svLeeLADWP1V4GPStcv1NQApNRCJ-Zl0HgDfRVSyn0asgO2-XbxyZeuYEAVJxcAFz9tsN91ci8qqxgNkbYRwNfGEyWvfFNK8honh_uF1m2rIx5J0OUKK_W6CND6NwyYIjWXNmtFOMc4HEX8-GF25dKThLZFx1ne-d-Z5XtDG-r3GFWqhInFTQncqjGh5n9o_VtO4YVLG1JL5Te3PTWoV_tv-MJf-LBscb1xQzW2wgXZHLCM4FUR3k4q2-iO2Y6auT9B7O4xpBRcrM4lpsOfHjpris7jCjAjTe7UbeFoJVw0ehiEBQSIoZA-dihNYwTnGhk5Y8U5sXd3PJIZw; NID=529=FeFlUu4mBSRqyvatlng42F0mWjeawN7V_8wlwwAvL6vNqn83n3NTlXsNd1gT-iu8WBp8zA_MXvGrVhtwL2En0jAhYicEnzxU_WWbcqh57SXeDZ6B4co-rJHPdrRYlHpH7gvZQLlFieRLrQYF8spx_rcP-5jLo-QcTG10CxwutrDGNrSLLCb2ZZg89ZDJQo09TwbsjUkw9vL28FFpwWysXT7B9XUR92PSpyrOqNyhPTC5JodBDcHmOX6XJKPmBicRjGXcvPong1ZdR3mLX7gBDAdBL9m1ciqJ2w5_G1ghIBqfWVEfv-HlNSMSDRloXE4e653qui2o9ZSnrXnNQFEoiQdrDZjSJ37yljgNGLjk79lX-aPEmGznbpPKZ94kR-uqOyDwEjKvd-AdqOz_t9UL8Hg5rjKKb_EhP5YcZuxlqspKgTM4EncXOpwCG7WqowQxQjrLGkDGDyFRifYbnmaFQ0s1tweCbEJU95wcb5X7xq0iQU7tPQy6eGZDZoxSWUUs6ou375Fk3RChttURvJtQCRDcHBOdal4GVKGZMGLNLXn_baxg41qLpQF8sD1zWP0-Hp8EK812eo8UCVjfjo8KoxDrP5ljiKNrfZMLiCIJZT2vA5wWdIDNZsqis0Y1tiLoX79AnvM1RJ-aYNYnciQndRpcP0aLHtKCRdAS1LlAuBZT5p3IfDVF04jYq6KJyQA2Lmx2sc-aO-XjFJjTtVKeMPah0l-ulgo80xf3EwGdK4C3Mgr09bjP_fXbOWxUQHRX-0sq_lIS9yZ69zLPUddhBHiTf675KVUuVA_P078qMph15JKM5xrkHyBxJ0Wkb-osrFqdyO2-6tyGlFgTDrOnGXPy2eX1VjOyJM_mlc9loY0s3yQZiMB2MEtR27yWAGV4CzXIJxaYJ9d_cJXe3wZfS5cmDCW4H2UY3X0YdKwd3mVF8m5tUfrORJ6DkEW4mOYyM1d7WgPJ_dKktLwwbN7srPdGf6J9lxwU3k9d6e8; __Secure-1PSIDTS=sidts-CjIBBj1CYpovZfCW5xg4AgYE2sZymQ1UNeQfzukoqOT9fMfIcook-Szd-i1SWBNAwaxYIxAA; __Secure-3PSIDTS=sidts-CjIBBj1CYpovZfCW5xg4AgYE2sZymQ1UNeQfzukoqOT9fMfIcook-Szd-i1SWBNAwaxYIxAA; SIDCC=AKEyXzU8MwfJuPHbskhoHL2Y_bpfuSSy2Wqv9tG41zXxq1DIA1ANYm8qfegpDn14dlsjMmkm0W9V; __Secure-1PSIDCC=AKEyXzWfQRFXNZDFGtgp82ro20Wgcy22gk5QWxXJOnlr8pzWIy8yBXqZhT86NIphHLWRj0t1BpSy; __Secure-3PSIDCC=AKEyXzVvCiViJVlinYeoVyne-P4XUapIMrxp7rCRJO2Z41yK4SuTY_0y5J2FXcsD5SMpI8L_yNqT; _ga_W0LDH41ZCB=GS2.1.s1771346643$o114$g1$t1771350110$j60$l0$h0' \
+  -H 'origin: https://notebooklm.google.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://notebooklm.google.com/' \
+  -H 'sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"' \
+  -H 'sec-ch-ua-arch: "arm"' \
+  -H 'sec-ch-ua-bitness: "64"' \
+  -H 'sec-ch-ua-form-factors: "Desktop"' \
+  -H 'sec-ch-ua-full-version: "143.0.7499.193"' \
+  -H 'sec-ch-ua-full-version-list: "Google Chrome";v="143.0.7499.193", "Chromium";v="143.0.7499.193", "Not A(Brand";v="24.0.0.0"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-model: ""' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-ch-ua-platform-version: "15.7.1"' \
+  -H 'sec-ch-ua-wow64: ?0' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36' \
+  -H 'x-browser-channel: stable' \
+  -H 'x-browser-copyright: Copyright 2026 Google LLC. All Rights reserved.' \
+  -H 'x-browser-validation: AUXUCdutEJ+6gl6bYtz7E2kgIT4=' \
+  -H 'x-browser-year: 2026' \
+  -H 'x-client-data: CIq2yQEIprbJAQipncoBCJz8ygEIlqHLAQiGoM0BCJaMzwEIjaDPAQi1os8BCNSjzwEIk6TPAQiapc8BCOilzwEY7IXPARiyhs8BGMKhzwE=' \
+  -H 'x-same-domain: 1' \
+  --data-raw 'f.req=%5B%5B%5B%22ZwVcOc%22%2C%22%5Bnull%2C%5B1%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&at=AE_H9gYpEO-vQ8szot1FRKJ_TaG4%3A1771350110141&'

@@ -260,7 +260,7 @@ export async function getCalendarEvents(): Promise<CalendarEvent[]> {
         const timeMin = new Date(Date.now() - 86400000 * 180).toISOString(); // Last 180 days
         const response = await fetch(
             `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(CALENDAR_ID)}/events?key=${API_KEY}&timeMin=${timeMin}&singleEvents=true&orderBy=startTime`,
-            { next: { tags: ['calendar'], revalidate: 0 } }
+            { cache: 'no-store' }
         );
 
         if (!response.ok) {

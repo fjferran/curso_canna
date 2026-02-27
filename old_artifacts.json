@@ -1,0 +1,3164 @@
+{
+    "gm21-2": {
+        "subjectId": "gm21-2",
+        "notebookId": "87f0e5e2-c0cf-4897-8975-8e1f866b9324",
+        "title": "Cultivo en Interior",
+        "slideDecks": [
+            {
+                "id": "pdf-biosistemas-001",
+                "title": "Cannabis Ingeniería de Biosistemas.pdf",
+                "subtitle": "Fundamentos de ingeniería de biosistemas aplicados al cultivo en interior de cannabis.",
+                "type": "slide_deck",
+                "content": "/downloads/gm21-2/Cannabis_Ingenieria_de_Biosistemas.pdf",
+                "status": "completed"
+            },
+            {
+                "id": "pdf-ipm-002",
+                "title": "Technical Cannabis IPM.pdf",
+                "subtitle": "Gestión integrada de plagas (IPM) en cultivos de cannabis en entornos controlados.",
+                "type": "slide_deck",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ1ZGMyMDAzMy1iYTNjLTQ3MDQtODE0YS1jZjJkN2ZlN2ZmODcSCxIHEMyFveieBhgB&filename=Technical_Cannabis_IPM.pdf&opi=96797242",
+                "status": "completed"
+            }
+        ],
+        "videos": [
+            {
+                "id": "video-gm21-2-ecosistema-controlado",
+                "title": "Cultivo Interior: Ecosistema Controlado",
+                "subtitle": "Análisis del cultivo de cannabis en interiores como ecosistema controlado: parámetros clave y tecnología.",
+                "type": "video",
+                "content": "/downloads/gm21-2/video_video_gm21_2_ecosistema_controlado.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm21-2-cultivo-moderno",
+                "title": "Cultivo Moderno de Cannabis",
+                "subtitle": "Tecnologías y metodologías del cultivo moderno de cannabis en producción controlada.",
+                "type": "video",
+                "content": "/downloads/gm21-2/video_video_gm21_2_cultivo_moderno.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "(PDF) Moving Away from 12:12; the Effect of Different Photoperiods on Biomass Yield and Cannabinoids in Medicinal Cannabis",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/368841307_Moving_Away_from_1212_the_Effect_of_Different_Photoperiods_on_Biomass_Yield_and_Cannabinoids_in_Medicinal_Cannabis"
+            },
+            {
+                "title": "(PDF) The role of red and white light in optimizing growth and accumulation of plant specialized metabolites at two light intensities in medical cannabis (Cannabis sativa L.)",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/381954404_The_role_of_red_and_white_light_in_optimizing_growth_and_accumulation_of_plant_specialized_metabolites_at_two_light_intensities_in_medical_cannabis_Cannabis_sativa_L"
+            },
+            {
+                "title": "5 Estrategias Poderosas: las plagas en cultivo de cannabis - Sologrow",
+                "author": "Web Source",
+                "description": "https://sologrow.es/blog/post/plagas-cultivo-cannabis-estrategias.html"
+            },
+            {
+                "title": "Araña roja en cultivo de marihuana: guía definitiva para prevenir ...",
+                "author": "Web Source",
+                "description": "https://www.ripperseeds.com/es/blog/arana-roja-cannabis/"
+            },
+            {
+                "title": "Beneficios de usar sensores de humedad en el riego automático - Garza",
+                "author": "Web Source",
+                "description": "https://garza.es/blogs/noticias/beneficios-de-usar-sensores-de-humedad-en-el-riego-automatico"
+            },
+            {
+                "title": "Best Automation Tools for Home Growers in 2025 - Cannabis Seeds",
+                "author": "Web Source",
+                "description": "https://humboldtseedcompany.com/best-automation-tools-for-home-growers/"
+            },
+            {
+                "title": "Best Cannabis Pest Control - A Complete Grower's Guide (2025)",
+                "author": "Web Source",
+                "description": "https://www.epmearth.com/blog/best-cannabis-pest-control/"
+            },
+            {
+                "title": "Best Grow Room Conditions For Maximum Yield | Temperature, Light & CO2 – MIGROLIGHT",
+                "author": "Web Source",
+                "description": "https://migrolight.com/blogs/grow-light-news/best-grow-room-conditions-for-maximum-yield"
+            },
+            {
+                "title": "Cannabis Crop Steering Explained: Strategy, Science, and Grow Room Cues",
+                "author": "Web Source",
+                "description": "https://blog.tsrgrow.com/cannabis-crop-steering-explained-strategy-science-and-grow-room-cues"
+            },
+            {
+                "title": "Cannabis Cultivation Trends 2025: Industry Leaders Share Future Insights",
+                "author": "Web Source",
+                "description": "https://www.advancednutrients.com/articles/cannabis-cultivation-trends-2025/"
+            },
+            {
+                "title": "Cannabis Inflorescence Yield and Cannabinoid Concentration Are Not Increased With Exposure to Short-Wavelength Ultraviolet-B Radiation - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8593374/"
+            },
+            {
+                "title": "Cannabis Pests and IPM Strategies - Growlink Smart Blog",
+                "author": "Web Source",
+                "description": "https://blog.growlink.com/cannabis-pests-and-ipm-strategies"
+            },
+            {
+                "title": "Compare coco coir with rock wool as cultivation substrates！ - UPuper",
+                "author": "Web Source",
+                "description": "https://www.upuper.com/blog/Compare-coco-coir-with-rock-wool-as-cultivation-substrates.html"
+            },
+            {
+                "title": "Comprender cómo controlar la araña roja en el cannabis medicinal - Biobest",
+                "author": "Web Source",
+                "description": "https://www.biobest.com/es/noticias/comprender-c-mo-controlar-la-ara-a-roja-en-el-cannabis-medicinal-88"
+            },
+            {
+                "title": "Crop Steering Coco Guide: Potting Mix Techniques 2025 - Farmonaut",
+                "author": "Web Source",
+                "description": "https://farmonaut.com/precision-farming/crop-steering-coco-guide-potting-mix-techniques-2025"
+            },
+            {
+                "title": "Crop steering: The ultimate guide | AROYA",
+                "author": "Web Source",
+                "description": "https://aroya.io/education-guides/crop-steering"
+            },
+            {
+                "title": "Cómo evitar que la mosca del mantillo dañe tus plantas de marihuana - RQS Blog",
+                "author": "Web Source",
+                "description": "https://www.royalqueenseeds.es/blog-como-evitar-que-las-moscas-del-mantillo-danen-tus-plantas-de-marihuana-n345"
+            },
+            {
+                "title": "Cómo leer un gráfico VPD de cannabis - Humboldt Seed Company",
+                "author": "Web Source",
+                "description": "https://humboldtseedcompany.com/es/cannabis-vpd-chart/"
+            },
+            {
+                "title": "El déficit de presión (VPD) en el cultivo de cannabis - Ripper Seeds",
+                "author": "Web Source",
+                "description": "https://www.ripperseeds.com/es/blog/vpd-cultivo-cannabis/"
+            },
+            {
+                "title": "Fertigation Systems | Nutrient & pH Dosers - Hydrobuilder",
+                "author": "Web Source",
+                "description": "https://hydrobuilder.com/collections/fertigation-systems-nutrient-ph-dosers"
+            },
+            {
+                "title": "Growee vs Dosatron: Smart vs Mechanical Dosing for Hydroponics",
+                "author": "Web Source",
+                "description": "https://getgrowee.com/growee-vs-dosatron-hydroponics-dosing-comparison/"
+            },
+            {
+                "title": "Grower's Guide to Integrated Pest Management | Grow Magazine",
+                "author": "Web Source",
+                "description": "https://growmag.com/feature/the-growers-guide-to-integrated-pest-management/"
+            },
+            {
+                "title": "Growing in Rockwool vs. Coco Coir - Cultiwool",
+                "author": "Web Source",
+                "description": "https://www.cultiwool-substrate.com/growing-in-rockwool-vs-coco-coir"
+            },
+            {
+                "title": "Growlink vs TrolMaster: Best Grow Room Automation 2025",
+                "author": "Web Source",
+                "description": "https://doctorblooms.co.uk/growers-blog-posts/growlink-vs-trolmaster.html"
+            },
+            {
+                "title": "HPS vs. LED Grow Lights for Cannabis - 454 Bags",
+                "author": "Web Source",
+                "description": "https://454bags.com/blogs/grow-room-education/hps-vs-led-grow-lights-cannabis"
+            },
+            {
+                "title": "How to Measure and Set the VPD Leaf Temperature Offset - Pulse Help Center",
+                "author": "Web Source",
+                "description": "https://support.pulsegrow.com/en/articles/4261348-how-to-measure-and-set-the-vpd-leaf-temperature-offset"
+            },
+            {
+                "title": "How to Read a Cannabis VPD Chart | Humboldt Seed Company",
+                "author": "Web Source",
+                "description": "https://humboldtseedcompany.com/cannabis-vpd-chart/"
+            },
+            {
+                "title": "How to Smoothly Switch from HPS to LED Grow Lights",
+                "author": "Web Source",
+                "description": "https://activegrowled.com/pages/how-to-smoothly-switch-from-hps-to-led-grow-lights"
+            },
+            {
+                "title": "How to Solve Spider Mites in Cannabis - Natural Enemies",
+                "author": "Web Source",
+                "description": "https://naturalenemies.com/news-and-information/how-to-solve-spider-mites-in-cannabis/"
+            },
+            {
+                "title": "Irrigation Systems for Cannabis - Emerald Harvest",
+                "author": "Web Source",
+                "description": "https://emeraldharvest.co/irrigation-systems-for-cannabis/"
+            },
+            {
+                "title": "LED vs HPS Grow Lights: Which is Better for Indoor Growing in 2025? - Gorilla Grow Tent",
+                "author": "Web Source",
+                "description": "https://www.gorillagrowtent.com/blogs/news/led-vs-hps-grow-lights"
+            },
+            {
+                "title": "LED vs. HPS: An In-Depth Comparison for Growers - FOHSE",
+                "author": "Web Source",
+                "description": "https://fohse.com/led-vs-hps-grow-lights-which-is-better-for-cannabis-cultivation/"
+            },
+            {
+                "title": "LED vs.HPS",
+                "author": "Web Source",
+                "description": "https://www.specgradeled.com/wp-content/uploads/2022/05/LED_vs_HPS_Cost_Benefit_Analysis_01-01-20-1.pdf"
+            },
+            {
+                "title": "Making a Case for Agritourism",
+                "author": "Web Source",
+                "description": "https://www.growertalks.com/Article/?articleid=25678"
+            },
+            {
+                "title": "Optimize Your Bottom Line with Rockwool for Cannabis Cultivation - Advanced Nutrients",
+                "author": "Web Source",
+                "description": "https://www.advancednutrients.com/articles/rockwool-cannabis-cultivation-guide/"
+            },
+            {
+                "title": "Salt Buildup in Coco vs. Rockwool: Detection, Drybacks, and Solutions - FloraFlex",
+                "author": "Web Source",
+                "description": "https://www.floraflex.com/blogs/floraflex-media/salt-buildup-coco-rockwool-dryback-fix"
+            },
+            {
+                "title": "Scholars@Duke publication: A stomatal optimization theory to describe the effects of atmospheric CO2 on leaf photosynthesis and transpiration.",
+                "author": "Web Source",
+                "description": "https://scholars.duke.edu/display/pub736451"
+            },
+            {
+                "title": "The Advantages of Switching from Coco Coir to Rock Wool Substrate for Cannabis Cultivation - UPuper",
+                "author": "Web Source",
+                "description": "https://upupergrow.com/blog/The_Advantages_of_Switching_from_Coco_Coir_to_Rock_Wool_Substrate_for_Cannabis_Cultivation.html"
+            },
+            {
+                "title": "The Best Cannabis Substrate: Coco vs Rockwool | AROYA",
+                "author": "Web Source",
+                "description": "https://aroya.io/education-guides/cannabis-substrate-coco-vs-rockwool"
+            },
+            {
+                "title": "The Ultimate Vapor Pressure Deficit (VPD) Guide - Pulse Grow",
+                "author": "Web Source",
+                "description": "https://pulsegrow.com/blogs/learn/vpd"
+            },
+            {
+                "title": "Thrips / Floriculture and Ornamental Nurseries / Agriculture - UC IPM",
+                "author": "Web Source",
+                "description": "https://ipm.ucanr.edu/agriculture/floriculture-and-ornamental-nurseries/thrips/"
+            },
+            {
+                "title": "Trend Report 3 - Indoor Ag-Con 2025 - Indoor Ag-Con",
+                "author": "Web Source",
+                "description": "https://indoor.ag/trend-report-3-indoor-ag-con-2025/"
+            },
+            {
+                "title": "Ultraviolet Radiation, Cannabinoids & An Unequivocally Equivocal Contribution",
+                "author": "Web Source",
+                "description": "https://jumplights.com/ultraviolet-radiation-cannabinoids-and-an-unequivocally-equivocal-contribution"
+            },
+            {
+                "title": "Understanding Vapor Pressure Deficit (VPD) for Optimal Cannabis Growth - Oreate AI Blog",
+                "author": "Web Source",
+                "description": "https://www.oreateai.com/blog/understanding-vapor-pressure-deficit-vpd-for-optimal-cannabis-growth/d1fba8c39542e7c747d3c98b49a3282d"
+            },
+            {
+                "title": "Understanding Vapor Pressure Deficit (VPD): Benefits and Pitfalls, Cal - Black Dog LED",
+                "author": "Web Source",
+                "description": "https://www.blackdogled.com/blogs/education/understanding-vapor-pressure-deficit-vpd-benefits-and-pitfalls"
+            },
+            {
+                "title": "VPD Cannabis: The Key to Optimizing Your Grow Environment - Atami",
+                "author": "Web Source",
+                "description": "https://atami.com/usa/blog/cultivation/what-is-vpd-perfect-your-cannabis-growing-with-ideal-humidity-and-temperature-settings"
+            },
+            {
+                "title": "VPD Chart Mastery: The Complete Guide to Reading and Using Vapor Pressure Deficit Charts - Gorilla Grow Tent",
+                "author": "Web Source",
+                "description": "https://www.gorillagrowtent.com/blogs/news/vpd-chart"
+            },
+            {
+                "title": "Vapor Pressure Deficit - The Ultimate Guide - Dimlux Lighting - The Best Grow Lights",
+                "author": "Web Source",
+                "description": "https://dimluxlighting.com/knowledge/blog/vapor-pressure-deficit-the-ultimate-guide-to-vpd/"
+            },
+            {
+                "title": "Vapour Pressure Deficit (VPD) in Cannabis Cultivation",
+                "author": "Web Source",
+                "description": "https://www.ripperseeds.com/en/blog/vpd-cannabis-cultivation/"
+            },
+            {
+                "title": "Yield Comparison: Can LEDs Outperform HPS in Crop Output? - SecretLED",
+                "author": "Web Source",
+                "description": "https://www.secretled.com/secretled-blog/yield-comparison-leds-vs-hps-crop-output"
+            },
+            {
+                "title": "page-not-found - Ziel",
+                "author": "Web Source",
+                "description": "https://www.ziel.com/cannabis-mold-safety-risks/"
+            },
+            {
+                "title": "¿Qué es el VPD o déficit de presión de vapor? - Grow Barato",
+                "author": "Web Source",
+                "description": "https://www.growbarato.net/blog/vdp/"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-4d698458-ff63-464b-801e-babd89738652",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para RICARDO SUAY"
+        }
+    },
+    "gm21-1": {
+        "subjectId": "gm21-1",
+        "notebookId": "10b81259-110c-4609-a04d-8ea6ce9af080",
+        "title": "GM21 - Fundamentos de la Industria y negocio del cannabis",
+        "slideDecks": [
+            {
+                "id": "pdf-bioeconomy-001",
+                "title": "Global Cannabis Bioeconomy Strategy.pdf",
+                "subtitle": "Estrategia global de bioeconomía del cannabis: cadena de valor, mercados internacionales y oportunidades de negocio.",
+                "type": "slide_deck",
+                "content": "/downloads/gm21-1/Global_Cannabis_Bioeconomy_Strategy.pdf",
+                "status": "completed"
+            },
+            {
+                "id": "pdf-standardization-002",
+                "title": "CANNABIS INDUSTRY STANDARDIZATION 2026.pdf",
+                "subtitle": "Estándares técnicos y protocolos de calidad de la industria del cannabis para 2026.",
+                "type": "slide_deck",
+                "content": "/downloads/gm21-1/CANNABIS_INDUSTRY_STANDARDIZATION_2026.pdf",
+                "status": "completed"
+            },
+            {
+                "id": "pdf-realignment-003",
+                "title": "Cannabis Global Industry Realignment.pdf",
+                "subtitle": "Análisis del reposicionamiento competitivo y tendencias del mercado mundial del cannabis.",
+                "type": "slide_deck",
+                "content": "/downloads/gm21-1/Cannabis_Global_Industry_Realignment.pdf",
+                "status": "completed"
+            },
+            {
+                "id": "pdf-ipm-004",
+                "title": "Technical Cannabis IPM.pdf",
+                "subtitle": "Gestión integrada de plagas (IPM) en cultivos de cannabis en entornos controlados.",
+                "type": "slide_deck",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ1ZGMyMDAzMy1iYTNjLTQ3MDQtODE0YS1jZjJkN2ZlN2ZmODcSCxIHEMyFveieBhgB&filename=Technical_Cannabis_IPM.pdf&opi=96797242",
+                "status": "completed"
+            }
+        ],
+        "videos": [
+            {
+                "id": "video-gm21-1-industria-agronomia",
+                "title": "Cannabis: Industria y Agronomía",
+                "subtitle": "Visión general de la industria del cannabis y su agronomía generada por IA a partir de las fuentes del módulo.",
+                "type": "video",
+                "content": "/downloads/gm21-1/video_video_gm21_1_industria_agronomia.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm21-1-irlanda-clima",
+                "title": "La solución climática de 8000 M€ de Irlanda",
+                "subtitle": "Caso de éxito: la economía circular del cáñamo en Irlanda como estrategia de mitigación climática.",
+                "type": "video",
+                "content": "/downloads/gm21-1/video_video_gm21_1_irlanda_clima.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "",
+                "author": "Web Source",
+                "description": "https://www.globalgrowthinsights.com/blog/here-s-the-top-20-list-of-medical-cannabis-companies-2025-global-growth-insights-1001#:~:text=Leading%20companies%20including%20Canopy%20Growth,neurology%2C%20and%20chronic%20pain%20management."
+            },
+            {
+                "title": "(PDF) A review of the industrial use and global sustainability of ...",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/374381925_A_review_of_the_industrial_use_and_global_sustainability_of_Cannabis_sativa"
+            },
+            {
+                "title": "(PDF) A review of the industrial use and global sustainability of Cannabis sativa",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/374381925_A_review_of_the_industrial_use_and_global_sustainability_of_Cannabis_sativa"
+            },
+            {
+                "title": "(PDF) A review of the industrial use and global sustainability of Cannabis sativa",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/374381925_A_review_of_the_industrial_use_and_global_sustainability_of_Cannabis_sativa"
+            },
+            {
+                "title": "(PDF) Complete biosynthesis of cannabinoids and their unnatural analogues in yeast",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/331938886_Complete_biosynthesis_of_cannabinoids_and_their_unnatural_analogues_in_yeast"
+            },
+            {
+                "title": "(PDF) Complete biosynthesis of cannabinoids and their unnatural analogues in yeast",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/331938886_Complete_biosynthesis_of_cannabinoids_and_their_unnatural_analogues_in_yeast"
+            },
+            {
+                "title": "(PDF) HEMP (Walter Brennan,2025)",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/395535670_HEMP_Walter_Brennan2025"
+            },
+            {
+                "title": "(PDF) HEMP (Walter Brennan,2025) - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/395535670_HEMP_Walter_Brennan2025"
+            },
+            {
+                "title": "10 Biggest Cannabis Stocks in the US and Canada in 2026 - Investing News Network",
+                "author": "Web Source",
+                "description": "https://investingnews.com/daily/cannabis-investing/american-cannabis-stocks/"
+            },
+            {
+                "title": "10 Biggest Cannabis Stocks in the US and Canada in 2026 | INN",
+                "author": "Web Source",
+                "description": "https://investingnews.com/daily/cannabis-investing/american-cannabis-stocks/"
+            },
+            {
+                "title": "2025 CannaTech Innovation Award Winners - Cannabis & Tech Today",
+                "author": "Web Source",
+                "description": "https://cannatechtoday.com/2025-cannatech-innovation-award-winners/"
+            },
+            {
+                "title": "2025 CannaTech Innovation Award Winners – Cannabis & Tech Today",
+                "author": "Web Source",
+                "description": "https://cannatechtoday.com/2025-cannatech-innovation-award-winners/"
+            },
+            {
+                "title": "2025 Cannabis Market Review - CRB Monitor News",
+                "author": "Web Source",
+                "description": "https://news.crbmonitor.com/2026/01/2025-cannabis-market-review/"
+            },
+            {
+                "title": "A Comprehensive Review on the Techniques for Extraction of Bioactive Compounds from Medicinal Cannabis - PMC - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8840415/"
+            },
+            {
+                "title": "A critical review of industrial fiber hemp anatomy, agronomic practices, and valorization into sustainable bioproducts - BioResources",
+                "author": "Web Source",
+                "description": "https://bioresources.cnr.ncsu.edu/resources/a-critical-review-of-industrial-fiber-hemp-anatomy-agronomic-practices-and-valorization-into-sustainable-bioproducts/"
+            },
+            {
+                "title": "A vision for cannabis regulation: a public health approach based on lessons learned from the regulation of alcohol and tobacco - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4085088/"
+            },
+            {
+                "title": "Association of Cannabis Research Centers (ACRC)",
+                "author": "Web Source",
+                "description": "https://www.cannabisevidence.org/for-researchers/acrc/"
+            },
+            {
+                "title": "Best Marijuana Stocks for 2026: Cannabis Investing | The Motley Fool",
+                "author": "Web Source",
+                "description": "https://www.fool.com/investing/stock-market/market-sectors/healthcare/marijuana-stocks/"
+            },
+            {
+                "title": "Biotechnological advancements enabling cannabinoid biosynthesis in engineered fungi: a mini review - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12592125/"
+            },
+            {
+                "title": "Biotechnological advancements enabling cannabinoid biosynthesis in engineered fungi: a mini review - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/396867381_Biotechnological_advancements_enabling_cannabinoid_biosynthesis_in_engineered_fungi_a_mini_review"
+            },
+            {
+                "title": "Blockchain-based Cannabis Traceability in Supply Chain Management - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/378725108_Blockchain-based_Cannabis_Traceability_in_Supply_Chain_Management"
+            },
+            {
+                "title": "Blockchain-based Cannabis Traceability in Supply Chain Management - The Science and Information (SAI) Organization",
+                "author": "Web Source",
+                "description": "https://thesai.org/Downloads/Volume15No2/Paper_10-Blockchain_based_Cannabis_Traceability.pdf"
+            },
+            {
+                "title": "CANNABIS REGULATION AND THE UN DRUG TREATIES - Transnational Institute",
+                "author": "Web Source",
+                "description": "https://www.tni.org/files/publication-downloads/cannabis_regulation_and_the_un_drug_treaties_june_2016_web_0.pdf"
+            },
+            {
+                "title": "Cannabis Consumption and Markets in the United States - NCBI - NIH",
+                "author": "Web Source",
+                "description": "https://www.ncbi.nlm.nih.gov/sites/books/NBK609482/"
+            },
+            {
+                "title": "Cannabis Extraction Technologies: Impact of Research and Value Addition in Latin America",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10095677/"
+            },
+            {
+                "title": "Cannabis Market Size & Growth | Forecast Report [2030]",
+                "author": "Web Source",
+                "description": "https://www.fortunebusinessinsights.com/industry-reports/cannabis-marijuana-market-100219"
+            },
+            {
+                "title": "Cannabis Market Size, Share & Industry Growth Report 2031 - Mordor Intelligence",
+                "author": "Web Source",
+                "description": "https://www.mordorintelligence.com/industry-reports/cannabis-market"
+            },
+            {
+                "title": "Cannabis Market Study - JLARC Report",
+                "author": "Web Source",
+                "description": "https://leg.wa.gov/jlarc/reports/2025/CannabisMarket/p_a/default.html"
+            },
+            {
+                "title": "Cannabis Regulation and Development: Fair(er) Trade Options for Emerging Legal Markets",
+                "author": "Web Source",
+                "description": "https://journals.openedition.org/poldev/3758"
+            },
+            {
+                "title": "Cannabis Research Center - University of Minnesota School of Public Health",
+                "author": "Web Source",
+                "description": "https://www.sph.umn.edu/research/centers/cannabis/"
+            },
+            {
+                "title": "Cannabis Testing Market Size, Share, Growth Drivers & Research Report, 2031",
+                "author": "Web Source",
+                "description": "https://www.mordorintelligence.com/industry-reports/cannabis-testing-market"
+            },
+            {
+                "title": "Cannabis Testing Services Market | Industry Report, 2033 - Grand View Research",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/industry-analysis/cannabis-testing-services-market"
+            },
+            {
+                "title": "Cannabis Trends in 2025",
+                "author": "Web Source",
+                "description": "https://www.cannabislawnow.com/2025/01/cannabis-trends-in-2025/"
+            },
+            {
+                "title": "Economic feasibility and risk analysis of industrial hemp production: a comparative assessment of floral, fiber, and grain enterprises in North Carolina, USA - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12781740/"
+            },
+            {
+                "title": "Engineered yeast unlocks sustainable production of cannabinoids ...",
+                "author": "Web Source",
+                "description": "https://www.eurekalert.org/news-releases/1102542"
+            },
+            {
+                "title": "Enhancement of specialized metabolites using CRISPR/Cas gene editing technology in medicinal plants - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1279738/full"
+            },
+            {
+                "title": "Enhancement of specialized metabolites using CRISPR/Cas gene editing technology in medicinal plants - PMC - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10915232/"
+            },
+            {
+                "title": "GACP & EU-GMP in the Medical Cannabis Market. What ...",
+                "author": "Web Source",
+                "description": "https://www.cannavigia.com/blog-posts/why-the-eu-gacp-and-eu-gmp-is-important"
+            },
+            {
+                "title": "GMP Certification for Cannabis: Standards and Requirements - Ziel",
+                "author": "Web Source",
+                "description": "https://www.ziel.com/press/gmp-cannabis-certification-requirements/"
+            },
+            {
+                "title": "GMP standards for medicinal cannabis: guaranteeing quality in an emerging industry",
+                "author": "Web Source",
+                "description": "https://experts-institut.com/gmp-standards-for-medicinal-cannabis-guaranteeing-quality-in-an-emerging-industry/"
+            },
+            {
+                "title": "GMP/GACP - new standards for quality assurance of cannabis - Macedonian Pharmaceutical Bulletin",
+                "author": "Web Source",
+                "description": "http://bulletin.mfd.org.mk/volumes/Volume%2066_1/66_1_011.pdf"
+            },
+            {
+                "title": "Global Cannabis Market Size & Industry Growth Analysis 2030 - BCC Research",
+                "author": "Web Source",
+                "description": "https://www.bccresearch.com/market-research/pharmaceuticals/cannabis-market-report.html"
+            },
+            {
+                "title": "Global Cannabis Regulatory White Paper | Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/reports/global-cannabis-regulatory-summit-white-paper-2025"
+            },
+            {
+                "title": "Global value chains: A review of the multi-disciplinary literature",
+                "author": "Web Source",
+                "description": "https://pulte.nd.edu/assets/380592/2020_02_kano_tsang_yeung_gvcs_a_review_of_the_lit.pdf"
+            },
+            {
+                "title": "Greening the black market: understanding and learning from the diversification of cannabis supply laws - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5446799/"
+            },
+            {
+                "title": "HMPC Guideline on GACP - EMA",
+                "author": "Web Source",
+                "description": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-good-agricultural-collection-practice-gacp-starting-materials-herbal-origin-superseded_en.pdf"
+            },
+            {
+                "title": "Haploid Production in Cannabis sativa: Recent Updates, Prospects, and Perspectives - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189703/"
+            },
+            {
+                "title": "Industrial Hemp as Precursor for Sustainable Bioproducts: Recent ...",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2079-6439/13/11/155"
+            },
+            {
+                "title": "Integrating Sustainable Cultivation Practices and Advanced Extraction Methods for Improved Cannabis Yield and Cannabinoid Production - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2037-0164/16/2/38"
+            },
+            {
+                "title": "Lambert Center for the Study of Medicinal Cannabis & Hemp - Thomas Jefferson University",
+                "author": "Web Source",
+                "description": "https://www.jefferson.edu/academics/colleges-schools-institutes/health-professions/emerging-health-professions/centers/lambert-center.html"
+            },
+            {
+                "title": "Legal Cannabis Market Projected To Surpass $110 Billion By 2030",
+                "author": "Web Source",
+                "description": "https://internationalcbc.com/legal-cannabis-market-projected-to-surpass-110-billion-by-2030/"
+            },
+            {
+                "title": "Legalization of Cannabis and the Question of Reparations | Journal of International Economic Law | Oxford Academic",
+                "author": "Web Source",
+                "description": "https://academic.oup.com/jiel/article/25/2/294/6652196"
+            },
+            {
+                "title": "Lessons for cannabis regulation from illicit tobacco - Transform Drug Policy Foundation",
+                "author": "Web Source",
+                "description": "https://transformdrugs.org/blog/lessons-for-cannabis-regulation-from-the-illicit-tobacco-trade"
+            },
+            {
+                "title": "Let it grow—the open market solution to marijuana control - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4247667/"
+            },
+            {
+                "title": "Medical Cannabis & Cannabinoid Regulation 2025 | Global Practice Guides | Chambers and Partners",
+                "author": "Web Source",
+                "description": "https://practiceguides.chambers.com/practice-guides/medical-cannabis-cannabinoid-regulation-2025"
+            },
+            {
+                "title": "Medical cannabis regulation: an overview of models around the world with emphasis on the Brazilian scenario - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9202119/"
+            },
+            {
+                "title": "Multilevel determinants of cannabis prices in legal markets: Evidence from products sold in nearly 4000 cannabis dispensaries in the United States - PubMed",
+                "author": "Web Source",
+                "description": "https://pubmed.ncbi.nlm.nih.gov/39893801/"
+            },
+            {
+                "title": "Page Not Found - 404 | MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/journal/sustainability/special_issues/hemp_waste"
+            },
+            {
+                "title": "Schäfer KJ, et al. (2025) - Saccharomyces Genome Database | SGD",
+                "author": "Web Source",
+                "description": "https://www.yeastgenome.org/reference/S100000724"
+            },
+            {
+                "title": "Seed-to-Sale Traceability: The Role of Barcodes and RFID in Regulatory Compliance of the Marijuana Industry",
+                "author": "Web Source",
+                "description": "https://barcodenews.com/2019092712199/seed-to-sale-traceability-the-incremental-role-of-barcodes-and-rfid-s-in-regulatory-compliance-of-the-commercial-cannabis-industry.html"
+            },
+            {
+                "title": "Simple Extraction of Cannabinoids from Female Inflorescences of Hemp (Cannabis sativa L.) - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9504406/"
+            },
+            {
+                "title": "State of the Cannabis Industry report 2025 - First Citizens Bank",
+                "author": "Web Source",
+                "description": "https://www.firstcitizens.com/commercial/insights/industry-expertise/cannabis-report-2025"
+            },
+            {
+                "title": "Supply Chain Management in the Booming Cannabis Industry - Specright",
+                "author": "Web Source",
+                "description": "https://www.specright.com/blog/supply-chain-management-in-the-booming-cannabis-industry/"
+            },
+            {
+                "title": "Top 10 Cannabis Drug Companies Leading the Market in 2026 - Kings Research",
+                "author": "Web Source",
+                "description": "https://www.kingsresearch.com/blog/top-10-cannabis-drug-companies-making-waves"
+            },
+            {
+                "title": "Top 10 Legal Marijuana Companies to Watch in 2025 and Beyond - Research and Markets",
+                "author": "Web Source",
+                "description": "https://www.researchandmarkets.com/articles/key-companies-in-legal-marijuana"
+            },
+            {
+                "title": "Top Cannabis Companies 2026 - Built In",
+                "author": "Web Source",
+                "description": "https://builtin.com/companies/type/cannabis-companies"
+            },
+            {
+                "title": "U.S. Cannabis Market Size & Share | Industry Report, 2030",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/industry-analysis/us-cannabis-market"
+            },
+            {
+                "title": "U.S. Cannabis Market Trends Analysis Report 2025-2030 | Celebrity-Backed Brands from Celebrities Such as Jay-Z & Snoop, and Mainstream Companies Drive Growth Amid Expanding Legalization - ResearchAndMarkets.com - Business Wire",
+                "author": "Web Source",
+                "description": "https://www.businesswire.com/news/home/20250801594710/en/U.S.-Cannabis-Market-Trends-Analysis-Report-2025-2030-Celebrity-Backed-Brands-from-Celebrities-Such-as-Jay-Z-Snoop-and-Mainstream-Companies-Drive-Growth-Amid-Expanding-Legalization---ResearchAndMarkets.com"
+            },
+            {
+                "title": "US20230265444A1 - Gene-editing in cannabis plant - Google Patents",
+                "author": "Web Source",
+                "description": "https://patents.google.com/patent/US20230265444A1/en"
+            },
+            {
+                "title": "Understanding the essentials of seed-to-sale cannabis tracking - Metrc",
+                "author": "Web Source",
+                "description": "https://www.metrc.com/understanding-the-essentials-of-seed-to-sale-cannabis-tracking/"
+            },
+            {
+                "title": "VALUE CHAIN ANALYSIS OF INDUSTRIAL HEMP: AN EXTENSIVE REVIEW AND A CASE OF NEPAL",
+                "author": "Web Source",
+                "description": "https://research.usq.edu.au/download/79dabf75071347f890a936f6045ccaa5180c808ce5188b2fac0e4b0b6aa3966d/21886947/Rajan%20Budhathoki%20-%20THESIS.pdf"
+            },
+            {
+                "title": "Vergara's Picks for \"Top 5 Cannabis sativa Research Papers for 2025\"- Harvest New York",
+                "author": "Web Source",
+                "description": "https://harvestny.cce.cornell.edu/submission.php?id=174&crumb=emerging_crops|8"
+            },
+            {
+                "title": "Vergara's Picks for \"Top 5 Cannabis sativa Research Papers for 2025\"- Harvest New York - Cornell University - Cornell Cooperative Extension",
+                "author": "Web Source",
+                "description": "https://harvestny.cce.cornell.edu/submission.php?id=174&crumb=emerging_crops|8"
+            },
+            {
+                "title": "Volatility, Uncertainty, Complexity, and Ambiguity in ... - HEC Montréal",
+                "author": "Web Source",
+                "description": "https://biblos.hec.ca/biblio/memoires/hibanada_manolito_m2021.pdf"
+            },
+            {
+                "title": "What Are the Top 12 Medical Cannabis Companies in 2025?",
+                "author": "Web Source",
+                "description": "https://www.globalgrowthinsights.com/blog/here-s-the-top-20-list-of-medical-cannabis-companies-2025-global-growth-insights-1001#:~:text=Leading%20companies%20including%20Canopy%20Growth,neurology%2C%20and%20chronic%20pain%20management."
+            },
+            {
+                "title": "What Are the Top 12 Medical Cannabis Companies in 2025?",
+                "author": "Web Source",
+                "description": "https://www.globalgrowthinsights.com/blog/here-s-the-top-20-list-of-medical-cannabis-companies-2025-global-growth-insights-1001"
+            },
+            {
+                "title": "What Are the Top 12 Medical Cannabis Companies in 2025?",
+                "author": "Web Source",
+                "description": "https://www.globalgrowthinsights.com/blog/here-s-the-top-20-list-of-medical-cannabis-companies-2025-global-growth-insights-1001#:~:text=Leading%20companies%20including%20Canopy%20Growth,neurology%2C%20and%20chronic%20pain%20management."
+            },
+            {
+                "title": "What Are the Top 12 Medical Cannabis Companies in 2025? - Global Growth Insights",
+                "author": "Web Source",
+                "description": "https://www.globalgrowthinsights.com/blog/here-s-the-top-20-list-of-medical-cannabis-companies-2025-global-growth-insights-1001"
+            },
+            {
+                "title": "https://biblos.hec.ca/biblio/memoires/hibanada_manolito_m2021.pdf",
+                "author": "Web Source",
+                "description": "https://biblos.hec.ca/biblio/memoires/hibanada_manolito_m2021.pdf"
+            },
+            {
+                "title": "https://research.usq.edu.au/download/79dabf75071347f890a936f6045ccaa5180c808ce5188b2fac0e4b0b6aa3966d/21886947/Rajan%20Budhathoki%20-%20THESIS.pdf",
+                "author": "Web Source",
+                "description": "https://research.usq.edu.au/download/79dabf75071347f890a936f6045ccaa5180c808ce5188b2fac0e4b0b6aa3966d/21886947/Rajan%20Budhathoki%20-%20THESIS.pdf"
+            },
+            {
+                "title": "“Bounded Equity: The Limits of Economic Models of Social Justice in Cannabis Legislation” - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10373104/"
+            },
+            {
+                "title": "“Bounded Equity: The Limits of Economic Models of Social Justice in Cannabis Legislation” - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10373104/"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-10b81259-110c-4609-a04d-8ea6ce9af080",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM21 - Fundamentos de la Industria y negocio del cannabis"
+        }
+    },
+    "gm20-2": {
+        "subjectId": "gm20-2",
+        "notebookId": "9f6ca868-aeb4-4784-a2c4-1e451a370bb9",
+        "title": "GM20 - Análisis de Oportunidades de Mercado",
+        "slideDecks": [],
+        "videos": [
+            {
+                "id": "video-gm20-2-futuro-cannabis",
+                "title": "El Futuro del Cannabis",
+                "subtitle": "Tendencias y oportunidades del mercado global del cannabis 2025-2030.",
+                "type": "video",
+                "content": "/downloads/gm20-2/video_video_gm20_2_futuro_cannabis.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm20-2-paradoja-cannabis",
+                "title": "La paradoja del cannabis",
+                "subtitle": "Análisis de las contradicciones del mercado y la regulación del cannabis a nivel global.",
+                "type": "video",
+                "content": "/downloads/gm20-2/video_video_gm20_2_paradoja_cannabis.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "2025 Cannabis Industry Statistics & Market Insights - Paybotic Financial",
+                "author": "Web Source",
+                "description": "https://payboticfinancial.com/cannabis-industry-statistics-2025/"
+            },
+            {
+                "title": "2025 M&A Review - Lazard",
+                "author": "Web Source",
+                "description": "https://www.lazard.com/media/vnajb4v3/2025-ma-review-and-2026-outlook-report.pdf"
+            },
+            {
+                "title": "2026 Cannabis Industry Statistics - Flowhub",
+                "author": "Web Source",
+                "description": "https://www.flowhub.com/cannabis-industry-statistics"
+            },
+            {
+                "title": "Africa's Cannabis Industry Growth - NECANN",
+                "author": "Web Source",
+                "description": "https://necann.com/cannabis-news/africas-cannabis-industry-growth/"
+            },
+            {
+                "title": "Asia Pacific Medical Marijuana Market Size & Outlook - Grand View Research",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/horizon/outlook/medical-marijuana-market/asia-pacific"
+            },
+            {
+                "title": "Asia-Pacific Medical Cannabis Market Size, Share and Forecast to 2033 - Straits Research",
+                "author": "Web Source",
+                "description": "https://straitsresearch.com/report/medical-cannabis-market/asia-pacific"
+            },
+            {
+                "title": "Boosting Regulated German Cannabis Should Be A Top 2026 Priority",
+                "author": "Web Source",
+                "description": "https://internationalcbc.com/boosting-regulated-german-cannabis-should-be-a-top-2026-priority/"
+            },
+            {
+                "title": "Cannabis Industry Quarterly Update - Benesch Law",
+                "author": "Web Source",
+                "description": "https://www.beneschlaw.com/a/web/cyVUDfnoiKcHsxhNjVeuRP/aPXnVn/cannabis_q3_0925_revised.pdf"
+            },
+            {
+                "title": "Cannabis Market Size & Growth | Forecast Report [2030] - Fortune Business Insights",
+                "author": "Web Source",
+                "description": "https://www.fortunebusinessinsights.com/industry-reports/cannabis-marijuana-market-100219"
+            },
+            {
+                "title": "Cannabis Market in the US 2025-2029",
+                "author": "Web Source",
+                "description": "https://www.researchandmarkets.com/reports/5850045/cannabis-market-in-the-us"
+            },
+            {
+                "title": "Cannabis Market worth $125.76 billion by 2030- Exclusive Report by MarketsandMarkets™",
+                "author": "Web Source",
+                "description": "https://www.prnewswire.com/news-releases/cannabis-market-worth-125-76-billion-by-2030-exclusive-report-by-marketsandmarkets-302514735.html"
+            },
+            {
+                "title": "Cannabis Remediation in Colombia: Keeping Your Exports Safe - Ziel",
+                "author": "Web Source",
+                "description": "https://www.ziel.com/press/cannabis-remediation-in-colombia-keeping-your-exports-safe/"
+            },
+            {
+                "title": "Cannabis in 2026 – Part I: Marijuana Rescheduling—What's Moving, What Won't, and Why It Matters",
+                "author": "Web Source",
+                "description": "https://www.cannabislawblog.com/2026/01/cannabis-in-2026-part-i-marijuana-rescheduling-whats-moving-what-wont-and-why-it-matters/"
+            },
+            {
+                "title": "Cannabis in Africa - WeGROW's Guide to The Cannabis Continent",
+                "author": "Web Source",
+                "description": "https://www.wegrowls.com/cannabis-in-africa/"
+            },
+            {
+                "title": "Cannabis in Thailand - Wikipedia",
+                "author": "Web Source",
+                "description": "https://en.wikipedia.org/wiki/Cannabis_in_Thailand"
+            },
+            {
+                "title": "Colombia Wants to Lead the Next Global Cannabis Wave and Germany Could Be Its Biggest Customer",
+                "author": "Web Source",
+                "description": "https://cannabis-startups.com/colombia-wants-to-lead-the-next-global-cannabis-wave-and-germany-could-be-its-biggest-customer/"
+            },
+            {
+                "title": "Colombia's Cannabis Export Boom: How the Country Is Becoming a Global Medical Marijuana Powerhouse | Get Med Card",
+                "author": "Web Source",
+                "description": "https://getmedcard.co/colombias-cannabis-export-boom-how-the-country-is-becoming-a-global-medical-marijuana-powerhouse/"
+            },
+            {
+                "title": "Colombia's GACP Cannabis Push to EU GMP Markets - Ziel",
+                "author": "Web Source",
+                "description": "https://www.ziel.com/press/colombia-gacp-gmp-cannabis-europe/"
+            },
+            {
+                "title": "DEA cannabis rescheduling rule coming \"ASAP,\" Trump insider says (Newsletter: January 29, 2026) - Marijuana Moment",
+                "author": "Web Source",
+                "description": "https://www.marijuanamoment.net/dea-cannabis-rescheduling-rule-coming-asap-trump-insider-says-newsletter-january-29-2026/"
+            },
+            {
+                "title": "Federal Cannabis Rescheduling Update | Michael Best & Friedrich LLP",
+                "author": "Web Source",
+                "description": "https://www.michaelbest.com/insights/federal-cannabis-rescheduling-update/"
+            },
+            {
+                "title": "From heady highs to desperate lows: inside Thailand's return to medical-only cannabis",
+                "author": "Web Source",
+                "description": "https://www.businesstimes.com.sg/international/asean/heady-highs-desperate-lows-inside-thailands-return-medical-only-cannabis"
+            },
+            {
+                "title": "Germany Adult-Use Cannabis Market 2025 | Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/2025/10/14/germany-adult-use-cannabis-market-overview-2025/"
+            },
+            {
+                "title": "Germany's 'Pillar 2' at a Crossroads: 2025 Model Projects, State Politics, and What Compliance Could Require - CannabisRegulations.ai",
+                "author": "Web Source",
+                "description": "https://www.cannabisregulations.ai/cannabis-and-hemp-regulations-compliance-ai-blog/germany-2025-pillar-2-cannabis-model-projects"
+            },
+            {
+                "title": "Germany's Hidden Stigma Crisis: Why Pillar 2 is Still Sorely Needed - Business of Cannabis",
+                "author": "Web Source",
+                "description": "https://businessofcannabis.com/germanys-hidden-stigma-crisis-why-pillar-2-is-still-sorely-needed/"
+            },
+            {
+                "title": "Germany's Pillar 2 Cannabis Pilots: Where, When, and How Access Will Work in 2025–2026",
+                "author": "Web Source",
+                "description": "https://www.cannabisregulations.ai/cannabis-and-hemp-regulations-compliance-ai-blog/germany-pillar-2-cannabis-pilot-projects-2025-2026"
+            },
+            {
+                "title": "Global Cannabis Cultivation Market Report 2026: Business Expansio",
+                "author": "Web Source",
+                "description": "https://natlawreview.com/press-releases/global-cannabis-cultivation-market-report-2026-business-expansion-key-growth"
+            },
+            {
+                "title": "Global Cannabis Industry 2026: Trends, Risks & Predictions",
+                "author": "Web Source",
+                "description": "https://businessofcannabis.com/whats-in-store-for-the-global-cannabis-industry-in-2026/"
+            },
+            {
+                "title": "Global Cannabis Market Outlook 2025–2030: Rising Demand for Edibles, THC, and CBD Products - GlobeNewswire",
+                "author": "Web Source",
+                "description": "https://www.globenewswire.com/news-release/2025/08/19/3135751/0/en/Global-Cannabis-Market-Outlook-2025-2030-Rising-Demand-for-Edibles-THC-and-CBD-Products.html"
+            },
+            {
+                "title": "Global Cannabis Market Size & Industry Growth Analysis 2030 - BCC Research",
+                "author": "Web Source",
+                "description": "https://www.bccresearch.com/market-research/pharmaceuticals/cannabis-market-report.html"
+            },
+            {
+                "title": "Global Cannabis Playbook Emerges Amid U.S. Uncertainty - mg Magazine",
+                "author": "Web Source",
+                "description": "https://mgmagazine.com/business/legal-politics/cannabis-without-borders-global-standards/"
+            },
+            {
+                "title": "Global Cannabis Wellness Market Trends 2026 - Wishing Wellness DC Weed Dispensary",
+                "author": "Web Source",
+                "description": "https://wishingwellnessdc.com/global-cannabis-wellness-market-trends-2026/"
+            },
+            {
+                "title": "Global M&A industry trends: 2026 outlook - PwC",
+                "author": "Web Source",
+                "description": "https://www.pwc.com/gx/en/services/deals/trends.html"
+            },
+            {
+                "title": "Global M&A poised to sustain momentum in 2026 after great rebound, finds Bain & Company - PR Newswire",
+                "author": "Web Source",
+                "description": "https://www.prnewswire.com/news-releases/global-ma-poised-to-sustain-momentum-in-2026-after-great-rebound-finds-bain--company-302670251.html"
+            },
+            {
+                "title": "Global Medical Cannabis Market Review - Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/reports/global-medical-cannabis-market-review-2026/"
+            },
+            {
+                "title": "Grand View Research",
+                "author": "Web Source",
+                "description": "https://grandviewresearch.com/asia-pacific-cannabis"
+            },
+            {
+                "title": "Grand View Research",
+                "author": "Web Source",
+                "description": "https://grandviewresearch.com/us-cannabis-market"
+            },
+            {
+                "title": "Latin America Cannabidiol Market Size & Outlook, 2024-2030",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/horizon/outlook/cannabidiol-market/latin-america"
+            },
+            {
+                "title": "Latin America Cannabis Cultivation Market Size & Outlook, 2030 - Grand View Research",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/horizon/outlook/cannabis-cultivation-market/latin-america"
+            },
+            {
+                "title": "Latin America Legal Marijuana Market Size & Outlook - Grand View Research",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/horizon/outlook/legal-marijuana-market/latin-america"
+            },
+            {
+                "title": "Legal Cannabis Global Strategic Business Report 2025-2030 | Post ...",
+                "author": "Web Source",
+                "description": "https://www.businesswire.com/news/home/20250709522793/en/Legal-Cannabis-Global-Strategic-Business-Report-2025-2030-Post-Legalization-Price-Compression-and-Market-Saturation-in-Mature-Regions-Drive-Consolidation-and-Efficiency-Strategies---ResearchAndMarkets.com"
+            },
+            {
+                "title": "Legal Cannabis Market Projected To Surpass $110 Billion By 2030",
+                "author": "Web Source",
+                "description": "https://internationalcbc.com/legal-cannabis-market-projected-to-surpass-110-billion-by-2030/"
+            },
+            {
+                "title": "Legal Consequences of Rescheduling Marijuana - Congress.gov",
+                "author": "Web Source",
+                "description": "https://www.congress.gov/crs-product/LSB11105"
+            },
+            {
+                "title": "M&A Outlook 2026: Expectations Are High—Again | BCG",
+                "author": "Web Source",
+                "description": "https://www.bcg.com/publications/2026/m-and-a-outlook-expectations-are-high-again"
+            },
+            {
+                "title": "M&A Sector Spotlight: Cannabis - Dykema",
+                "author": "Web Source",
+                "description": "https://www.dykema.com/MnA-2025/manda-sector-spotlight-cannabis.html"
+            },
+            {
+                "title": "Marijuana industry will add $123.6 billion to US economy this year - MJBizDaily",
+                "author": "Web Source",
+                "description": "https://mjbizdaily.com/news/marijuana-industry-will-add-123-billion-to-us-economy-in-2025/403777/"
+            },
+            {
+                "title": "Momentum Continues To Build For South Africa's Cannabis Industry",
+                "author": "Web Source",
+                "description": "https://internationalcbc.com/momentum-continues-to-build-for-south-africas-cannabis-industry/"
+            },
+            {
+                "title": "Page not found | High Times Magazine",
+                "author": "Web Source",
+                "description": "https://hightimes.com/craft-cannabis"
+            },
+            {
+                "title": "Relm Risk Briefing Webinar - Cannabis 2026 - Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/relm-risk-briefing-webinar-2026/"
+            },
+            {
+                "title": "Relm Risk Briefing: Cannabis 2026 - Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/reports/relm-risk-briefing-cannabis-2026/"
+            },
+            {
+                "title": "South Africa is Positioning Itself as Rising Leader in Global Hemp ...",
+                "author": "Web Source",
+                "description": "https://www.thedtic.gov.za/south-africa-is-positioning-itself-as-rising-leader-in-global-hemp-and-cannabis-industry/"
+            },
+            {
+                "title": "Thailand Cannabis Laws (2026 Update): What Tourists Need to Know",
+                "author": "Web Source",
+                "description": "https://www.deevanahotels.com/blog/thailand-cannabis-law/"
+            },
+            {
+                "title": "Thailand Cannabis: The Complete Analysis",
+                "author": "Web Source",
+                "description": "https://cannabis-startups.com/thailand-cannabis-the-complete-analysis/"
+            },
+            {
+                "title": "Thailand Medical Marijuana Market Size & Outlook, 2030 - Grand View Research",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/horizon/outlook/medical-marijuana-market/thailand"
+            },
+            {
+                "title": "Thailand Restricts Recreational Cannabis Use, Returns to Medical-Only Market",
+                "author": "Web Source",
+                "description": "https://www.cannabissciencetech.com/view/thailand-restricts-recreational-cannabis-use-returns-to-medical-only-market"
+            },
+            {
+                "title": "Thailand's Legal Reversal on Cannabis: Restriction to Medical Use Only",
+                "author": "Web Source",
+                "description": "https://www.legal500.com/developments/thought-leadership/thailands-legal-reversal-on-cannabis-restriction-to-medical-use-only/"
+            },
+            {
+                "title": "The Top International Cannabis Stories Of 2025",
+                "author": "Web Source",
+                "description": "https://internationalcbc.com/the-top-international-cannabis-stories-of-2025/"
+            },
+            {
+                "title": "U.S. Cannabis Market Size & Share | Industry Report, 2030 - Grand View Research",
+                "author": "Web Source",
+                "description": "https://www.grandviewresearch.com/industry-analysis/us-cannabis-market"
+            },
+            {
+                "title": "What Trump's Executive Order means for cannabis research | Hogan Lovells - JDSupra",
+                "author": "Web Source",
+                "description": "https://www.jdsupra.com/legalnews/what-trump-s-executive-order-means-for-6774376/"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-9f6ca868-aeb4-4784-a2c4-1e451a370bb9",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM20 - Análisis de Oportunidades de Mercado"
+        }
+    },
+    "gm20-5": {
+        "subjectId": "gm20-5",
+        "notebookId": "ca11fc7d-2bab-40a5-b1bc-2ed547e5ae0e",
+        "title": "GM20 - Uso Medicinal del Cannabis",
+        "slideDecks": [],
+        "videos": [
+            {
+                "id": "video-gm20-5-cannabis-cuerpo",
+                "title": "El Cannabis y Tu Cuerpo",
+                "subtitle": "Cómo interactúa el cannabis con el sistema endocannabinoide y sus efectos terapéuticos.",
+                "type": "video",
+                "content": "/downloads/gm20-5/video_video_gm20_5_cannabis_cuerpo.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm20-5-hype-ciencia",
+                "title": "Cannabis: Hype vs. Ciencia",
+                "subtitle": "Separando los mitos de la evidencia científica en el uso medicinal del cannabis.",
+                "type": "video",
+                "content": "/downloads/gm20-5/video_video_gm20_5_hype_ciencia.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "BEYOND THC AND CBD: THE IMPORTANCE OF TERPENES IN MEDICINAL CANNABIS",
+                "author": "Web Source",
+                "description": "https://www.labiana.com/en/news/beyond-thc-and-cbd-the-importance-of-terpenes-in-medicinal-cannabis/"
+            },
+            {
+                "title": "Cannabinoids and Pain: New Insights From Old Molecules - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2018.01259/full"
+            },
+            {
+                "title": "Cannabinoids and endocannabinoids as therapeutics for nervous ...",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10664133/"
+            },
+            {
+                "title": "Cannabinoids in Chronic Pain: Clinical Outcomes, Adverse Effects and Legal Challenges",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12472909/"
+            },
+            {
+                "title": "Cannabis Health Effects - CDC",
+                "author": "Web Source",
+                "description": "https://www.cdc.gov/cannabis/health-effects/index.html"
+            },
+            {
+                "title": "Cannabis Health Effects | Cannabis and Public Health | CDC",
+                "author": "Web Source",
+                "description": "https://cdc.gov/cannabis/health-effects"
+            },
+            {
+                "title": "Cannabis Policy Impacts Public Health and Health Equity (2024)",
+                "author": "Web Source",
+                "description": "https://www.nationalacademies.org/read/27766/chapter/2"
+            },
+            {
+                "title": "Cannabis Terpenes Activate Endogenous Cannabinoid Receptors - NORML",
+                "author": "Web Source",
+                "description": "https://norml.org/news/2025/11/20/analysis-cannabis-terpenes-act-as-agonists-on-endogenous-cannabinoid-receptors/"
+            },
+            {
+                "title": "Cannabis for Chronic Pain: Mechanistic Insights and Therapeutic Challenges - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2673-7140/5/1/7"
+            },
+            {
+                "title": "Cannabis-Derived Terpenes: 2025 Guide to Benefits, Effects & VSCs - PrestoDoctor",
+                "author": "Web Source",
+                "description": "https://prestodoctor.com/content/strains/cannabis-derived-terpenes-2025-guide-to-benefits-effects-vscs"
+            },
+            {
+                "title": "Chapter: 6 Available and Needed Research on Cannabis Policy",
+                "author": "Web Source",
+                "description": "https://www.nationalacademies.org/read/27766/chapter/8"
+            },
+            {
+                "title": "Clearing the Smoke on Cannabis: Medical Use of Cannabis and Cannabinoids-2024 update",
+                "author": "Web Source",
+                "description": "https://ccsa.ca/sites/default/files/2024-04/Clearing-the-Smoke-on-Cannabis-Medical-Use-of-Cannabis-and-Cannabinoids-2024-Update-en.pdf"
+            },
+            {
+                "title": "Drug Fact Sheet: Marijuana/Cannabis - DEA.gov",
+                "author": "Web Source",
+                "description": "https://www.dea.gov/sites/default/files/2020-06/Marijuana-Cannabis-2020_0.pdf"
+            },
+            {
+                "title": "Ep. 48 - The Entourage Effect is Still a Theory | Cannabis Nurse Truths",
+                "author": "Web Source",
+                "description": "https://www.cannabisnursetruths.com/e/ep-48-the-entourage-effect-still-a-theory/"
+            },
+            {
+                "title": "Episode 246: Cannabis and Depression, Anxiety, PTSD, Sleep, and Cognitive Function Update and Review - Psychiatry & Psychotherapy Podcast",
+                "author": "Web Source",
+                "description": "https://www.psychiatrypodcast.com/psychiatry-psychotherapy-podcast/episode-246-cannabis-and-depression-anxiety-ptsd-sleep-and-cognitive-function-update-and-review"
+            },
+            {
+                "title": "FDA Drug-Approved Cannabinoids as of 2025 - cbdMD",
+                "author": "Web Source",
+                "description": "https://www.cbdmd.com/blogs/posts/fda-drug-approved-cannabinoids-as-of-2025"
+            },
+            {
+                "title": "FDA Regulation of Cannabis and Cannabis-Derived Products, Including Cannabidiol (CBD)",
+                "author": "Web Source",
+                "description": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd"
+            },
+            {
+                "title": "FDA and Cannabis: Research and Drug Approval Process",
+                "author": "Web Source",
+                "description": "https://www.fda.gov/news-events/public-health-focus/fda-and-cannabis-research-and-drug-approval-process"
+            },
+            {
+                "title": "INCREASING MEDICAL MARIJUANA AND CANNABIDIOL RESEARCH – The White House",
+                "author": "Web Source",
+                "description": "https://www.whitehouse.gov/presidential-actions/2025/12/increasing-medical-marijuana-and-cannabidiol-research/"
+            },
+            {
+                "title": "In silico analyses of the involvement of GPR55, CB1R and TRPV1: response to THC, contribution to temporal lobe epilepsy, structural modeling and updated evolution - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2024.1294939/full"
+            },
+            {
+                "title": "In silico analyses of the involvement of GPR55, CB1R and TRPV1: response to THC, contribution to temporal lobe epilepsy, structural modeling and updated evolution - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894036/"
+            },
+            {
+                "title": "Key Neurology Trial Readouts to Watch in Early 2026 | NeurologyLive",
+                "author": "Web Source",
+                "description": "https://www.neurologylive.com/view/key-neurology-trial-readouts-to-watch-in-early-2026"
+            },
+            {
+                "title": "Marijuana - Mayo Clinic",
+                "author": "Web Source",
+                "description": "https://www.mayoclinic.org/drugs-supplements-marijuana/art-20364974"
+            },
+            {
+                "title": "Marijuana and Prescribed Medications - UW ADAI - University of Washington",
+                "author": "Web Source",
+                "description": "https://adai.uw.edu/pubs/pdf/sto19-04.pdf"
+            },
+            {
+                "title": "Mechanisms of Action and Pharmacokinetics of Cannabis - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8803256/"
+            },
+            {
+                "title": "Medical Cannabis Adverse Effects & Drug Interactions - DC Health",
+                "author": "Web Source",
+                "description": "https://doh.dc.gov/sites/default/files/dc/sites/doh/publication/attachments/Medical%20Cannabis%20Adverse%20Effects%20and%20Drug%20Interactions_0.pdf"
+            },
+            {
+                "title": "Minor Cannabinoids (CBG, CBN, THCV): The Next Frontier in Medical Cannabis",
+                "author": "Web Source",
+                "description": "https://compcaremd.com/minor-cannabinoids-cbg-cbn-thcv-the-next-frontier-in-medical-cannabis/"
+            },
+            {
+                "title": "Minor Cannabinoids: Biosynthesis, Molecular Pharmacology and Potential Therapeutic Uses - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8669157/"
+            },
+            {
+                "title": "Molecular Mechanism and Cannabinoid Pharmacology - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8637936/"
+            },
+            {
+                "title": "New Drexel University MCRC Study Provides First Published Insight on Cannabinoid and Terpene Profile Preferences of Medical Cannabis Patients Using Commercially Available Products",
+                "author": "Web Source",
+                "description": "https://drexel.edu/cannabis-research/research/research-highlights/2025/August/terpene-study-pammj"
+            },
+            {
+                "title": "New Israeli Study Discovers Cannabis Terpenes Activate Endocannabinoid Receptors",
+                "author": "Web Source",
+                "description": "https://www.cannabissciencetech.com/view/new-israeli-study-discovers-cannabis-terpenes-activate-endocannabinoid-receptors"
+            },
+            {
+                "title": "New Study Shows Clinical Evidence of the Entourage Effect as D-Limonene Mitigates Anxiety in Combination with THC - Drexel University",
+                "author": "Web Source",
+                "description": "https://drexel.edu/cannabis-research/research/research-highlights/2024/April/study-shows-clinical-evidence-entourage-effect-thc-limonene/"
+            },
+            {
+                "title": "Phytochemical Modulators of Nociception: A Review of Cannabis Terpenes in Chronic Pain Syndromes - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/1424-8247/18/8/1100"
+            },
+            {
+                "title": "Potential Adverse Drug Events and Drug–Drug Interactions with Medical and Consumer Cannabidiol (CBD) Use - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2077-0383/8/7/989"
+            },
+            {
+                "title": "Proceedings of the 2025 Cannabis Clinical Outcomes Research Conference - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12823107/"
+            },
+            {
+                "title": "PsychRes.com is for sale | HugeDomains",
+                "author": "Web Source",
+                "description": "https://psychres.com/cannabinoids-anxiety"
+            },
+            {
+                "title": "Public Health Consequences of Changes in the Cannabis Policy Landscape",
+                "author": "Web Source",
+                "description": "https://nationalacademies.org/cannabis-policy"
+            },
+            {
+                "title": "Public Health Consequences of Changes in the Cannabis Policy Landscape",
+                "author": "Web Source",
+                "description": "https://www.nationalacademies.org/projects/HMD-BPH-22-05"
+            },
+            {
+                "title": "Receptor mechanisms underlying the CNS effects of cannabinoids - PubMed Central - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10709991/"
+            },
+            {
+                "title": "Registered Ongoing Studies | Cannabis Evidence",
+                "author": "Web Source",
+                "description": "https://www.cannabisevidence.org/registered-ongoing-studies/"
+            },
+            {
+                "title": "Review of efficacy and safety of medicinal cannabis, 2024. - Drugs ...",
+                "author": "Web Source",
+                "description": "https://www.drugsandalcohol.ie/40659/"
+            },
+            {
+                "title": "Review of the Endocannabinoid System - PMC - PubMed Central - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7855189/"
+            },
+            {
+                "title": "Secondary Terpenes in Cannabis sativa L. Synthesis and Synergy - Penn State",
+                "author": "Web Source",
+                "description": "https://pure.psu.edu/en/publications/secondary-terpenes-in-cannabis-sativa-l-synthesis-and-synergy/"
+            },
+            {
+                "title": "Study Details | NCT06448923 | Cannabidiol After Multi-Trauma for Pain and Opioid Therapy | ClinicalTrials.gov",
+                "author": "Web Source",
+                "description": "https://www.clinicaltrials.gov/study/NCT06448923?term=AREA%5BInterventionSearch%5D(cannabidiol)&rank=8"
+            },
+            {
+                "title": "Study Details | NCT06570928 | Use of a Cannabinoids as a Treatment Strategy for Alzheimer's Disease | ClinicalTrials.gov",
+                "author": "Web Source",
+                "description": "https://clinicaltrials.gov/study/NCT06570928"
+            },
+            {
+                "title": "Study shows long-term benefits of medicinal cannabis for chronic health conditions",
+                "author": "Web Source",
+                "description": "https://www.news-medical.net/news/20250402/Study-shows-long-term-benefits-of-medicinal-cannabis-for-chronic-health-conditions.aspx"
+            },
+            {
+                "title": "TRIALS UPDATE: The Latest Alzheimer's Clinical Trial News (2025.02) | Being Patient",
+                "author": "Web Source",
+                "description": "https://beingpatient.com/trials-update-2025-q1/"
+            },
+            {
+                "title": "The Endocannabinoid System: Role in Energy Regulation - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3696506/"
+            },
+            {
+                "title": "The Entourage Effect in Cannabis Medicinal Products: A Comprehensive Review - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11870048/"
+            },
+            {
+                "title": "The Impact of Terpenes on the Efficacy of Medical Cannabis",
+                "author": "Web Source",
+                "description": "https://wishingwellnessdc.com/the-impact-of-terpenes-on-the-efficacy-of-medical-cannabis/"
+            },
+            {
+                "title": "The Latest Research on Minor Cannabinoids - Emerald Bay Extracts",
+                "author": "Web Source",
+                "description": "https://www.emeraldbayextracts.com/the-latest-research-on-minor-cannabinoids"
+            },
+            {
+                "title": "The Regulatory Environment Surrounding Cannabis Medicines in the EU, the USA, and Australia - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12115261/"
+            },
+            {
+                "title": "The endocannabinoid system, cannabis, and cannabidiol: Implications in urology and men's health - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8221009/"
+            },
+            {
+                "title": "The entourage effect in cannabis - Ripper Seeds",
+                "author": "Web Source",
+                "description": "https://www.ripperseeds.com/en/blog/entourage-effect-cannabis/"
+            },
+            {
+                "title": "Therapeutic Potential for Cannabis and Cannabinoids 2.0",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730434/"
+            },
+            {
+                "title": "Therapeutic potential of cannabinoids in neurological conditions: a systematic review of clinical trials - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1521792/full"
+            },
+            {
+                "title": "UT Health San Antonio research shows Alzheimer's prevention potential in pairing cannabis ingredient, anti-inflammatory drug",
+                "author": "Web Source",
+                "description": "https://news.uthscsa.edu/ut-health-san-antonio-research-shows-alzheimers-prevention-potential-in-pairing-cannabis-ingredient-anti-inflammatory-drug/"
+            },
+            {
+                "title": "Unlocking the Synergy: Understanding the Entourage Effect in Cannabis - Green Compass",
+                "author": "Web Source",
+                "description": "https://greencompassglobal.com/blogs/news/unlocking-the-synergy-understanding-the-entourage-effect-in-cannabis"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-ca11fc7d-2bab-40a5-b1bc-2ed547e5ae0e",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM20 - Uso Medicinal del Cannabis"
+        }
+    },
+    "gm20-3": {
+        "subjectId": "gm20-3",
+        "notebookId": "09877603-88c3-4586-a89c-da80657795e6",
+        "title": "GM20 - Negocio, Comercio y Distribución",
+        "slideDecks": [],
+        "videos": [
+            {
+                "id": "video-gm20-3-economia-cannabis",
+                "title": "La Economía del Cannabis",
+                "subtitle": "Fundamentos económicos, modelos de negocio y cadena de distribución en la industria del cannabis.",
+                "type": "video",
+                "content": "/downloads/gm20-3/video_video_gm20_3_economia_cannabis.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm20-3-anatomia-cannabis",
+                "title": "La anatomía del cannabis",
+                "subtitle": "Estructura botánica y componentes activos del cannabis relevantes para el negocio y la distribución.",
+                "type": "video",
+                "content": "/downloads/gm20-3/video_video_gm20_3_anatomia_cannabis.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "(PDF) Energy-intensive indoor cultivation drives the cannabis industry's expanding carbon footprint - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/388683940_Energy-intensive_indoor_cultivation_drives_the_cannabis_industry's_expanding_carbon_footprint"
+            },
+            {
+                "title": "(PDF) Energy-intensive indoor cultivation drives the cannabis industry’s expanding carbon footprint",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/388683940"
+            },
+            {
+                "title": "10 Innovative Cannabis Companies You Need To Check Out In 2026",
+                "author": "Web Source",
+                "description": "https://www.zamnesia.com/blog-10-innovative-cannabis-companies-you-need-to-check-out-n3076"
+            },
+            {
+                "title": "2026 Cannabis Industry Statistics - Flowhub",
+                "author": "Web Source",
+                "description": "https://www.flowhub.com/cannabis-industry-statistics"
+            },
+            {
+                "title": "A Guide to Starting a Laboratory for Chemical Analysis - GenTech Scientific",
+                "author": "Web Source",
+                "description": "https://gentechscientific.com/a-guide-to-starting-a-laboratory-for-chemical-analysis/"
+            },
+            {
+                "title": "Abstracts of the Annual Meeting of the Iuliu Hațieganu University of Medicine and Pharmacy",
+                "author": "Web Source",
+                "description": "https://medpharmareports.com/public/public/Supplements/2025-supplement-1.pdf"
+            },
+            {
+                "title": "Advancement of Research Progress on Synthesis Mechanism of Cannabidiol (CBD) - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11264327/"
+            },
+            {
+                "title": "Advances and Perspectives in Tissue Culture and Genetic Engineering of Cannabis - PMC - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8197860/"
+            },
+            {
+                "title": "Best 3PL Companies for CBD | 2026",
+                "author": "Web Source",
+                "description": "https://partner3pl.com/niche/cbd/"
+            },
+            {
+                "title": "Best 3PL Companies in 2026 | Top Logistics Partners - Fulfillment Plus",
+                "author": "Web Source",
+                "description": "https://www.teamfpi.com/best-3pl-companies-2026-guide/"
+            },
+            {
+                "title": "Best 3PLs in Canada​ (2025 Rankings) - Buske Logistics",
+                "author": "Web Source",
+                "description": "https://www.buske.com/blog/best-3pls-in-canada"
+            },
+            {
+                "title": "Biosynthesis – Taking the cannabinoid market to new heights ...",
+                "author": "Web Source",
+                "description": "https://www.edisongroup.com/thematic/biosynthesis-taking-the-cannabinoid-market-to-new-heights/"
+            },
+            {
+                "title": "Biotechnological advancements enabling cannabinoid biosynthesis in engineered fungi: a mini review - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12592125/"
+            },
+            {
+                "title": "Cannabinoid Biosynthesis Market Growth 2025–2032 - Persistence Market Research",
+                "author": "Web Source",
+                "description": "https://www.persistencemarketresearch.com/market-research/cannabinoid-biosynthesis-market.asp"
+            },
+            {
+                "title": "Cannabinoid Biosynthesis Market Size, Growth Forecasts 2026-2035 - Research Nester",
+                "author": "Web Source",
+                "description": "https://www.researchnester.com/reports/cannabinoid-biosynthesis-market/4142"
+            },
+            {
+                "title": "Cannabis Business Startup Guide 2025 | How to Start - WebJoint",
+                "author": "Web Source",
+                "description": "https://www.webjoint.com/2025/11/07/cannabis-business-startup-guide-2025-how-to-start/"
+            },
+            {
+                "title": "Cannabis Cultivation Trends in 2025 and Beyond: Advanced Nutrients' Industry Forecast",
+                "author": "Web Source",
+                "description": "https://www.advancednutrients.com/articles/cannabis-cultivation-trends-2025/"
+            },
+            {
+                "title": "Cannabis Franchise vs Other Retail Models Page - Cova Software",
+                "author": "Web Source",
+                "description": "https://www.covasoftware.com/cannabis-franchise-vs-other-retail-models"
+            },
+            {
+                "title": "Cannabis Industry Faces An Inflection Point This Year",
+                "author": "Web Source",
+                "description": "https://howardandhoward.com/news/cannabis-industry-faces-an-inflection-point-this-year"
+            },
+            {
+                "title": "Cannabis Innovation: 10 Trends Driving Growth | Velosio",
+                "author": "Web Source",
+                "description": "https://www.velosio.com/blog/10-cannabis-industry-trends-driving-growth-and-innovation/"
+            },
+            {
+                "title": "Cannabis Market Size, Share & Industry Growth Report 2031 - Mordor Intelligence",
+                "author": "Web Source",
+                "description": "https://www.mordorintelligence.com/industry-reports/cannabis-market"
+            },
+            {
+                "title": "Cannabis Nano-Emulsions: Faster Onset, Stronger Effects - mg Magazine",
+                "author": "Web Source",
+                "description": "https://mgmagazine.com/business/manufacturing/cannabis-nano-emulsions-faster-onset-stronger-effects/"
+            },
+            {
+                "title": "Cannabis pangenome reveals potential for medicinal and industrial ...",
+                "author": "Web Source",
+                "description": "https://www.salk.edu/news-release/cannabis-pangenome-reveals-potential-for-medicinal-and-industrial-use/"
+            },
+            {
+                "title": "EU-GMP Roadmap - Cannaflos 2024",
+                "author": "Web Source",
+                "description": "https://cannaflos.de/homepage/market-access/eu-gmp-roadmap/"
+            },
+            {
+                "title": "Enhancing cannabinoid bioavailability: a crossover study comparing a novel self-nanoemulsifying drug delivery system and a commercial oil-based formulation - PMC - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12166629/"
+            },
+            {
+                "title": "Environmental Impact of Outdoor Cannabis Production - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11253875/"
+            },
+            {
+                "title": "Establishing a secure connection ...",
+                "author": "Web Source",
+                "description": "https://flowhub.com/cannabis-statistics"
+            },
+            {
+                "title": "For cannabis brands, nano is a risky play - SōRSE Technologies",
+                "author": "Web Source",
+                "description": "https://sorsetech.com/for-cannabis-brands-nano-is-a-risky-play/"
+            },
+            {
+                "title": "From Grow Room to Brand Loyalty: What Vertical Integration Actually Means for Cannabis Customers - SparkPlug",
+                "author": "Web Source",
+                "description": "https://sparkplug.app/blog/from-grow-room-to-brand-loyalty-what-vertical-integration-actually-means-for-cannabis-customers"
+            },
+            {
+                "title": "GMP for Cannabis – what you need to know - GMP Navigator",
+                "author": "Web Source",
+                "description": "https://www.gmp-navigator.com/files/eca/userFiles/seminarpdf/ECA-GMP-for-Cannabis-Live-Online-Conference.pdf"
+            },
+            {
+                "title": "GMP standards for medicinal cannabis: guaranteeing quality in an emerging industry",
+                "author": "Web Source",
+                "description": "https://experts-institut.com/gmp-standards-for-medicinal-cannabis-guaranteeing-quality-in-an-emerging-industry/"
+            },
+            {
+                "title": "Global Cannabis Industry 2026: Trends, Risks & Predictions",
+                "author": "Web Source",
+                "description": "https://businessofcannabis.com/whats-in-store-for-the-global-cannabis-industry-in-2026/"
+            },
+            {
+                "title": "Global Growth Insights",
+                "author": "Web Source",
+                "description": "https://globalgrowthinsights.com/top-companies-2025"
+            },
+            {
+                "title": "Horizontal and Vertical Integration Affect the Cannabis Industry - Leafbuyer",
+                "author": "Web Source",
+                "description": "https://www.leafbuyer.com/blog/horizontal-vertical-integration/"
+            },
+            {
+                "title": "Innovative Strategies to Enhance the Bioavailability of Cannabidiol: Nanotechnology and Advanced Delivery Systems - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/1424-8247/18/11/1637"
+            },
+            {
+                "title": "Integrating Sustainable Cultivation Practices and Advanced Extraction Methods for Improved Cannabis Yield and Cannabinoid Production - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2037-0164/16/2/38"
+            },
+            {
+                "title": "Medicinal cannabis production with GMP-compliant cleanroom solutions",
+                "author": "Web Source",
+                "description": "https://cleanroomtechnology.com/medicinal-cannabis-production-with-gmp-compliant-cleanroom-solutions"
+            },
+            {
+                "title": "Novel Intravenous Nanoemulsions Based on Cannabidiol-Enriched ...",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/1420-3049/30/2/278"
+            },
+            {
+                "title": "Optimization of Extraction and Enrichment Process of Cannabidiol from Industrial Hemp and Evaluation of Its Bioactivity - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1495779/abstract"
+            },
+            {
+                "title": "PHYSIOMEDICALISM - Soil and Health Library",
+                "author": "Web Source",
+                "description": "https://soilandhealth.org/wp-content/uploads/020187.Thurston.pdf"
+            },
+            {
+                "title": "Page not found - New Frontier Data",
+                "author": "Web Source",
+                "description": "https://newfrontierdata.com/consumer-demographics"
+            },
+            {
+                "title": "Psychedelic Listening Project",
+                "author": "Web Source",
+                "description": "https://psychedeliclisteningproject.org/"
+            },
+            {
+                "title": "Q3 2025 Cannabis Business Licensing Activity Review - CRB Monitor News",
+                "author": "Web Source",
+                "description": "https://news.crbmonitor.com/downloads/q3-2025-cannabis-business-licensing-activity-review/"
+            },
+            {
+                "title": "Shift To Outdoor Marijuana Cultivation Could Cut Industry Emissions By Up To 76%, Study Finds",
+                "author": "Web Source",
+                "description": "https://micia.org/2025/03/28/shift-to-outdoor-marijuana-cultivation-could-cut-industry-emissions-by-up-to-76-study-finds/"
+            },
+            {
+                "title": "Shift To Outdoor Marijuana Cultivation Could Cut Industry Emissions By Up To 76%, Study Finds",
+                "author": "Web Source",
+                "description": "https://www.marijuanamoment.net/shift-to-outdoor-marijuana-cultivation-could-cut-industry-emissions-by-up-to-76-study-finds/"
+            },
+            {
+                "title": "Sorry, we can’t find that page. – Ganjapreneur",
+                "author": "Web Source",
+                "description": "https://ganjapreneur.com/ancillary-businesses"
+            },
+            {
+                "title": "Stocks Complete (10,000+ Tickers) - FirstRate Data",
+                "author": "Web Source",
+                "description": "https://firstratedata.com/b/22/stock-complete-historical-intraday"
+            },
+            {
+                "title": "Strategic Cannabis License Applications 2025: Expert Guide to Win Cultivation, Retail & Microbusiness Licenses - Collateral Base",
+                "author": "Web Source",
+                "description": "https://collateralbase.com/strategic-cannabis-license-applications/"
+            },
+            {
+                "title": "The 10 Fastest-Growing 3PL Companies (US & Global Lists), 2026 | Speed Commerce",
+                "author": "Web Source",
+                "description": "https://www.speedcommerce.com/insights/the-10-fastest-growing-3pl-companies-us-list-global-lists/"
+            },
+            {
+                "title": "The Complete Guide to GMP Certification in the Cannabis Industry - Twister Technologies",
+                "author": "Web Source",
+                "description": "https://www.twistertrimmer.com/complete-guide-to-gmp-certification-in-the-cannabis-industry/"
+            },
+            {
+                "title": "The cannabis industry's expanding carbon footprint - Bon Stock",
+                "author": "Web Source",
+                "description": "https://bonstock.quebec/the-cannabis-industrys-expanding-carbon-footprint/"
+            },
+            {
+                "title": "Top 10 Cannabis Drug Companies Leading the Market in 2026 - Kings Research",
+                "author": "Web Source",
+                "description": "https://www.kingsresearch.com/blog/top-10-cannabis-drug-companies-making-waves"
+            },
+            {
+                "title": "U.S. Cannabis Industry Poised to Surpass $29 Billion in 2025",
+                "author": "Web Source",
+                "description": "https://thecannabisbusinessadvisors.com/us-cannabis-industry-poised-to-surpass/"
+            },
+            {
+                "title": "US Cannabis Market Size, Share & Trends Report To 2034",
+                "author": "Web Source",
+                "description": "https://www.imarcgroup.com/us-cannabis-market"
+            },
+            {
+                "title": "Vertical Integration in Cannabis Explained Pros, Cons & Industry Impact - Vangst",
+                "author": "Web Source",
+                "description": "https://vangst.com/2023/04/08/vertical-integration-cannabis/"
+            },
+            {
+                "title": "Vertical Integration in Kentucky's Cannabis Market: Planning for the Future",
+                "author": "Web Source",
+                "description": "https://www.kycannabislawgroup.com/journal/vertical-integration-in-kentuckys-cannabis-market-planning-for-the-future"
+            },
+            {
+                "title": "Vertically Integrated Cannabis Operations - Mobius Trimmer",
+                "author": "Web Source",
+                "description": "https://mobiustrimmer.com/vertically-integrated-cannabis/"
+            },
+            {
+                "title": "WTO | The page cannot be found",
+                "author": "Web Source",
+                "description": "https://wto.org/cannabis-trade"
+            },
+            {
+                "title": "What Are the Top 12 Medical Cannabis Companies in 2025? - Global Growth Insights",
+                "author": "Web Source",
+                "description": "https://www.globalgrowthinsights.com/blog/here-s-the-top-20-list-of-medical-cannabis-companies-2025-global-growth-insights-1001"
+            },
+            {
+                "title": "What Schedule III Could Mean for the Cannabis Industry - Headset",
+                "author": "Web Source",
+                "description": "https://www.headset.io/blog/what-schedule-iii-could-mean-for-the-cannabis-industry"
+            },
+            {
+                "title": "What is the Cannabis Supply Chain and How Does it Work in 2025",
+                "author": "Web Source",
+                "description": "https://canndelta.com/what-is-the-cannabis-supply-chain-and-how-does-it-work-in-2025/"
+            },
+            {
+                "title": "What is the economic outlook for marijuana companies in 2025?",
+                "author": "Web Source",
+                "description": "https://mjbizdaily.com/news/what-is-the-economic-outlook-for-cannabis-companies-in-2025/399595/"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-09877603-88c3-4586-a89c-da80657795e6",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM20 - Negocio, Comercio y Distribución"
+        }
+    },
+    "gm20-4": {
+        "subjectId": "gm20-4",
+        "notebookId": "725b8d51-1b7d-4691-9729-3507f25cce7f",
+        "title": "GM20 - Normativa y Legislación en el Sector",
+        "slideDecks": [],
+        "videos": [
+            {
+                "id": "video-gm20-4-laberinto-legal",
+                "title": "El Laberinto Legal del Cannabis en España",
+                "subtitle": "Marco legal español y europeo del cannabis: retos regulatorios y oportunidades de cumplimiento.",
+                "type": "video",
+                "content": "/downloads/gm20-4/video_video_gm20_4_laberinto_legal.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm20-4-paradoja-cannabis",
+                "title": "La paradoja del cannabis",
+                "subtitle": "Las contradicciones entre la normativa vigente y la realidad del sector del cannabis en España.",
+                "type": "video",
+                "content": "/downloads/gm20-4/video_video_gm20_4_paradoja_cannabis.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "Abogado Penalista en Alicante - Soler Martín Abogados",
+                "author": "Web Source",
+                "description": "https://solermartinabogados.com/cannabis-crimes"
+            },
+            {
+                "title": "Attorney Specializing in Cannabis-Related Crimes - Soler Martín Abogados",
+                "author": "Web Source",
+                "description": "https://solermartinabogados.com/en/crimes-against-public-health/cannabis/"
+            },
+            {
+                "title": "CBD Market Overview: Europe 2025 - Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/2025/10/18/cbd-market-overview-europe-2025/"
+            },
+            {
+                "title": "Can You Bring CBD To Spain? Importing Process And Standards - Essentia Pura",
+                "author": "Web Source",
+                "description": "https://essentiapura.com/what-to-know-about-importing-cbd-into-spain/"
+            },
+            {
+                "title": "Cannabinoids: from pot to lab - International Journal of Medical Sciences",
+                "author": "Web Source",
+                "description": "https://www.medsci.org/v15p1286.htm"
+            },
+            {
+                "title": "Cannabis in Europe (2025 update)",
+                "author": "Web Source",
+                "description": "https://assets.ctfassets.net/pn8wbiqtnzw9/MuBhbwrCy8zqJXADZfuhN/ec6e131178e89ef6a21248828090602c/Cannabis_in_Europe_Update_2__Feb_2025_.pdf"
+            },
+            {
+                "title": "Cannabis in Spain - Wikipedia",
+                "author": "Web Source",
+                "description": "https://en.wikipedia.org/wiki/Cannabis_in_Spain"
+            },
+            {
+                "title": "Cannabis law and legislation in Spain | CMS Expert Guides",
+                "author": "Web Source",
+                "description": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/spain"
+            },
+            {
+                "title": "Cannabis policy hub | www.euda.europa.eu - European Union",
+                "author": "Web Source",
+                "description": "https://www.euda.europa.eu/topics/cannabis-policy_en"
+            },
+            {
+                "title": "Cannabis social clubs in Spain Federation of Cannabis Associations",
+                "author": "Web Source",
+                "description": "http://druglawreform.info/images/stories/documents/dlr9.pdf"
+            },
+            {
+                "title": "Cannabis users and stigma: A comparison of users from European countries with different cannabis policies - HvA Research Database",
+                "author": "Web Source",
+                "description": "https://research.hva.nl/en/publications/cannabis-users-and-stigma-a-comparison-of-users-from-european-cou/"
+            },
+            {
+                "title": "Cannabis – the current situation in Europe (European Drug Report 2024) - euda.europa.eu",
+                "author": "Web Source",
+                "description": "https://www.euda.europa.eu/publications/european-drug-report/2024/cannabis_en"
+            },
+            {
+                "title": "Cannabis – the current situation in Europe (European Drug Report 2025) - euda.europa.eu",
+                "author": "Web Source",
+                "description": "https://www.euda.europa.eu/publications/european-drug-report/2025/cannabis_en"
+            },
+            {
+                "title": "Comparative analysis of cannabis regulation models in Europe",
+                "author": "Web Source",
+                "description": "https://www.ugent.be/re/cssr/en/research-groups/isd/projects.htm/comparative-analysis-of-cannabis-regulation-models-in-europe"
+            },
+            {
+                "title": "Cultivation of Industrial Hemp in Spain | GrowerIQ",
+                "author": "Web Source",
+                "description": "https://groweriq.ca/2024/07/05/industrial-hemp-spain/"
+            },
+            {
+                "title": "Draft HMPC Public statement on non-preparation of a EU herbal ...",
+                "author": "Web Source",
+                "description": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-public-statement-cannabis-sativa-l-flos_en.pdf?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-81IKRzC3O3HbAUo2LbgQLrCWXDZEvLlAQ3RWBZf7ZsDcdX30IRvWuJlk9Z4ziCLoGs8bqF"
+            },
+            {
+                "title": "EU Court of Justice to rule on Italian ban on CBD and hemp inflorescences - Eunews",
+                "author": "Web Source",
+                "description": "https://www.eunews.it/en/2025/11/12/eu-court-of-justice-to-rule-on-italian-ban-on-cbd-and-hemp-inflorescences/"
+            },
+            {
+                "title": "European Recreational Cannabis Research Report 2024: Understand Evolving Legal Frameworks, Identify Market Entry Opportunities, Overview of Germany, Malta, Netherlands, Switzerland, Spain - ResearchAndMarkets.com - Business Wire",
+                "author": "Web Source",
+                "description": "https://www.businesswire.com/news/home/20241205738189/en/European-Recreational-Cannabis-Research-Report-2024-Understand-Evolving-Legal-Frameworks-Identify-Market-Entry-Opportunities-Overview-of-Germany-Malta-Netherlands-Switzerland-Spain---ResearchAndMarkets.com"
+            },
+            {
+                "title": "France 2025: CBD at 0.3% THC, New Neo‑Cannabinoid Bans, and What Importers Must Change - Cannabis Regulations AI",
+                "author": "Web Source",
+                "description": "https://www.cannabisregulations.ai/cannabis-and-hemp-regulations-compliance-ai-blog/france-2025-cbd-neo-cannabinoid-bans-import-rules"
+            },
+            {
+                "title": "Germany's cannabis act: a catalyst for European drug policy reform? - PMC - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11109464/"
+            },
+            {
+                "title": "HR Magazine - Home",
+                "author": "Web Source",
+                "description": "https://hrmagazine.co.uk/cannabis-workplace-safety"
+            },
+            {
+                "title": "Hemp - Agriculture and rural development - European Commission",
+                "author": "Web Source",
+                "description": "https://agriculture.ec.europa.eu/farming/crop-productions-and-plant-based-products/hemp_en"
+            },
+            {
+                "title": "Hemp CBD Across Europe: Spain - Canna Law Blog™ - Harris Sliwoski LLP",
+                "author": "Web Source",
+                "description": "https://harris-sliwoski.com/cannalawblog/hemp-cbd-across-europe-spain/"
+            },
+            {
+                "title": "Is Europe Moving Away From Cannabis Flower? – Why Companies Are Betting on CE-Certified Devices",
+                "author": "Web Source",
+                "description": "https://businessofcannabis.com/is-europe-moving-away-from-cannabis-flower-why-companies-are-betting-on-ce-certified-devices/"
+            },
+            {
+                "title": "Is cannabis legal in Spain? - Agropharm",
+                "author": "Web Source",
+                "description": "https://agropharm.com/blog/is-cannabis-legal-in-spain/"
+            },
+            {
+                "title": "Italy CBD Ban 2025: Court Victory Challenges Crackdown - Essentia Pura",
+                "author": "Web Source",
+                "description": "https://essentiapura.com/italy-cbd-ban-2025/"
+            },
+            {
+                "title": "Italy's 2025 Emergency CBD Ban: What Decree-Law 48/2025 ...",
+                "author": "Web Source",
+                "description": "https://www.cannabisregulations.ai/cannabis-and-hemp-regulations-compliance-ai-blog/italy-2025-emergency-cbd-ban-decree-law-48-2025"
+            },
+            {
+                "title": "Italy: Strict New Regulations on Hemp Take Effect | Library of Congress",
+                "author": "Web Source",
+                "description": "https://www.loc.gov/item/global-legal-monitor/2025-07-16/italy-strict-new-regulations-on-hemp-take-effect/"
+            },
+            {
+                "title": "Language selection | Agriculture and rural development",
+                "author": "Web Source",
+                "description": "https://ec.europa.eu/agriculture/hemp-cap"
+            },
+            {
+                "title": "Leyes y drogas - Energy Control",
+                "author": "Web Source",
+                "description": "https://energycontrol.org/infodrogas/leyes-y-drogas/"
+            },
+            {
+                "title": "Malta 2025: ARUC's Crackdown on Cannabis Associations—Fines, Odor Complaints, and ID Controls - CannabisRegulations.ai",
+                "author": "Web Source",
+                "description": "https://www.cannabisregulations.ai/cannabis-and-hemp-regulations-compliance-ai-blog/malta-2025-aruc-crackdown-cannabis-associations"
+            },
+            {
+                "title": "Malta Cannabis Laws: A Guide for U.S. Businesses Entering Europe's First Legal Cannabis Market | Vicente LLP - JDSupra",
+                "author": "Web Source",
+                "description": "https://www.jdsupra.com/legalnews/malta-cannabis-laws-a-guide-for-u-s-2920340/"
+            },
+            {
+                "title": "Malta Rolls Back Historic Cannabis Legalization, Calls Odor a \"Nuisance\" - Filter",
+                "author": "Web Source",
+                "description": "https://filtermag.org/malta-cannabis-law/amp/"
+            },
+            {
+                "title": "Malta's Parliament Approves Changes To Adult-Use Cannabis Laws",
+                "author": "Web Source",
+                "description": "https://internationalcbc.com/maltas-parliament-approves-changes-to-adult-use-cannabis-laws/"
+            },
+            {
+                "title": "Malta: Adult-Use Cannabis Market Overview 2025 - Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/2025/10/17/malta-adult-use-cannabis-market-overview-2025/"
+            },
+            {
+                "title": "Medical Cannabis & Cannabinoid Regulation 2025 - Chambers Global Practice Guides",
+                "author": "Web Source",
+                "description": "https://practiceguides.chambers.com/practice-guides/medical-cannabis-cannabinoid-regulation-2025"
+            },
+            {
+                "title": "Medical cannabis: approved use only in hospitals | PortalCLÍNIC",
+                "author": "Web Source",
+                "description": "https://www.clinicbarcelona.org/en/news/medical-use-of-cannabis-approved-in-hospitals-only-and-under-specialist-supervision"
+            },
+            {
+                "title": "Multa por porros en España 2025: guía completa y cómo recurrirla",
+                "author": "Web Source",
+                "description": "https://www.iwannagrowshop.com/blog/multa-por-porros/"
+            },
+            {
+                "title": "New regulatory framework established for the medicinal use of cannabis in Spain",
+                "author": "Web Source",
+                "description": "https://www.osborneclarke.com/insights/new-regulatory-framework-established-medicinal-use-cannabis-spain"
+            },
+            {
+                "title": "New | NEWS | AEMPS establishes register for standardized ...",
+                "author": "Web Source",
+                "description": "https://www.asphalion.com/news/news-aemps-establishes-register-for-standardized-cannabis-preparations/"
+            },
+            {
+                "title": "Reform of the EU pharmaceutical legislation | European Medicines Agency (EMA)",
+                "author": "Web Source",
+                "description": "https://www.ema.europa.eu/en/about-us/what-we-do/reform-eu-pharmaceutical-legislation"
+            },
+            {
+                "title": "Regulatory Affairs Professionals Society | RAPS",
+                "author": "Web Source",
+                "description": "https://raps.org/cannabis-traceability"
+            },
+            {
+                "title": "Room to Grow: A Comparative Analysis of Cannabis Regulation Models in Europe - SIT Digital Collections",
+                "author": "Web Source",
+                "description": "https://digitalcollections.sit.edu/cgi/viewcontent.cgi?article=4362&context=isp_collection"
+            },
+            {
+                "title": "Royal Decree establishing the conditions for the preparation and dispensing of specified magistral formulas for standardised can",
+                "author": "Web Source",
+                "description": "https://teknikengel.ticaret.gov.tr/sites/other/teknikengel/uploads/abbildirimler/44/da25b242e069560fb780811c4fc03c24.pdf"
+            },
+            {
+                "title": "Sanciones por Consumo de Marihuana de Uso para Adultos - CDPH",
+                "author": "Web Source",
+                "description": "https://www.cdph.ca.gov/Programs/DO/letstalkcannabis/CDPH%20Document%20Library/Customizable%20Fact%20Sheets/Spanish/CDPH-Sanciones%20marihuana%20uso%20adultos.pdf"
+            },
+            {
+                "title": "Spain Legalizes Medicinal Cannabis - Caliterpenes blog",
+                "author": "Web Source",
+                "description": "https://www.caliterpenes.com/blog/en/spain-medicinal-cannabis-legal/"
+            },
+            {
+                "title": "Spain's CBD Boom Faces Hemp Sector Collapse and Regulatory Limbo - Cannamonitor",
+                "author": "Web Source",
+                "description": "https://cannamonitor.com/spains-cbd-boom-faces-hemp-sector-collapse-and-regulatory-limbo/"
+            },
+            {
+                "title": "Spain's Draft Royal Decree for Medical Cannabis: Prescribers, Products, and a 2026 Rollout Timeline",
+                "author": "Web Source",
+                "description": "https://www.cannabisregulations.ai/cannabis-and-hemp-regulations-compliance-ai-blog/spain-draft-royal-decree-medical-cannabis-prescribers-products-timeline"
+            },
+            {
+                "title": "Spain's Medical Cannabis Decree Faces Supreme Court Appeal",
+                "author": "Web Source",
+                "description": "https://businessofcannabis.com/spanish-pharmacists-appeal-hospital-only-cannabis-rule-as-key-regulatory-deadline-passes-unmet/"
+            },
+            {
+                "title": "Spain's New Magistral Prescribing Regulations - Association of Cannabinoid Specialists",
+                "author": "Web Source",
+                "description": "https://www.cannaspecialists.org/spains_new_magistral_prescribing_regulations"
+            },
+            {
+                "title": "Spain: Medical Cannabis Market Overview 2025 - Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/2025/09/18/spain-medical-cannabis-market-overview/"
+            },
+            {
+                "title": "Summary of Formulary Changes Effective January 1, 2026 - CareSource",
+                "author": "Web Source",
+                "description": "https://www.caresource.com/documents/multi-exc-m-4945150-summary-of-form-changes-eff-1-1-26.pdf"
+            },
+            {
+                "title": "The New Decisions of the Constitutional Court: The End of Cannabis Tolerance in Spain",
+                "author": "Web Source",
+                "description": "https://www.tni.org/en/article/the-new-decisions-of-the-constitutional-court-the-end-of-cannabis-tolerance-in-spain"
+            },
+            {
+                "title": "The Supreme Court confirms the nullity of the Special Urban Plan for the organization of clubs and associations of Cannabis consumers in the city of Barcelona. - Pareja & Associats, Advocats",
+                "author": "Web Source",
+                "description": "https://pareja-advocats.com/en/blog/the-supreme-court-confirms-the-nullity-of-the-special-urban-plan-for-the-organization-of-clubs-and-associations-of-cannabis-consumers-in-the-city-of-barcelona/"
+            },
+            {
+                "title": "Updates - European Observatory on Health Systems and Policies",
+                "author": "Web Source",
+                "description": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/spain-2024/medical-use-of-cannabis-approved"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-725b8d51-1b7d-4691-9729-3507f25cce7f",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM20 - Normativa y Legislación en el Sector"
+        }
+    },
+    "gm20-1": {
+        "subjectId": "gm20-1",
+        "notebookId": "3bb67a64-34c9-48c4-9b3c-4070bc00de5d",
+        "title": "GM20 - Digitalización de Procesos y Agricultura de Precisión",
+        "slideDecks": [],
+        "videos": [
+            {
+                "id": "video-gm20-1-revolucion-tech",
+                "title": "Cannabis: La Revolución Tech",
+                "subtitle": "Transformación digital y tecnológica en el cultivo y gestión del cannabis: IA, IoT y agricultura de precisión.",
+                "type": "video",
+                "content": "/downloads/gm20-1/video_video_gm20_1_revolucion_tech.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm20-1-revolucion-ia",
+                "title": "Revolución IA en el Cannabis",
+                "subtitle": "Aplicaciones de inteligencia artificial para optimizar el cultivo, la calidad y la rentabilidad del cannabis.",
+                "type": "video",
+                "content": "/downloads/gm20-1/video_video_gm20_1_revolucion_ia.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "(PDF) Estimating plant height, nitrogen uptake and above-ground biomass using UAV multispectral imaging coupled with machine learning in industrial hemp (Cannabis sativa L.)",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/396558810"
+            },
+            {
+                "title": "(PDF) Estimating plant height, nitrogen uptake and above-ground biomass using UAV multispectral imaging coupled with machine learning in industrial hemp (Cannabis sativa L.) - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/396558810_Estimating_plant_height_nitrogen_uptake_and_above-ground_biomass_using_UAV_multispectral_imaging_coupled_with_machine_learning_in_industrial_hemp_Cannabis_sativa_L"
+            },
+            {
+                "title": "(PDF) SmartGrow DataControl: An IoT architecture for the acquisition of environmental physiological parameters in Cannabis sativa cultivations",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/383829728"
+            },
+            {
+                "title": "(PDF) SmartGrow DataControl: An IoT architecture for the acquisition of environmental physiological parameters in Cannabis sativa cultivations - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/383829728_SmartGrow_DataControl_An_IoT_architecture_for_the_acquisition_of_environmental_physiological_parameters_in_Cannabis_sativa_cultivations"
+            },
+            {
+                "title": "(PDF) Weed Detection Based on Deep Learning from UAV Imagery: A Review",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/393274084"
+            },
+            {
+                "title": "2023 Farm Bill Hemp THCA: Powerful Insights For 2025 & 2026 - Farmonaut",
+                "author": "Web Source",
+                "description": "https://farmonaut.com/usa/2023-farm-bill-hemp-thca-powerful-insights-for-2025-2026"
+            },
+            {
+                "title": "404 Error",
+                "author": "Web Source",
+                "description": "https://facilitiesnet.com/hvac-predictive"
+            },
+            {
+                "title": "5 Ways IoT is Redefining Cannabis Farming for the Future - Trustt",
+                "author": "Web Source",
+                "description": "https://trustthq.com/5-ways-iot-is-redefining-cannabis-farming-for-the-future/"
+            },
+            {
+                "title": "5+ Cannabis Cultivation Software Picks for Growers in 2024 - Shoeboxed",
+                "author": "Web Source",
+                "description": "https://www.shoeboxed.com/blog/cannabis-cultivation-software"
+            },
+            {
+                "title": "AgDataBox API – Integration of data and software in precision agriculture - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/336054838_AgDataBox_API_-_Integration_of_data_and_software_in_precision_agriculture"
+            },
+            {
+                "title": "Assessment of the knowledge landscape, information needs and ...",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12366241/"
+            },
+            {
+                "title": "Automated IoT-Based Monitoring of Industrial Hemp in Greenhouses Using Open-Source Systems and Computer Vision - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2624-7402/7/9/272"
+            },
+            {
+                "title": "Bracts, Buds, and Biases: Uncovering Gaps in Trichome Density Quantification and Cannabinoid Concentration in Cannabis sativa L. - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2223-7747/14/14/2220"
+            },
+            {
+                "title": "Cannabis Plant Tracking App: Mite & Trimming Automation - Farmonaut",
+                "author": "Web Source",
+                "description": "https://farmonaut.com/precision-farming/cannabis-plant-tracking-app-mite-trimming-automation"
+            },
+            {
+                "title": "Cannabis Technology Strategic Business Analysis Report 2025 | IoT Integration in Grow Operations Enhancing Environmental Monitoring and Control - Global Market Forecast to 2030 - ResearchAndMarkets.com",
+                "author": "Web Source",
+                "description": "https://www.businesswire.com/news/home/20250708551201/en/Cannabis-Technology-Strategic-Business-Analysis-Report-2025-IoT-Integration-in-Grow-Operations-Enhancing-Environmental-Monitoring-and-Control---Global-Market-Forecast-to-2030---ResearchAndMarkets.com"
+            },
+            {
+                "title": "Comparing indoor and outdoor cannabis cultivation - aroya.io",
+                "author": "Web Source",
+                "description": "https://aroya.io/education-guides/comparing-indoor-vs-outdoor-cannabis-cultivation"
+            },
+            {
+                "title": "Computer Vision-Based Biomass Estimation for Invasive Plants - PubMed",
+                "author": "Web Source",
+                "description": "https://pubmed.ncbi.nlm.nih.gov/38407282/"
+            },
+            {
+                "title": "Cover Crop Biomass Predictions with Unmanned Aerial Vehicle Remote Sensing and TensorFlow Machine Learning - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2504-446X/9/2/131"
+            },
+            {
+                "title": "Determination of Optimal Harvest Time in Cannabis sativa L. Based upon Stigma Color Transition - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12114869/"
+            },
+            {
+                "title": "Effect of augmented nutrient composition and fertigation ... - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1322824/full"
+            },
+            {
+                "title": "Factors Affecting Precision Agriculture Adoption Rates",
+                "author": "Web Source",
+                "description": "https://geopard.tech/blog/factors-affecting-precision-agriculture-adoption-rates/"
+            },
+            {
+                "title": "Factors Influencing Precision Agriculture Technology Adoption Among Small-Scale Farmers in Kentucky and Their Implications for Policy and Practice - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2077-0472/15/2/177"
+            },
+            {
+                "title": "From Cannabis to Controlled Agriculture: Applying Proven Precision at Scale",
+                "author": "Web Source",
+                "description": "https://indoor.ag/from-cannabis-to-controlled-agriculture/"
+            },
+            {
+                "title": "GAO-24-105962, Precision Agriculture: Benefits and Challenges for Technology Adoption and Use",
+                "author": "Web Source",
+                "description": "https://www.gao.gov/assets/d24105962.pdf"
+            },
+            {
+                "title": "Hemp Cultivation: The Technological Innovations In The Industry - Weedom",
+                "author": "Web Source",
+                "description": "https://weedom.it/en/senza-categoria-en/hemp-cultivation-the-technological-innovations-in-the-industry/"
+            },
+            {
+                "title": "How Artificial Intelligence is Transforming the Cannabis Industry: From Farming to Personalized Medicine - IRE Journals",
+                "author": "Web Source",
+                "description": "https://www.irejournals.com/paper-details/1711680"
+            },
+            {
+                "title": "How Artificial Intelligence is Transforming the Cannabis Industry: From Farming to Personalized Medicine - IRE Journals",
+                "author": "Web Source",
+                "description": "https://www.irejournals.com/formatedpaper/1711680.pdf"
+            },
+            {
+                "title": "How Artificial Intelligence is Transforming the Cannabis Industry: From Farming to Personalized Medicine - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/397547831_How_Artificial_Intelligence_is_Transforming_the_Cannabis_Industry_From_Farming_to_Personalized_Medicine"
+            },
+            {
+                "title": "How to Cultivate Cannabis: Techniques & More - Seed of Life Labs",
+                "author": "Web Source",
+                "description": "https://www.seedoflifelabs.com/cannabis-cultivation-techniques-comparing-indoor-outdoor-and-greenhouse-growing-methods/"
+            },
+            {
+                "title": "How to win the cherry race with Phytech's decision support tools",
+                "author": "Web Source",
+                "description": "https://www.phytech.com/post/how-to-win-the-cherry-race-with-phytech-s-decision-support-tools"
+            },
+            {
+                "title": "Hyperspectral Imaging With Machine Learning to Differentiate ... - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8847227/"
+            },
+            {
+                "title": "IBM",
+                "author": "Web Source",
+                "description": "https://ibm.com/blockchain/cannabis-traceability"
+            },
+            {
+                "title": "Impact of Soil Quality on Cannabinoid and Terpenoid Content of Cannabis sativa L - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12662754/"
+            },
+            {
+                "title": "Indoor Grown Hemp vs. Outdoor Grown Hemp — Pros & Cons - Secret Nature",
+                "author": "Web Source",
+                "description": "https://secretnature.com/blogs/cbd/why-indoor-grown-cbd-hemp-flower-is-the-best"
+            },
+            {
+                "title": "Indoor vs. Outdoor Hemp Farming",
+                "author": "Web Source",
+                "description": "https://fortunahemp.com/indoor-vs-outdoor-hemp-farming/"
+            },
+            {
+                "title": "Industrial Hemp Market Growth Analysis - Size and Forecast 2025-2029 | Technavio",
+                "author": "Web Source",
+                "description": "https://www.technavio.com/report/industrial-hemp-market-industry-analysis"
+            },
+            {
+                "title": "IoT-Enabled Soil Moisture and Conductivity Monitoring Under ...",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2624-7402/7/7/207"
+            },
+            {
+                "title": "Leveraging AI for Cannabis Crop Monitoring - IT4Weed",
+                "author": "Web Source",
+                "description": "https://it4weed.com/blog/leveraging-ai-for-cannabis-crop-monitoring/"
+            },
+            {
+                "title": "New AI model can measure weed growth – here's how it could help ensure global food security | News and events | Loughborough University",
+                "author": "Web Source",
+                "description": "https://www.lboro.ac.uk/news-events/news/2025/march/ai-measure-weed-growth-herbicide-assessment/"
+            },
+            {
+                "title": "New classification of weed development stages using machine learning methods: radiomics parameters - SciELO",
+                "author": "Web Source",
+                "description": "https://www.scielo.br/j/aws/a/WMJpznSN9XyDf5hsV9d7yfy/?lang=en"
+            },
+            {
+                "title": "Nitrogen Fertilizer Effects on Hemp Biomass Production Detected by Drone-based Spectral Imaging in - ASHS Journals",
+                "author": "Web Source",
+                "description": "https://journals.ashs.org/view/journals/hortsci/60/3/article-p353.xml"
+            },
+            {
+                "title": "Optimal Harvest Timing: Quantifying Temporal Changes in Dry Mass and Tissue Cannabinoids for High-CBD Cannabis sativa Grown in Controlled Environments in - ASHS Journals",
+                "author": "Web Source",
+                "description": "https://journals.ashs.org/view/journals/hortsci/60/4/article-p624.xml"
+            },
+            {
+                "title": "Phenotypic Characterization of Floral Trichomes of ... - SFU Summit",
+                "author": "Web Source",
+                "description": "https://summit.sfu.ca/_flysystem/fedora/2025-01/etd23129.pdf"
+            },
+            {
+                "title": "Phytech | Connecting growers to their plants",
+                "author": "Web Source",
+                "description": "https://www.phytech.com/"
+            },
+            {
+                "title": "Precision Agriculture in Cannabis Cultivation: A Technological Revolution - CanXChange",
+                "author": "Web Source",
+                "description": "https://canxchange.eu/precision-agriculture-in-cannabis-cultivation-a-technological-revolution/"
+            },
+            {
+                "title": "Precision Agriculture: Benefits and Challenges for Technology Adoption and Use | U.S. GAO",
+                "author": "Web Source",
+                "description": "https://www.gao.gov/products/gao-24-105962"
+            },
+            {
+                "title": "Precision Nitrogen Management for Optimal Yield and Cannabinoid ...",
+                "author": "Web Source",
+                "description": "https://rodaleinstitute.org/science/articles/precision-nitrogen-management-for-optimal-yield-and-cannabinoid-profile-in-cbd-hemp-agronomy/"
+            },
+            {
+                "title": "Precision Weed Detection Using UAVs and Deep Learning: Models, Paradigms, and Challenges - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/397828048_Precision_Weed_Detection_Using_UAVs_and_Deep_Learning_Models_Paradigms_and_Challenges"
+            },
+            {
+                "title": "Predictive Analytics in Cannabis: Forecasting Sales and Demand - IT4Weed",
+                "author": "Web Source",
+                "description": "https://it4weed.com/blog/predictive-analytics-in-cannabis-forecasting-sales-and-demand/"
+            },
+            {
+                "title": "Simulation World | Virtual",
+                "author": "Web Source",
+                "description": "https://simulationworld.com/digital-twins-greenhouse"
+            },
+            {
+                "title": "The Future of Farming: Top AgTech Trends and Innovations to Watch in 2025",
+                "author": "Web Source",
+                "description": "https://agtechbreakthrough.com/agtech-2025-key-trends-innovations-and-challenges-shaping-the-future/"
+            },
+            {
+                "title": "The Role of Data Standardization in Driving Efficiency Across the Agriculture Supply Chain",
+                "author": "Web Source",
+                "description": "https://www.agmatix.com/blog/the-role-of-data-standardization-in-driving-efficiency-across-the-agriculture-supply-chain/"
+            },
+            {
+                "title": "Top Dispensary Software 2025 | Cannabis POS Comparison - WebJoint",
+                "author": "Web Source",
+                "description": "https://www.webjoint.com/2025/10/29/top-dispensary-software-2025-cannabis-pos-comparison/"
+            },
+            {
+                "title": "Trym: Grow Software Built For Commercial Growers",
+                "author": "Web Source",
+                "description": "https://trym.io/"
+            },
+            {
+                "title": "Weed Detection Based on Deep Learning from UAV Imagery: A Review - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/393274084_Weed_Detection_Based_on_Deep_Learning_from_UAV_Imagery_A_Review"
+            },
+            {
+                "title": "What Are the Economic Barriers to Adopting Precision Farming Tools? → Learn - Pollution → Sustainability Directory",
+                "author": "Web Source",
+                "description": "https://pollution.sustainability-directory.com/learn/what-are-the-economic-barriers-to-adopting-precision-farming-tools/"
+            },
+            {
+                "title": "What Happened in 2025 and What's Next? | Cannabis Science and Technology",
+                "author": "Web Source",
+                "description": "https://www.cannabissciencetech.com/view/what-happened-in-2025-and-what-s-next-"
+            },
+            {
+                "title": "[Technology Corner] A Big Step Forward for Interoperability & Data Sharing",
+                "author": "Web Source",
+                "description": "https://www.precisionfarmingdealer.com/articles/6895-technology-corner-a-big-step-forward-for-interoperability-and-data-sharing"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-3bb67a64-34c9-48c4-9b3c-4070bc00de5d",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM20 - Digitalización de Procesos y Agricultura de Precisión"
+        }
+    },
+    "gm21-4": {
+        "subjectId": "gm21-4",
+        "notebookId": "25c3acaa-49f7-4271-9a0f-047ab6ad806e",
+        "title": "GM21 - Aprovechamiento del cultivo",
+        "slideDecks": [
+            {
+                "id": "0dc84c8e-4c1b-458e-93ba-015385079df6",
+                "title": "The Hemp Biorefinery",
+                "subtitle": "Visión completa sobre las biorefinerías de cáñamo y su potencial industrial.",
+                "type": "slide_deck",
+                "status": "completed",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ1NWRiMTMwNS04M2ZiLTQwNjgtOWIwYy0wNWVkZmU5YTJhOTMSCxIHEMyFveieBhgB&filename=The_Hemp_Biorefinery.pdf&opi=96797242"
+            },
+            {
+                "id": "10668f7d-bc3e-477f-abaa-b42624dcb03a",
+                "title": "Cáñamo Industrial Bioeconomía Circular",
+                "subtitle": "Análisis del uso del cáñamo en modelos sostenibles de economía circular.",
+                "type": "slide_deck",
+                "status": "completed",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQyYjY1OThhYy1mZGViLTQ0NDgtYWU3Mi0wZTQ4M2NiN2NkOTcSCxIHEMyFveieBhgB&filename=Cáñamo_Industrial_Bioeconomía_Circular.pdf&opi=96797242"
+            }
+        ],
+        "videos": [
+            {
+                "id": "video-gm21-4-tesoro-canamo",
+                "title": "El Tesoro del Cáñamo",
+                "subtitle": "El cáñamo como materia prima de valor: fibra, alimentación, biomasa y economía circular.",
+                "type": "video",
+                "content": "/downloads/gm21-4/video_video_gm21_4_tesoro_canamo.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm21-4-superplanta",
+                "title": "El Cáñamo: La Super-Planta",
+                "subtitle": "Usos industriales del cáñamo: bioplásticos, construcción, textil y su impacto ambiental.",
+                "type": "video",
+                "content": "/downloads/gm21-4/video_video_gm21_4_superplanta.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm21-4-plastico-canamo",
+                "title": "La revolución plástica del cáñamo",
+                "subtitle": "Cómo el cáñamo puede sustituir al plástico convencional y liderar la revolución de los bioplásticos.",
+                "type": "video",
+                "content": "/downloads/gm21-4/video_video_gm21_4_plastico_canamo.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "(PDF) Hemp Fibre Properties and Processing Target Textile: A Review",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/358987691"
+            },
+            {
+                "title": "(PDF) Hemp Fibre Properties and Processing Target Textile: A Review",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/358987691_Hemp_Fibre_Properties_and_Processing_Target_Textile_A_Review"
+            },
+            {
+                "title": "(PDF) Nutrient Profiles and Bioavailability in Industrial Hemp (Cannabis sativa L.) Seeds from Diverse Provenances",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/393059453"
+            },
+            {
+                "title": "(PDF) Nutrient Profiles and Bioavailability in Industrial Hemp ...",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/393059453_Nutrient_Profiles_and_Bioavailability_in_Industrial_Hemp_Cannabis_sativa_L_Seeds_from_Diverse_Provenances"
+            },
+            {
+                "title": "(PDF) Phytoremediation Potential of Hemp (Cannabis sativa L.): Identification and Characterization of Heavy Metals Responsive Genes",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/281651509"
+            },
+            {
+                "title": "(PDF) Phytoremediation Potential of Hemp (Cannabis sativa L.): Identification and Characterization of Heavy Metals Responsive Genes - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/281651509_Phytoremediation_Potential_of_Hemp_Cannabis_sativa_L_Identification_and_Characterization_of_Heavy_Metals_Responsive_Genes"
+            },
+            {
+                "title": "(PDF) The potential of hemp roots, microgreens and leaves for human nutrition",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/396275090"
+            },
+            {
+                "title": "(PDF) The potential of hemp roots, microgreens and leaves for human nutrition",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/396275090_The_potential_of_hemp_roots_microgreens_and_leaves_for_human_nutrition"
+            },
+            {
+                "title": "A Systems Thinking Approach Investigating the Estimated Environmental and Economic Benefits and Limitations of Industrial Hemp Cultivation in Ireland from 2017–2021",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2071-1050/14/7/4159"
+            },
+            {
+                "title": "A Systems Thinking Approach Investigating the Estimated Environmental and Economic Benefits and Limitations of Industrial Hemp Cultivation in Ireland from 2017–2021 - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2071-1050/14/7/4159"
+            },
+            {
+                "title": "A comprehensive trial on PFAS remediation: hemp phytoextraction and PFAS degradation in harvested plants - Environmental Science: Advances (RSC Publishing) DOI:10.1039/D3VA00340J",
+                "author": "Web Source",
+                "description": "https://pubs.rsc.org/en/content/articlehtml/2024/va/d3va00340j"
+            },
+            {
+                "title": "A critical review of industrial fiber hemp anatomy, agronomic practices, and valorization into sustainable bioproducts - BioResources",
+                "author": "Web Source",
+                "description": "https://bioresources.cnr.ncsu.edu/resources/a-critical-review-of-industrial-fiber-hemp-anatomy-agronomic-practices-and-valorization-into-sustainable-bioproducts/"
+            },
+            {
+                "title": "BMW i Ventures invests in high-performance composites made from natural fibres.",
+                "author": "Web Source",
+                "description": "https://www.press.bmwgroup.com/global/article/detail/T0377293EN/bmw-i-ventures-invests-in-high-performance-composites-made-from-natural-fibres?language=en"
+            },
+            {
+                "title": "CBD Market Overview: Europe 2025 - Prohibition Partners",
+                "author": "Web Source",
+                "description": "https://prohibitionpartners.com/2025/10/18/cbd-market-overview-europe-2025/"
+            },
+            {
+                "title": "CO2 Extraction vs. Ethanol Extraction? Which is Better for CBD? - Arvanna",
+                "author": "Web Source",
+                "description": "https://arvanna.com/blogs/cbd-blog/co2-extraction-vs-ethanol-extraction-for-cbd"
+            },
+            {
+                "title": "Cannabis/Hemp Extraction Equipment",
+                "author": "Web Source",
+                "description": "https://www.dir.ca.gov/dosh/pressure-vessels/documents/LPG-CO2-Extraction-Equipment.pdf"
+            },
+            {
+                "title": "Comparative review of fiber treatments, processing, and tensile strength and modulus of hemp-polymer composites - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/394392925_Comparative_review_of_fiber_treatments_processing_and_tensile_strength_and_modulus_of_hemp-polymer_composites"
+            },
+            {
+                "title": "Dietary hempseed and cardiovascular health: nutritional ...",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12540152/"
+            },
+            {
+                "title": "Enhancing Mechanical Properties of Hemp and Sisal Fiber-Reinforced Composites Through Alkali and Fungal Treatments for Sustainable Applications - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2504-4494/9/6/191"
+            },
+            {
+                "title": "Experimental and Statistical Investigations for Tensile Properties of Hemp Fibers",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/385474017_Experimental_and_Statistical_Investigations_for_Tensile_Properties_of_Hemp_Fibers"
+            },
+            {
+                "title": "Experimental and Statistical Investigations for Tensile Properties of Hemp Fibers - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2079-6439/12/11/94"
+            },
+            {
+                "title": "From Waste to Resource: Mineral and Biochemical Characterization of Hemp By-Products in the Fiber and Seed Supply Chain - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2073-4395/15/3/564"
+            },
+            {
+                "title": "Global Hemp Market – Business Plan Templates",
+                "author": "Web Source",
+                "description": "https://hempcbdbusinessplans.com/global-hemp-market/"
+            },
+            {
+                "title": "Grand View Research",
+                "author": "Web Source",
+                "description": "https://grandviewresearch.com/hemp-bioplastics"
+            },
+            {
+                "title": "Hemp Based Foods Global Market Report 2025",
+                "author": "Web Source",
+                "description": "https://www.researchandmarkets.com/reports/5744168/hemp-based-foods-global-market-report"
+            },
+            {
+                "title": "Hemp Extraction and Manufacturing – What You Need to Know - Labstat International Inc",
+                "author": "Web Source",
+                "description": "https://labstat.com/hemp-extraction-and-manufacturing-what-you-need-to-know/"
+            },
+            {
+                "title": "Hemp Fibre Treatments in Bio-Composites: A Review for ... - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2075-5309/15/23/4238"
+            },
+            {
+                "title": "Hemp Hearts Nutrition Facts and Health Benefits - Verywell Fit",
+                "author": "Web Source",
+                "description": "https://www.verywellfit.com/hemp-hearts-nutrition-facts-4585190"
+            },
+            {
+                "title": "Hemp Market Forecast 2024-2029 | Sustainability & Innovation - MarketsandMarkets",
+                "author": "Web Source",
+                "description": "https://www.marketsandmarkets.com/ResearchInsight/hemp-market.asp"
+            },
+            {
+                "title": "Hemp Seed Hull: A Sustainable Source of Bioavailable Micronutrients and Phytochemicals with Inhibitory Activity Against α-Amylase and α-Glucosidase | Request PDF - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/399654325_Hemp_Seed_Hull_A_Sustainable_Source_of_Bioavailable_Micronutrients_and_Phytochemicals_with_Inhibitory_Activity_Against_a-Amylase_and_a-Glucosidase"
+            },
+            {
+                "title": "Hemp Seed-Based Foods and Processing By-Products Are Sustainable Rich Sources of Nutrients and Plant Metabolites Supporting Dietary Biodiversity, Health, and Nutritional Needs - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2304-8158/14/5/875"
+            },
+            {
+                "title": "Hemp seed as an emerging source of nutritious functional ingredients - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/393957078_Hemp_seed_as_an_emerging_source_of_nutritious_functional_ingredients"
+            },
+            {
+                "title": "Hemp seeds: Nutritional value, associated bioactivities and the potential food applications in the Colombian context - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.1039180/full"
+            },
+            {
+                "title": "Hemp: A Sustainable Plant with High Industrial Value in Food Processing - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2304-8158/12/3/651"
+            },
+            {
+                "title": "Hempseed as a nutritional resource: An overview - Food and Agriculture Organization of the United Nations",
+                "author": "Web Source",
+                "description": "https://assets.fsnforum.fao.org/public/discussions/contributions/Hempseed_as_a_nutritional_resource-_An_overview_2.pdf"
+            },
+            {
+                "title": "Hempseed as a nutritional resource: An overview - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/226272227_Hempseed_as_a_nutritional_resource_An_overview"
+            },
+            {
+                "title": "High-Performance from natural fibres - BMW M",
+                "author": "Web Source",
+                "description": "https://www.bmw-m.com/en/topics/magazine-article-pool/bcomp-bmw-m-motorsport-.html"
+            },
+            {
+                "title": "How the Auto Industry Uses Hemp Plastic",
+                "author": "Web Source",
+                "description": "https://hempfoundation.net/how-the-auto-industry-uses-hemp-plastic/"
+            },
+            {
+                "title": "How to Use Hydrocarbon Gases for Extraction - Meritus Gas Partners",
+                "author": "Web Source",
+                "description": "https://meritusgas.com/hydrocarbons-for-extraction/"
+            },
+            {
+                "title": "Hydrocarbon Solvents in Cannabis Extraction - USA Lab",
+                "author": "Web Source",
+                "description": "https://www.usalab.com/blog/hydrocarbon-solvents-in-cannabis-extraction/"
+            },
+            {
+                "title": "Hydrocarbon vs CO2 vs Ethanol Extraction - The Original Resinator",
+                "author": "Web Source",
+                "description": "https://www.theoriginalresinator.com/blog/hydrocarbon-vs-co2-vs-ethanol-extraction/"
+            },
+            {
+                "title": "Industrial & CBD Hemp Processing - Arkin Sales Inc.",
+                "author": "Web Source",
+                "description": "https://arkinsalesinc.com/industrial-hemp-processing/"
+            },
+            {
+                "title": "Industrial Cannabis sativa (hemp or fibre): Hemp ... - Magna Scientia",
+                "author": "Web Source",
+                "description": "https://magnascientiapub.com/journals/msabp/sites/default/files/MSABP-2025-0067.pdf"
+            },
+            {
+                "title": "Industrial Hemp Harvest and Storage - Agriculture and Irrigation",
+                "author": "Web Source",
+                "description": "https://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/crop15539/$file/HempHarvestStorage.pdf"
+            },
+            {
+                "title": "Industrial Hemp Market Size, Growth, Industry Report, 2034 - Fortune Business Insights",
+                "author": "Web Source",
+                "description": "https://www.fortunebusinessinsights.com/industrial-hemp-market-102459"
+            },
+            {
+                "title": "Industrial Hemp | Encyclopedia MDPI",
+                "author": "Web Source",
+                "description": "https://encyclopedia.pub/entry/7574"
+            },
+            {
+                "title": "Industrial Hemp – A review of economic potential, carbon ...",
+                "author": "Web Source",
+                "description": "https://www.pdx.edu/sustainability/sites/sustainability.web.wdt.pdx.edu/files/2022-09/Industrial%20Hemp%20-%20A%20review%20of%20economic%20potential%20carbon%20sequetration%20and%20bioremediation%20ver16%20August18%202022.pdf"
+            },
+            {
+                "title": "Laboratory Testing Guidelines U.S. Domestic Hemp Production Program",
+                "author": "Web Source",
+                "description": "https://www.ams.usda.gov/rules-regulations/hemp/information-laboratories/lab-testing-guidelines"
+            },
+            {
+                "title": "Member Blog: Navigating Chemical Safety in Cannabis Extraction |",
+                "author": "Web Source",
+                "description": "https://thecannabisindustry.org/member-blog-navigating-chemical-safety-in-cannabis-extraction/"
+            },
+            {
+                "title": "Multipurpose hemp for industrial bioproducts and biomass - CORDIS - European Union",
+                "author": "Web Source",
+                "description": "https://cordis.europa.eu/project/id/311849/reporting"
+            },
+            {
+                "title": "Natural-fibre-based composites in the automotive industry - Signature Products Blog",
+                "author": "Web Source",
+                "description": "https://blog.signature-products.com/innovation-natural-fibre-based-composites-automotive-industry/"
+            },
+            {
+                "title": "Optimization of extraction and enrichment process of cannabidiol ...",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11842326/"
+            },
+            {
+                "title": "Phytoremediation Efficiency of Hemp and Sorghum Grown in Contaminated Sediment: The Role of Organic Acids - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2073-4395/15/12/2863"
+            },
+            {
+                "title": "Plant-Derived Compounds in Hemp Seeds (Cannabis sativa L.): Extraction, Identification and Bioactivity—A Review - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/387589350_Plant-Derived_Compounds_in_Hemp_Seeds_Cannabis_sativa_L_Extraction_Identification_and_Bioactivity-A_Review"
+            },
+            {
+                "title": "Processing and extraction methods of medicinal cannabis: a narrative review - PMC - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8290527/"
+            },
+            {
+                "title": "Province of Manitoba | agriculture - Industrial Hemp Production and Management",
+                "author": "Web Source",
+                "description": "https://www.gov.mb.ca/agriculture/crops/crop-management/hemp-production.html"
+            },
+            {
+                "title": "Recent Advancements in Biological Conversion of Industrial Hemp for Biofuel and Value-Added Products - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2311-5637/7/1/6"
+            },
+            {
+                "title": "Review of the Applications of Biocomposites in the Automotive Industry - NRU",
+                "author": "Web Source",
+                "description": "https://nru.uncst.go.ug/bitstreams/2c3ba0a3-3c65-4c9a-ab1d-600ff14f6a82/download"
+            },
+            {
+                "title": "Techno-Economic Analysis of Hemp Production, Logistics and Processing in the United States | Ohioline",
+                "author": "Web Source",
+                "description": "https://ohioline.osu.edu/factsheet/fabe-0561"
+            },
+            {
+                "title": "Techno-Economic Analysis of Hemp Production, Logistics and Processing in the United States | Ohioline",
+                "author": "Web Source",
+                "description": "https://ohioline.osu.edu/factsheet/fabe-0561"
+            },
+            {
+                "title": "The Physicochemical Properties of Hemp Fibers and Their Applications in the Textile Industry | Yu | Biological Evidence - BioSci Publisher",
+                "author": "Web Source",
+                "description": "https://bioscipublisher.com/index.php/be/article/html/3951/"
+            },
+            {
+                "title": "The application of hemp (Cannabis sativa L.) for a green economy: a review - TÜBİTAK Academic Journals",
+                "author": "Web Source",
+                "description": "https://journals.tubitak.gov.tr/cgi/viewcontent.cgi?article=1117&context=botany"
+            },
+            {
+                "title": "Turkish Journal of Botany | TÜBİTAK",
+                "author": "Web Source",
+                "description": "https://journals.tubitak.gov.tr/botany"
+            },
+            {
+                "title": "What Is Hydrocarbon Extraction and How It Keeps Cannabis Extracts Pure - Mood",
+                "author": "Web Source",
+                "description": "https://mood.com/blog/what-is-hydrocarbon-extraction"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-25c3acaa-49f7-4271-9a0f-047ab6ad806e",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM21 - Aprovechamiento del cultivo"
+        }
+    },
+    "gm21-3": {
+        "subjectId": "gm21-3",
+        "notebookId": "730c1de6-5727-44b6-b111-5c3d1dca85fe",
+        "title": "GM21 - Cultivo al Aire libre",
+        "slideDecks": [
+            {
+                "id": "7ab02d1c-bb4e-42be-bc98-794337d7b229",
+                "title": "Regenerative Cannabis Cultivation",
+                "subtitle": "Prácticas sostenibles y regeneración de suelos.",
+                "type": "slide_deck",
+                "status": "completed",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ4ZjMyNDk0MS0zZmQ0LTRkNDQtODkyNi1mNDI0MTY3YmU3NWISCxIHEMyFveieBhgB&filename=Regenerative_Cannabis_Cultivation.pdf&opi=96797242"
+            },
+            {
+                "id": "c0e8e809-7f7e-4c5e-9bd2-9d4d189aa6da",
+                "title": "Cultivo Exterior Cannabis Regenerativo",
+                "subtitle": "Técnicas de cultivo al aire libre y sostenibilidad.",
+                "type": "slide_deck",
+                "status": "completed",
+                "content": "https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2FydGlmYWN0c19tZWRpYRozCiQ1YWYyYjMxOC1jY2IwLTQ0YzItYWIwOS0zMDM1NzgwYzMxMzcSCxIHEMyFveieBhgB&filename=Cultivo_Exterior_Cannabis_Regenerativo.pdf&opi=96797242"
+            }
+        ],
+        "videos": [
+            {
+                "id": "video-gm21-3-interior-exterior",
+                "title": "Cannabis: Interior vs. Exterior",
+                "subtitle": "Comparativa entre cultivo indoor y outdoor: ventajas, retos y criterios de elección.",
+                "type": "video",
+                "content": "/downloads/gm21-3/video_video_gm21_3_interior_exterior.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm21-3-cultivo-regenerativo",
+                "title": "Cultivo Regenerativo: Cannabis",
+                "subtitle": "Técnicas de agricultura regenerativa aplicadas al cultivo exterior de cannabis: suelos vivos y sostenibilidad.",
+                "type": "video",
+                "content": "/downloads/gm21-3/video_video_gm21_3_cultivo_regenerativo.mp4",
+                "status": "completed"
+            },
+            {
+                "id": "video-gm21-3-milagro-marketing",
+                "title": "Cáñamo: ¿Milagro o Marketing?",
+                "subtitle": "Análisis crítico de las promesas del cáñamo industrial frente a la evidencia científica y económica real.",
+                "type": "video",
+                "content": "/downloads/gm21-3/video_video_gm21_3_milagro_marketing.mp4",
+                "status": "completed"
+            }
+        ],
+        "sources": [
+            {
+                "title": "Agronomic Considerations for Industrial Hemp Production | Oklahoma State University",
+                "author": "Web Source",
+                "description": "https://extension.okstate.edu/fact-sheets/agronomic-considerations-for-industrial-hemp-production.html"
+            },
+            {
+                "title": "Agronomic Considerations for Industrial Hemp Production | Oklahoma State University",
+                "author": "Web Source",
+                "description": "https://extension.okstate.edu/fact-sheets/agronomic-considerations-for-industrial-hemp-production.html"
+            },
+            {
+                "title": "Best Companion Plants for Cannabis — Top 10 Plants You Can Grow Along With Cannabis - GrowDiaries",
+                "author": "Web Source",
+                "description": "https://growdiaries.com/journal/best-companion-plants-for-cannabis-top-10-plants-you-can-grow-along-with-cannabis?lnk=1190099"
+            },
+            {
+                "title": "COMPANION PLANTS FOR CANNABIS - Project CBD",
+                "author": "Web Source",
+                "description": "https://projectcbd.org/wp-content/uploads/2023/03/projectcbd_companion-plants-for-cannabis-growing_handout1.pdf"
+            },
+            {
+                "title": "Can Cannabis Support Regenerative Agriculture? - RQS Blog",
+                "author": "Web Source",
+                "description": "https://www.royalqueenseeds.com/blog-can-cannabis-support-regenerative-agriculture-n1296"
+            },
+            {
+                "title": "Cannabis - Pests, Diseases and Biological Control",
+                "author": "Web Source",
+                "description": "https://www.koppert.ca/crops/ornamentals/cannabis/"
+            },
+            {
+                "title": "Cannabis - Pests, Diseases and Biological Control - Koppert Canada",
+                "author": "Web Source",
+                "description": "https://www.koppert.ca/crops/ornamentals/cannabis/"
+            },
+            {
+                "title": "Cannabis Agriculture & Horticulture I: Plant Care and Vegetative Cycle - UCR Extension",
+                "author": "Web Source",
+                "description": "https://extension.ucr.edu/course/51831181/CannabisAgricultureHorticultureIPlantCareandVegetativeCycle"
+            },
+            {
+                "title": "Cannabis Agriculture & Horticulture I: Plant Care and Vegetative Cycle Course",
+                "author": "Web Source",
+                "description": "https://extension.ucr.edu/course/51831181"
+            },
+            {
+                "title": "Cannabis Greenhouse Monitoring Systems - Paragon Robotics",
+                "author": "Web Source",
+                "description": "https://paragonrobotics.com/business/applications/cannabis-greenhouse/"
+            },
+            {
+                "title": "Cannabis Pests and IPM Strategies - Growlink Smart Blog",
+                "author": "Web Source",
+                "description": "https://blog.growlink.com/cannabis-pests-and-ipm-strategies"
+            },
+            {
+                "title": "Companion Planting for Pest Control in Cannabis Gardens - FloraFlex",
+                "author": "Web Source",
+                "description": "https://www.floraflex.com/blogs/floraflex-media/companion-planting-for-pest-control-in-cannabis-gardens"
+            },
+            {
+                "title": "Companion Plants for Cannabis Growing | 42 Fast Buds",
+                "author": "Web Source",
+                "description": "https://2fast4buds.com/news/companion-plants-for-cannabis-growing"
+            },
+            {
+                "title": "Companion Plants for Pest Control in Cannabis Gardens - Multiverse Beans",
+                "author": "Web Source",
+                "description": "https://multiversebeans.com/educational/companion-plants-for-pest-control-in-cannabis-gardens/"
+            },
+            {
+                "title": "Corn Earworm In Hemp: 7 Powerful Pest Management Tips - Farmonaut",
+                "author": "Web Source",
+                "description": "https://farmonaut.com/blogs/corn-earworm-in-hemp-7-powerful-pest-management-tips"
+            },
+            {
+                "title": "Corn earworm management in hemp | OSU Extension Service - Oregon State University",
+                "author": "Web Source",
+                "description": "https://extension.oregonstate.edu/catalog/corn-earworm-management-hemp"
+            },
+            {
+                "title": "Editorial: Organic amendments: microbial communities and their role in plant fitness and disease suppression - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10359476/"
+            },
+            {
+                "title": "Establishing Action Thresholds / Floriculture and Ornamental Nurseries / Agriculture",
+                "author": "Web Source",
+                "description": "https://ipm.ucanr.edu/agriculture/floriculture-and-ornamental-nurseries/establishing-treatment-thresholds/"
+            },
+            {
+                "title": "Establishing a secure connection ...",
+                "author": "Web Source",
+                "description": "https://flowhub.com/sungrown-market-report"
+            },
+            {
+                "title": "General grain hemp production guidelines in Oregon - OSU Extension Service",
+                "author": "Web Source",
+                "description": "https://extension.oregonstate.edu/catalog/general-grain-hemp-production-guidelines-oregon"
+            },
+            {
+                "title": "GroPoint Soil Moisture Sensing",
+                "author": "Web Source",
+                "description": "https://www.gropoint.com/"
+            },
+            {
+                "title": "Guidance on Integrated Pest Management - Cannabis Control Commission",
+                "author": "Web Source",
+                "description": "https://masscannabiscontrol.com/wp-content/uploads/2019/04/202108_Guidance_Integrated_Pest_Management.pdf"
+            },
+            {
+                "title": "HO-339-W - Pest Management of Hemp - Purdue Extension",
+                "author": "Web Source",
+                "description": "https://extension.purdue.edu/extmedia/HO/HO-339-W.pdf"
+            },
+            {
+                "title": "Hemp | OSU Extension Service",
+                "author": "Web Source",
+                "description": "https://extension.oregonstate.edu/crop-production/hemp"
+            },
+            {
+                "title": "How Regenerative Agriculture Can Help Reduce Carbon Emissions - Zevero",
+                "author": "Web Source",
+                "description": "https://www.zevero.earth/blog/regenerative-agriculture-reduce-ghg-emissions"
+            },
+            {
+                "title": "How to Prevent Bugs (Outdoor Cannabis Pest Guide) | Grow Weed Easy",
+                "author": "Web Source",
+                "description": "https://www.growweedeasy.com/how-to-prevent-bugs-outdoor-cannabis-pest-guide"
+            },
+            {
+                "title": "Identifying Integrated Pest Management Strategies for corn earworm, Helicoverpa zea, in Hemp - AUETD",
+                "author": "Web Source",
+                "description": "https://etd.auburn.edu/handle/10415/8819"
+            },
+            {
+                "title": "Impact of Soil Quality on Cannabinoid and Terpenoid Content of Cannabis sativa L - NIH",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12662754/"
+            },
+            {
+                "title": "Impacts of irrigation system, irrigation rate, and cultivar on hemp production in the semiarid Intermountain West - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/390267947_Impacts_of_irrigation_system_irrigation_rate_and_cultivar_on_hemp_production_in_the_semiarid_Intermountain_West"
+            },
+            {
+                "title": "Industrial Hemp – A review of economic potential, carbon ...",
+                "author": "Web Source",
+                "description": "https://www.pdx.edu/sustainability/sites/sustainability.web.wdt.pdx.edu/files/2022-09/Industrial%20Hemp%20-%20A%20review%20of%20economic%20potential%20carbon%20sequetration%20and%20bioremediation%20ver16%20August18%202022.pdf"
+            },
+            {
+                "title": "Integrated Pest Management of Hemp in Virginia | VCE Publications",
+                "author": "Web Source",
+                "description": "https://www.pubs.ext.vt.edu/ENTO/ENTO-349/ENTO-349.html"
+            },
+            {
+                "title": "LEGAL PEST MANAGEMENT PRACTICES FOR MARIJUANA GROWERS IN CALIFORNIA",
+                "author": "Web Source",
+                "description": "https://www.waterboards.ca.gov/northcoast/water_issues/programs/cannabis/pdf/pest_mgmt_practices.pdf"
+            },
+            {
+                "title": "LEGAL PEST MANAGEMENT PRACTICES FOR MARIJUANA GROWERS IN CALIFORNIA - Trinity County",
+                "author": "Web Source",
+                "description": "https://www.trinitycounty.org/DocumentCenter/View/136/Pesticide-Resources-Pest-Management-Practices-for-Marijuana-Growers-PDF"
+            },
+            {
+                "title": "Long-term regenerative practices enhance in-field biodiversity and soil health for sustainable crop yields - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1651686/full"
+            },
+            {
+                "title": "Long-term regenerative practices enhance in-field biodiversity and soil health for sustainable crop yields - ResearchGate",
+                "author": "Web Source",
+                "description": "https://www.researchgate.net/publication/396259780_Long-term_regenerative_practices_enhance_in-field_biodiversity_and_soil_health_for_sustainable_crop_yields"
+            },
+            {
+                "title": "Maine Hemp: Integrated Pest Management Practices",
+                "author": "Web Source",
+                "description": "https://www.maine.gov/dacf/php/hemp/documents/Maine-Hemp-IPM-Practices-2022.pdf"
+            },
+            {
+                "title": "Managing Cannabis Pests and Pathogens - Emerald Harvest",
+                "author": "Web Source",
+                "description": "https://emeraldharvest.co/managing-cannabis-pests-and-pathogens/"
+            },
+            {
+                "title": "Mineral nutrition for Cannabis sativa in the vegetative stage using response surface analysis",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1501484/full"
+            },
+            {
+                "title": "No-Till Growing for Cannabis Cultivation - Geoflora Nutrients",
+                "author": "Web Source",
+                "description": "https://geofloranutrients.com/blogs/geoflora-blog/no-till-growing-for-cannabis-cultivation"
+            },
+            {
+                "title": "Optimisation of Nitrogen, Phosphorus, and Potassium for Soilless Production of Cannabis sativa in the Flowering Stage Using Response Surface Analysis - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8635921/"
+            },
+            {
+                "title": "Optimizing Outdoor Cannabis Cultivation: Balancing Yields and ...",
+                "author": "Web Source",
+                "description": "https://axial.acs.org/agriculture-and-food-chemistry/environmental-impact-of-outdoor-cannabis-production"
+            },
+            {
+                "title": "Page not found - New Frontier Data",
+                "author": "Web Source",
+                "description": "https://newfrontierdata.com/outdoor-cultivation-2025"
+            },
+            {
+                "title": "Pest Control | Hemp & Cannabis Cultivation - Arbico Organics",
+                "author": "Web Source",
+                "description": "https://www.arbico-organics.com/category/pest-control-hemp-cannabis-crops"
+            },
+            {
+                "title": "Positive Effects of Organic Amendments on Soil Microbes and Their Functionality in Agro-Ecosystems - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2223-7747/12/22/3790"
+            },
+            {
+                "title": "Potential impacts of soil microbiota manipulation on secondary metabolites production in cannabis - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8254954/"
+            },
+            {
+                "title": "Regenerative Cannabis Farming Explained - Papa & Barkley",
+                "author": "Web Source",
+                "description": "https://www.papaandbarkley.com/learn/why-regenerative-cannabis-farming-is-better-than-sustainable"
+            },
+            {
+                "title": "Sensing Technologies for Outdoor/Indoor Farming - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11674220/"
+            },
+            {
+                "title": "Soil - METER Group",
+                "author": "Web Source",
+                "description": "https://metergroup.com/meter-products/field-instruments/soil/"
+            },
+            {
+                "title": "Soil Moisture Sensing Technologies: Principles, Applications, and Challenges in Agriculture",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2073-4395/15/12/2788"
+            },
+            {
+                "title": "Soil Moisture Sensor Systems and Networks - Delta-t.co.uk",
+                "author": "Web Source",
+                "description": "https://delta-t.co.uk/soil-moisture-systems-and-networks/"
+            },
+            {
+                "title": "Soil Testing for Cannabis Cultivation in 2025",
+                "author": "Web Source",
+                "description": "https://alluvialsoillab.com/blogs/news/soil-testing-for-cannabis-cultivation-in-2025"
+            },
+            {
+                "title": "Soil and seed both influence bacterial diversity in the microbiome of the Cannabis sativa seedling endosphere - Frontiers",
+                "author": "Web Source",
+                "description": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1326294/full"
+            },
+            {
+                "title": "Soil moisture sensors for irrigation scheduling | UMN Extension",
+                "author": "Web Source",
+                "description": "https://extension.umn.edu/irrigation/soil-moisture-sensors-irrigation-scheduling"
+            },
+            {
+                "title": "Soilless Growing Media for Cannabis Cultivation - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2077-0472/15/18/1955"
+            },
+            {
+                "title": "Standardized Metrics in Regenerative Agriculture for Climate Change Adaptation and Mitigation",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2077-0472/15/21/2278"
+            },
+            {
+                "title": "Standardized Metrics in Regenerative Agriculture for Climate Change Adaptation and Mitigation - MDPI",
+                "author": "Web Source",
+                "description": "https://www.mdpi.com/2077-0472/15/21/2278"
+            },
+            {
+                "title": "Subsurface drip irrigation reduces weed infestation and irrigation water use while increasing inflorescence and cannabinoid yield in an outdoor tunnel Cannabis sativa L. production system - PMC",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12247431/"
+            },
+            {
+                "title": "Subsurface drip irrigation reduces weed infestation and irrigation water use while increasing inflorescence and cannabinoid yield in an outdoor tunnel Cannabis sativa L. production system - PMC - PubMed Central",
+                "author": "Web Source",
+                "description": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12247431/"
+            },
+            {
+                "title": "The Ultimate Guide to Growing Hemp - OGRAIN",
+                "author": "Web Source",
+                "description": "https://ograin.cals.wisc.edu/wp-content/uploads/sites/65/2020/04/Ultimate-guide-to-growing-hemp.pdf"
+            },
+            {
+                "title": "WERA1056: Hemp pest management and production in the western USA - NIMSS",
+                "author": "Web Source",
+                "description": "https://nimss.org/projects/view/mrp/outline/19131"
+            },
+            {
+                "title": "WERA1056: Hemp pest management and production in the western USA – NIMSS",
+                "author": "Web Source",
+                "description": "https://nimss.org/projects/view/mrp/outline/19131"
+            },
+            {
+                "title": "Wireless Soil Moisture Sensor For Agriculture",
+                "author": "Web Source",
+                "description": "https://soilscout.com/applications/agriculture"
+            },
+            {
+                "title": "Wireless Soil Moisture Sensor For Agriculture - Soil Scout",
+                "author": "Web Source",
+                "description": "https://soilscout.com/applications/agriculture"
+            },
+            {
+                "title": "https://www.biobest.com/ipm-outdoor-crops",
+                "author": "Web Source",
+                "description": "https://www.biobest.com/ipm-outdoor-crops"
+            }
+        ],
+        "studyGuide": {
+            "id": "guide-730c1de6-5727-44b6-b111-5c3d1dca85fe",
+            "title": "Guía de Estudio",
+            "status": "completed",
+            "type": "report",
+            "content": "Guía generada para GM21 - Cultivo al Aire libre"
+        }
+    }
+}
