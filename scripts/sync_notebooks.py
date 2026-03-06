@@ -385,6 +385,34 @@ def sync():
                     # Audio now included as videos for UI compatibility
 
             artifacts_store[subject_id] = subject_entry
+
+    # Post-process: Preserve any manually added or Studio-generated artifacts that NotebookLM API doesn't list
+    for existing_subj, existing_data in existing_artifacts.items():
+        if existing_subj in artifacts_store:
+            # Preserve videos
+            curr_video_ids = {v["id"] for v in artifacts_store[existing_subj]["videos"]}
+            for ext_v in existing_data.get("videos", []):
+                if ext_v["id"] not in curr_video_ids:
+                    artifacts_store[existing_subj]["videos"].append(ext_v)
+            # Preserve slide decks
+            curr_deck_ids = {d["id"] for d in artifacts_store[existing_subj]["slideDecks"]}
+            for ext_d in existing_data.get("slideDecks", []):
+                if ext_d["id"] not in curr_deck_ids:
+                    artifacts_store[existing_subj]["slideDecks"].append(ext_d)
+    
+    # Apply manual fixes for duplicated and broken Technical Cannabis IPM PDF
+    if "gm21-1" in artifacts_store and "slideDecks" in artifacts_store["gm21-1"]:
+        # Remove from GM21-1 where it shouldn't be
+        artifacts_store["gm21-1"]["slideDecks"] = [
+            d for d in artifacts_store["gm21-1"]["slideDecks"]
+            if "Technical Cannabis IPM" not in d.get("title", "")
+        ]
+        
+    if "gm21-2" in artifacts_store and "slideDecks" in artifacts_store["gm21-2"]:
+        # Enforce local path to avoid 403 Forbidden from expired Google URLs
+        for deck in artifacts_store["gm21-2"]["slideDecks"]:
+            if "Technical Cannabis IPM" in deck.get("title", ""):
+                deck["content"] = "/downloads/gm21-2/Technical_Cannabis_IPM.pdf"
     
     print(f"Mapped {len(artifacts_store)} subjects.")
     
