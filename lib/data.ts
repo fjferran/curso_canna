@@ -54,31 +54,31 @@ export const courses: Module[] = [
         subjects: [
             {
                 id: "gm20-1",
-                title: "Digitalización de Procesos y Agricultura de Precisión (Carmen Rocamora)",
+                title: "Digitalización de Procesos y Agricultura de Precisión",
                 description: "Uso de tecnologías habilitadoras digitales para la optimización.",
                 notebookUrl: "https://notebooklm.google.com/notebook/3bb67a64-34c9-48c4-9b3c-4070bc00de5d"
             },
             {
                 id: "gm20-2",
-                title: "Análisis de Oportunidades de Mercado (S. De la Fuente)",
+                title: "Análisis de Oportunidades de Mercado",
                 description: "Identificación de nichos y tendencias de futuro.",
                 notebookUrl: "https://notebooklm.google.com/notebook/9f6ca868-aeb4-4784-a2c4-1e451a370bb9"
             },
             {
                 id: "gm20-3",
-                title: "Negocio, Comercio y Distribución (Miguel G. / Noemí M.)",
+                title: "Negocio, Comercio y Distribución",
                 description: "Fundamentos comerciales y logísticos del sector.",
                 notebookUrl: "https://notebooklm.google.com/notebook/09877603-88c3-4586-a89c-da80657795e6"
             },
             {
                 id: "gm20-4",
-                title: "Normativa y Legislación en el Sector (Martí C.)",
+                title: "Normativa y Legislación en el Sector",
                 description: "Marco legal vigente para el uso industrial y medicinal.",
                 notebookUrl: "https://notebooklm.google.com/notebook/725b8d51-1b7d-4691-9729-3507f25cce7f"
             },
             {
                 id: "gm20-5",
-                title: "Uso Medicinal del Cannabis (M. Á. Torres / C. Rocamora)",
+                title: "Uso Medicinal del Cannabis",
                 description: "Aplicaciones terapéuticas y regulación específica.",
                 notebookUrl: "https://notebooklm.google.com/notebook/ca11fc7d-2bab-40a5-b1bc-2ed547e5ae0e"
             }
